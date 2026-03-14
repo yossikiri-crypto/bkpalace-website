@@ -397,7 +397,7 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
   <div class="container">
     <h2 class="section-title" id="gallery-heading">גלריה</h2>
     <p class="section-sub">הצצה לוילה המדהימה שלנו</p>
-    <div class="carousel-wrap" role="region" aria-label="גלריית תמונות B.K Palace" aria-roledescription="carousel">
+    <div class="carousel-wrap" role="region" aria-label="גלריית תמונות B.K Palace - 18 תמונות" aria-roledescription="carousel">
       <div class="carousel">
         <div class="carousel-track" id="carousel-track">
           <div class="carousel-slide" onclick="openLightbox(this)" aria-label="סלון 1 מתוך 17"><img src="images/living1.jpg" alt="סלון מרווח ומעוצב"></div>
@@ -413,6 +413,7 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
           <div class="carousel-slide" onclick="openLightbox(this)" aria-label="טרסה 11 מתוך 17"><img src="images/room2.jpg" alt="טרסת גג"></div>
           <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 2 12 מתוך 17"><img src="images/bedroom2.jpg" alt="חדר שינה שני"></div>
           <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 3 13 מתוך 17"><img src="images/bedroom3.jpg" alt="חדר שינה שלישי"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 4 14 מתוך 18"><img src="images/bedroom4.jpg" alt="חדר שינה עם מספר מיטות"></div>
           <div class="carousel-slide" onclick="openLightbox(this)" aria-label="אזור בילוי 14 מתוך 17"><img src="images/area1.jpg" alt="אזור בילוי"></div>
           <div class="carousel-slide" onclick="openLightbox(this)" aria-label="אזור 15 מתוך 17"><img src="images/area2.jpg" alt="אזור נוסף"></div>
           <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינה 16 מתוך 17"><img src="images/area3.jpg" alt="פינת בילוי"></div>
@@ -739,9 +740,9 @@ document.addEventListener('click', e => {
 
 // ── CAROUSEL ──
 let carouselIdx = 0;
-const CAROUSEL_TOTAL = 17;
-const IMAGES = ['living1','dining','kitchen','outdoor','bedroom1','living2','pool1','pool2','pool3','room1','room2','bedroom2','bedroom3','area1','area2','area3','area4'];
-const LABELS = ['סלון','חדר אוכל','מטבח','חצר','חדר שינה','סלון שני','פינגפונג','חוץ','פינה מקורה','שולחן פינגפונג','טרסה','חדר שינה 2','חדר שינה 3','אזור בילוי','אזור','פינה','אזור נוסף'];
+const CAROUSEL_TOTAL = 18;
+const IMAGES = ['living1','dining','kitchen','outdoor','bedroom1','living2','pool1','pool2','pool3','room1','room2','bedroom2','bedroom3','bedroom4','area1','area2','area3','area4'];
+const LABELS = ['סלון','חדר אוכל','מטבח','חצר','חדר שינה','סלון שני','פינגפונג','חוץ','פינה מקורה','שולחן פינגפונג','טרסה','חדר שינה 2','חדר שינה 3','חדר שינה 4','אזור בילוי','אזור','פינה','אזור נוסף'];
 
 function initCarousel() {
   const dots = document.getElementById('carousel-dots');
