@@ -8,7 +8,10 @@
 <meta name="keywords" content="וילה לאירועים חדרה, שכירת וילה, מסיבת יום הולדת, וילה עם בריכה, אירועים פרטיים, B.K Palace, BK Palace, וילה לינה, צימר חדרה, השכרת וילה לאירוע">
 <meta name="robots" content="index, follow">
 <meta name="author" content="B.K Palace">
-<link rel="canonical" href="https://bkpalace.com">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="geo.region" content="IL">
+<meta name="geo.placename" content="חדרה">
+<link rel="canonical" href="https://bkpalace.com/">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
@@ -29,9 +32,11 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "EventVenue",
+  "@type": ["EventVenue", "LodgingBusiness"],
+  "@id": "https://bkpalace.com/#venue",
   "name": "B.K Palace",
-  "url": "https://bkpalace.com",
+  "alternateName": "בי.קיי פאלאס — וילה לאירועים בחדרה",
+  "url": "https://bkpalace.com/",
   "telephone": "+972-50-6565914",
   "address": {
     "@type": "PostalAddress",
@@ -40,21 +45,76 @@
     "addressRegion": "מחוז חיפה",
     "addressCountry": "IL"
   },
-  "description": "וילה יוקרתית בחדרה לכל סוגי האירועים — מסיבות, ימי הולדת, חופשות. בריכה מחוממת, ג'קוזי, קריוקי, מגרש ספורט.",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 32.434,
+    "longitude": 34.9196
+  },
+  "description": "וילה יוקרתית בחדרה לכל סוגי האירועים — מסיבות, ימי הולדת, ימי גיבוש וחופשות משפחתיות. בריכה מחוממת ומקורה, ג'קוזי, קריוקי, פינת מנגל, פלייסטיישן, לינה עד 20 איש וללא הגבלת רעש.",
   "image": "https://bkpalace.com/images/living1.jpg",
   "priceRange": "$$",
+  "currenciesAccepted": "ILS",
   "openingHours": "Mo-Su 00:00-23:59",
   "hasMap": "https://waze.com/ul?q=החרש+1+חדרה",
   "sameAs": [
     "https://did.li/Bkp-WhatsApp-"
   ],
   "amenityFeature": [
-    {"@type": "LocationFeatureSpecification", "name": "בריכה מחוממת", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "בריכה מחוממת ומקורה", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "ג'קוזי", "value": true},
-    {"@type": "LocationFeatureSpecification", "name": "קריוקי", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "קריוקי ומערכת הגברה", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "מגרש ספורט", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "חצר פרטית", "value": true},
-    {"@type": "LocationFeatureSpecification", "name": "מטבח מאובזר", "value": true}
+    {"@type": "LocationFeatureSpecification", "name": "מטבח מאובזר", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "פינת מנגל", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "לינה עד 20 איש", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "פלייסטיישן ושולחן פינגפונג", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "ללא הגבלת רעש", "value": true}
+  ]
+}
+</script>
+
+<!-- Schema.org — שאלות נפוצות (FAQ rich results בגוגל + מקור ציטוט למנועי AI) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "איפה נמצאת הוילה B.K Palace?",
+      "acceptedAnswer": { "@type": "Answer", "text": "הוילה נמצאת ברחוב החרש 1 בחדרה — במיקום נוח ונגיש מכל גוש דן, השרון, קיסריה, נתניה וחיפה, עם חניה במקום." }
+    },
+    {
+      "@type": "Question",
+      "name": "אילו אירועים אפשר לחגוג ב-B.K Palace?",
+      "acceptedAnswer": { "@type": "Answer", "text": "מסיבות, ימי הולדת, ימי גיבוש לחברות, מסיבות רווקים/רווקות, אירועים משפחתיים וחופשות עם לינה — הוילה מתאימה לכל סוגי האירועים, ללא הגבלת רעש." }
+    },
+    {
+      "@type": "Question",
+      "name": "האם הבריכה מחוממת? אפשר להשתמש בה בחורף?",
+      "acceptedAnswer": { "@type": "Answer", "text": "כן! הבריכה מקורה ומחוממת, כך שנהנים ממנה כל השנה — גם בחורף. בנוסף יש ג'קוזי מחומם." }
+    },
+    {
+      "@type": "Question",
+      "name": "כמה אנשים יכולים לישון בוילה?",
+      "acceptedAnswer": { "@type": "Answer", "text": "הוילה ערוכה ללינה של עד 20 אנשים בחדרי שינה מרווחים — מושלם להמשיך את המסיבה לחופשה של סוף שבוע." }
+    },
+    {
+      "@type": "Question",
+      "name": "האם יש הגבלת רעש או שעות?",
+      "acceptedAnswer": { "@type": "Answer", "text": "אין הגבלת רעש — אין שכנים צמודים, אפשר לחגוג בחופשיות עם מוזיקה וקריוקי." }
+    },
+    {
+      "@type": "Question",
+      "name": "מה יש בוילה?",
+      "acceptedAnswer": { "@type": "Answer", "text": "בריכה מחוממת ומקורה, ג'קוזי, מערכת קריוקי ורמקולים, פלייסטיישן, שולחן פינגפונג, פינת מנגל, מטבח מאובזר, חצר פרטית וחדרי שינה ללינה של עד 20 איש. אפשרות לקייטרינג מקצועי." }
+    },
+    {
+      "@type": "Question",
+      "name": "איך מזמינים תאריך בוילה?",
+      "acceptedAnswer": { "@type": "Answer", "text": "שולחים הודעת וואטסאפ או מתקשרים ל-050-6565914 עם התאריך המבוקש וסוג האירוע, ומקבלים תשובה מהירה על זמינות ומחיר." }
+    }
   ]
 }
 </script>
@@ -78,7 +138,7 @@ body{background:var(--dark);color:var(--text);font-family:-apple-system,'Segoe U
 .skip-link:focus{top:0;}
 
 /* ── NAV ── */
-nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(10,10,10,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,175,55,.15);padding:0 24px;}
+body > nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(10,10,10,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,175,55,.15);padding:0 24px;}
 .nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px;}
 .nav-logo{font-size:1.3rem;font-weight:800;color:var(--gold);letter-spacing:1px;}
 .nav-links{display:flex;gap:28px;list-style:none;}
@@ -161,6 +221,17 @@ section{padding:80px 24px;}
 .lightbox img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain;}
 .lightbox-close{position:absolute;top:20px;left:20px;color:white;font-size:2rem;cursor:pointer;background:none;border:none;opacity:.7;transition:.2s;}
 .lightbox-close:hover{opacity:1;}
+
+/* ── FAQ ── */
+.faq{background:var(--dark);}
+.faq-list{max-width:760px;margin:0 auto;}
+.faq-list details{background:var(--dark3);border:1px solid #222;border-radius:12px;margin-bottom:12px;overflow:hidden;transition:border-color .2s;}
+.faq-list details[open],.faq-list details:hover{border-color:rgba(212,175,55,.4);}
+.faq-list summary{cursor:pointer;font-weight:700;padding:16px 20px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--text);}
+.faq-list summary::-webkit-details-marker{display:none;}
+.faq-list summary::after{content:'+';font-size:1.4rem;color:var(--gold);flex-shrink:0;}
+.faq-list details[open] summary::after{content:'–';}
+.faq-list details p{padding:0 20px 18px;color:var(--text2);line-height:1.8;}
 
 /* ── CONTACT ── */
 .contact{background:var(--dark);}
@@ -271,6 +342,7 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
       <li><a href="#about">אודות</a></li>
       <li><a href="#features">מה יש</a></li>
       <li><a href="#gallery">גלריה</a></li>
+      <li><a href="#faq">שאלות נפוצות</a></li>
       <li><a href="#contact">צור קשר</a></li>
     </ul>
     <button class="hamburger" aria-label="פתח תפריט" aria-expanded="false" onclick="toggleMenu(this)">
@@ -284,6 +356,7 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
   <a href="#about" onclick="closeMenu()">אודות</a>
   <a href="#features" onclick="closeMenu()">מה יש</a>
   <a href="#gallery" onclick="closeMenu()">גלריה</a>
+  <a href="#faq" onclick="closeMenu()">שאלות נפוצות</a>
   <a href="#contact" onclick="closeMenu()">צור קשר</a>
 </div>
 
@@ -299,8 +372,8 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
   <div class="hero-content">
     <div class="hero-badge">🏆 הוילה המושלמת לאירוע שלך</div>
     <h1 class="hero-logo">B.K Palace</h1>
-    <p class="hero-tagline">!חוגגים כמו שצריך</p>
-    <p class="hero-sub">מסיבות &bull; ימי הולדת &bull; חופשות משפחתיות &bull; חדרה</p>
+    <h2 class="hero-tagline">וילה לאירועים בחדרה — חוגגים כמו שצריך!</h2>
+    <p class="hero-sub">מסיבות &bull; ימי הולדת &bull; ימי גיבוש &bull; חופשות משפחתיות עם לינה</p>
     <div class="hero-btns">
       <a href="https://did.li/Bkp-WhatsApp-" class="btn-primary" aria-label="שלח הודעת וואטסאפ ל-B.K Palace">
         💬 שלח וואטסאפ
@@ -333,6 +406,17 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
         <div class="stat-number">🏊</div>
         <div class="stat-label">בריכה מקורה</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="fade-in" aria-labelledby="about-heading" style="padding-bottom:40px;">
+  <div class="container" style="max-width:800px;">
+    <h2 class="section-title" id="about-heading">וילה לאירועים בחדרה — הכול במקום אחד</h2>
+    <div style="color:var(--text2);font-size:1.05rem;line-height:1.9;text-align:center;">
+      <p><strong style="color:var(--text);">B.K Palace</strong> היא וילה פרטית להשכרה לאירועים בחדרה: מסיבות, ימי הולדת, ימי גיבוש לחברות, מסיבות רווקים ורווקות וחופשות משפחתיות עם לינה עד 20 איש. הוילה נמצאת ברחוב החרש 1 בחדרה — דקות נסיעה מקיסריה, אור עקיבא, פרדס חנה, זכרון יעקב ונתניה, ונגישה בקלות מכל מקום בין תל אביב לחיפה.</p>
+      <p style="margin-top:14px;">מה שמייחד אותנו: <strong style="color:var(--text);">בריכה מחוממת ומקורה שעובדת כל השנה</strong> (גם בחורף!), ג'קוזי, מערכת קריוקי ורמקולים, פלייסטיישן, שולחן פינגפונג, פינת מנגל ומטבח מאובזר — וחשוב מכול: <strong style="color:var(--text);">ללא הגבלת רעש</strong>, כי אין שכנים צמודים. סוגרים תאריך בוואטסאפ ומתחילים לחגוג.</p>
     </div>
   </div>
 </section>
@@ -400,41 +484,41 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
     <div class="carousel-wrap" role="region" aria-label="גלריית תמונות B.K Palace - 18 תמונות" aria-roledescription="carousel">
       <div class="carousel">
         <div class="carousel-track" id="carousel-track">
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="סלון 1 מתוך 17"><img src="images/living1.jpg" alt="סלון מרווח ומעוצב"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר אוכל 2 מתוך 17"><img src="images/dining.jpg" alt="חדר אוכל גדול"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="מטבח 3 מתוך 17"><img src="images/kitchen.jpg" alt="מטבח מאובזר"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חצר 4 מתוך 17"><img src="images/outdoor.jpg" alt="חצר חיצונית"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 5 מתוך 17"><img src="images/bedroom1.jpg" alt="חדר שינה"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="סלון שני 6 מתוך 17"><img src="images/living2.jpg" alt="פינת ישיבה"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינגפונג 7 מתוך 17"><img src="images/pool1.jpg" alt="פינת פינגפונג"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חוץ 8 מתוך 17"><img src="images/pool2.jpg" alt="אזור אוכל חיצוני"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינה מקורה 9 מתוך 17"><img src="images/pool3.jpg" alt="חדר אוכל מקורה"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינגפונג 10 מתוך 17"><img src="images/room1.jpg" alt="שולחן פינגפונג מקצועי"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="טרסה 11 מתוך 17"><img src="images/room2.jpg" alt="טרסת גג"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 2 12 מתוך 17"><img src="images/bedroom2.jpg" alt="חדר שינה שני"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 3 13 מתוך 17"><img src="images/bedroom3.jpg" alt="חדר שינה שלישי"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 4 14 מתוך 18"><img src="images/bedroom4.jpg" alt="חדר שינה עם מספר מיטות"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="אזור בילוי 14 מתוך 17"><img src="images/area1.jpg" alt="אזור בילוי"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="אזור 15 מתוך 17"><img src="images/area2.jpg" alt="אזור נוסף"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינה 16 מתוך 17"><img src="images/area3.jpg" alt="פינת בילוי"></div>
-          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="אזור 17 מתוך 17"><img src="images/area4.jpg" alt="אזור נוסף בוילה"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="סלון 1 מתוך 18"><img src="images/living1.jpg" alt="הסלון המרווח והמעוצב בוילה B.K Palace בחדרה"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר אוכל 2 מתוך 18"><img src="images/dining.jpg" alt="חדר אוכל גדול לאירוח קבוצות" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="מטבח 3 מתוך 18"><img src="images/kitchen.jpg" alt="מטבח מאובזר בוילה" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חצר 4 מתוך 18"><img src="images/outdoor.jpg" alt="החצר הפרטית של הוילה" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 5 מתוך 18"><img src="images/bedroom1.jpg" alt="חדר שינה ללינה בוילה" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="סלון שני 6 מתוך 18"><img src="images/living2.jpg" alt="פינת ישיבה נוספת" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינגפונג 7 מתוך 18"><img src="images/pool1.jpg" alt="פינת פינגפונג" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חוץ 8 מתוך 18"><img src="images/pool2.jpg" alt="אזור אוכל חיצוני" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינה מקורה 9 מתוך 18"><img src="images/pool3.jpg" alt="חדר אוכל מקורה" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינגפונג 10 מתוך 18"><img src="images/room1.jpg" alt="שולחן פינגפונג מקצועי" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="טרסה 11 מתוך 18"><img src="images/room2.jpg" alt="טרסת גג בוילה" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 2 12 מתוך 18"><img src="images/bedroom2.jpg" alt="חדר שינה שני" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 3 13 מתוך 18"><img src="images/bedroom3.jpg" alt="חדר שינה שלישי" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="חדר שינה 4 14 מתוך 18"><img src="images/bedroom4.jpg" alt="חדר שינה עם מספר מיטות" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="אזור בילוי 15 מתוך 18"><img src="images/area1.jpg" alt="אזור בילוי בוילה" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="אזור 16 מתוך 18"><img src="images/area2.jpg" alt="אזור אירוח נוסף" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="פינה 17 מתוך 18"><img src="images/area3.jpg" alt="פינת בילוי" loading="lazy" decoding="async"></div>
+          <div class="carousel-slide" onclick="openLightbox(this)" aria-label="אזור 18 מתוך 18"><img src="images/area4.jpg" alt="אזור נוסף בוילה" loading="lazy" decoding="async"></div>
         </div>
       </div>
       <button class="carousel-btn prev" onclick="slideCarousel(-1)" aria-label="תמונה קודמת">&#8250;</button>
       <button class="carousel-btn next" onclick="slideCarousel(1)" aria-label="תמונה הבאה">&#8249;</button>
-      <div class="carousel-counter" id="carousel-counter" aria-live="polite">1 / 17</div>
+      <div class="carousel-counter" id="carousel-counter" aria-live="polite">1 / 18</div>
       <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="בחר תמונה"></div>
       <div class="carousel-thumb-row" id="carousel-thumbs" role="list" aria-label="תמונות ממוזערות"></div>
     </div>
     <!-- Video section -->
     <div class="video-grid" style="margin-top:32px;display:grid;grid-template-columns:1fr 1fr;gap:12px;" role="list" aria-label="סרטוני הוילה">
       <div style="border-radius:12px;overflow:hidden;" role="listitem">
-        <video controls style="width:100%;border-radius:12px;" poster="images/living1.jpg" aria-label="סרטון B.K Palace 1">
+        <video controls preload="none" style="width:100%;border-radius:12px;" poster="images/living1.jpg" aria-label="סרטון B.K Palace 1">
           <source src="images/video1.mp4" type="video/mp4">
         </video>
       </div>
       <div style="border-radius:12px;overflow:hidden;" role="listitem">
-        <video controls style="width:100%;border-radius:12px;" poster="images/outdoor.jpg" aria-label="סרטון B.K Palace 2">
+        <video controls preload="none" style="width:100%;border-radius:12px;" poster="images/outdoor.jpg" aria-label="סרטון B.K Palace 2">
           <source src="images/video2.mp4" type="video/mp4">
         </video>
       </div>
@@ -447,6 +531,44 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
   <button class="lightbox-close" aria-label="סגור תמונה">✕</button>
   <img id="lightbox-img" src="" alt="">
 </div>
+
+<!-- FAQ -->
+<section class="faq fade-in" id="faq" aria-labelledby="faq-heading">
+  <div class="container">
+    <h2 class="section-title" id="faq-heading">שאלות נפוצות</h2>
+    <p class="section-sub">כל מה שרציתם לדעת לפני שסוגרים תאריך</p>
+    <div class="faq-list">
+      <details>
+        <summary>איפה נמצאת הוילה B.K Palace?</summary>
+        <p>הוילה נמצאת ברחוב החרש 1 בחדרה — במיקום נוח ונגיש מכל גוש דן, השרון, קיסריה, נתניה וחיפה, עם חניה במקום.</p>
+      </details>
+      <details>
+        <summary>אילו אירועים אפשר לחגוג ב-B.K Palace?</summary>
+        <p>מסיבות, ימי הולדת, ימי גיבוש לחברות, מסיבות רווקים/רווקות, אירועים משפחתיים וחופשות עם לינה — הוילה מתאימה לכל סוגי האירועים, ללא הגבלת רעש.</p>
+      </details>
+      <details>
+        <summary>האם הבריכה מחוממת? אפשר להשתמש בה בחורף?</summary>
+        <p>כן! הבריכה מקורה ומחוממת, כך שנהנים ממנה כל השנה — גם בחורף. בנוסף יש ג'קוזי מחומם.</p>
+      </details>
+      <details>
+        <summary>כמה אנשים יכולים לישון בוילה?</summary>
+        <p>הוילה ערוכה ללינה של עד 20 אנשים בחדרי שינה מרווחים — מושלם להמשיך את המסיבה לחופשה של סוף שבוע.</p>
+      </details>
+      <details>
+        <summary>האם יש הגבלת רעש או שעות?</summary>
+        <p>אין הגבלת רעש — אין שכנים צמודים, אפשר לחגוג בחופשיות עם מוזיקה וקריוקי.</p>
+      </details>
+      <details>
+        <summary>מה יש בוילה?</summary>
+        <p>בריכה מחוממת ומקורה, ג'קוזי, מערכת קריוקי ורמקולים, פלייסטיישן, שולחן פינגפונג, פינת מנגל, מטבח מאובזר, חצר פרטית וחדרי שינה ללינה של עד 20 איש. אפשרות לקייטרינג מקצועי.</p>
+      </details>
+      <details>
+        <summary>איך מזמינים תאריך בוילה?</summary>
+        <p>שולחים הודעת וואטסאפ או מתקשרים ל-<a href="tel:0506565914" style="color:var(--gold);">050-6565914</a> עם התאריך המבוקש וסוג האירוע, ומקבלים תשובה מהירה על זמינות ומחיר.</p>
+      </details>
+    </div>
+  </div>
+</section>
 
 <!-- Contact -->
 <section class="contact fade-in" id="contact" aria-labelledby="contact-heading">
@@ -524,10 +646,11 @@ body.a11y-reading-mask::after{content:'';position:fixed;top:0;left:0;right:0;hei
     <a href="#about">אודות</a>
     <a href="#features">מה יש</a>
     <a href="#gallery">גלריה</a>
+    <a href="#faq">שאלות נפוצות</a>
     <a href="#contact">צור קשר</a>
     <a href="#accessibility">נגישות</a>
   </nav>
-  <p class="footer-copy">© 2025 B.K Palace — כל הזכויות שמורות</p>
+  <p class="footer-copy">© 2026 B.K Palace — כל הזכויות שמורות</p>
   <p class="accessibility-statement" id="accessibility" role="note">
     אתר זה עומד בתקן נגישות ישראלי 5568 ברמת AA ותקן WCAG 2.1.
     לפניות בנושא נגישות: <a href="tel:0506565914" style="color:var(--text2)">050-6565914</a>
@@ -758,6 +881,8 @@ function initCarousel() {
     // thumbs
     const th = document.createElement('img');
     th.src = `images/${img}.jpg`;
+    th.loading = 'lazy';
+    th.decoding = 'async';
     th.className = 'carousel-thumb' + (i === 0 ? ' active' : '');
     th.alt = LABELS[i];
     th.setAttribute('role','listitem');
@@ -840,7 +965,7 @@ function submitForm(e) {
   if (!name || !phone) { alert('נא למלא שם וטלפון'); return; }
 
   const text = `שלום B.K Palace! 👋\n\nשם: ${name}\nטלפון: ${phone}${date ? `\nתאריך: ${date}` : ''}${msg ? `\n\n${msg}` : ''}`;
-  window.open(`https://wa.me/9720506565914?text=${encodeURIComponent(text)}`, '_blank');
+  window.open(`https://wa.me/972506565914?text=${encodeURIComponent(text)}`, '_blank');
 }
 
 // Scroll animations
