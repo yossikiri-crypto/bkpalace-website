@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ארביטראז' בפולימרקט — מדריך אינטראקטיבי</title>
+<meta name="description" content="מדריך אינטראקטיבי לארביטראז' בפולימרקט: מחשבון חי לשוק שלוש-אפשרויות, הדגמת הטעות הנפוצה, סימולטור עומק שוק (Slippage) ותוכנית עבודה שלב-אחר-שלב.">
+<meta name="robots" content="noindex">
+<style>
+/* ============ tokens ============ */
+:root {
+  color-scheme: light;
+  --page:        #f3f6fb;
+  --surface:     #ffffff;
+  --surface-2:   #eaeff7;
+  --ink:         #16202f;
+  --ink-2:       #4b5b72;
+  --muted:       #5c6c85;
+  --hairline:    rgba(22, 32, 47, 0.12);
+  --grid:        rgba(22, 32, 47, 0.08);
+  --accent:      #2a78d6;
+  --accent-ink:  #1c5cab;
+  --accent-soft: rgba(42, 120, 214, 0.10);
+  --gain:        #0e8a56;   /* validated pair, light surface */
+  --loss:        #d03b3b;
+  --gain-text:   #0b7448;
+  --loss-text:   #bf3030;
+  --gain-soft:   rgba(14, 138, 86, 0.10);
+  --loss-soft:   rgba(208, 59, 59, 0.10);
+  --warn:        #a06a00;
+  --warn-soft:   rgba(237, 161, 0, 0.12);
+  --ticket:      #0f1a2c;   /* the one dark-committed element in light mode */
+  --ticket-ink:  #e9eff9;
+  --shadow:      0 1px 2px rgba(22,32,47,.05), 0 8px 24px -12px rgba(22,32,47,.18);
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page:        #0b1322;
+    --surface:     #141f33;
+    --surface-2:   #1b2942;
+    --ink:         #e9eff9;
+    --ink-2:       #b6c3d8;
+    --muted:       #92a2bb;
+    --hairline:    rgba(233, 239, 249, 0.14);
+    --grid:        rgba(233, 239, 249, 0.08);
+    --accent:      #5598e7;
+    --accent-ink:  #86b6ef;
+    --accent-soft: rgba(85, 152, 231, 0.14);
+    --gain:        #0c9560;   /* validated pair, dark surface */
+    --loss:        #dc4747;
+    --gain-text:   #35c98b;
+    --loss-text:   #f1707a;
+    --gain-soft:   rgba(12, 149, 96, 0.16);
+    --loss-soft:   rgba(220, 71, 71, 0.16);
+    --warn:        #e8b453;
+    --warn-soft:   rgba(232, 180, 83, 0.12);
+    --ticket:      #0f1a2c;
+    --ticket-ink:  #e9eff9;
+    --shadow:      0 1px 2px rgba(0,0,0,.3), 0 10px 28px -14px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page:        #0b1322;
+  --surface:     #141f33;
+  --surface-2:   #1b2942;
+  --ink:         #e9eff9;
+  --ink-2:       #b6c3d8;
+  --muted:       #92a2bb;
+  --hairline:    rgba(233, 239, 249, 0.14);
+  --grid:        rgba(233, 239, 249, 0.08);
+  --accent:      #5598e7;
+  --accent-ink:  #86b6ef;
+  --accent-soft: rgba(85, 152, 231, 0.14);
+  --gain:        #0c9560;
+  --loss:        #dc4747;
+  --gain-text:   #35c98b;
+  --loss-text:   #f1707a;
+  --gain-soft:   rgba(12, 149, 96, 0.16);
+  --loss-soft:   rgba(220, 71, 71, 0.16);
+  --warn:        #e8b453;
+  --warn-soft:   rgba(232, 180, 83, 0.12);
+  --ticket:      #0f1a2c;
+  --ticket-ink:  #e9eff9;
+  --shadow:      0 1px 2px rgba(0,0,0,.3), 0 10px 28px -14px rgba(0,0,0,.5);
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --page:        #f3f6fb;
+  --surface:     #ffffff;
+  --surface-2:   #eaeff7;
+  --ink:         #16202f;
+  --ink-2:       #4b5b72;
+  --muted:       #5c6c85;
+  --hairline:    rgba(22, 32, 47, 0.12);
+  --grid:        rgba(22, 32, 47, 0.08);
+  --accent:      #2a78d6;
+  --accent-ink:  #1c5cab;
+  --accent-soft: rgba(42, 120, 214, 0.10);
+  --gain:        #0e8a56;
+  --loss:        #d03b3b;
+  --gain-text:   #0b7448;
+  --loss-text:   #bf3030;
+  --gain-soft:   rgba(14, 138, 86, 0.10);
+  --loss-soft:   rgba(208, 59, 59, 0.10);
+  --warn:        #a06a00;
+  --warn-soft:   rgba(237, 161, 0, 0.12);
+  --ticket:      #0f1a2c;
+  --ticket-ink:  #e9eff9;
+  --shadow:      0 1px 2px rgba(22,32,47,.05), 0 8px 24px -12px rgba(22,32,47,.18);
+}
+
+/* ============ base ============ */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans Hebrew", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+.num, .mono {
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+.wrap { max-width: 940px; margin: 0 auto; padding: 0 20px; }
+section { margin: 72px 0; }
+h1, h2, h3 { text-wrap: balance; line-height: 1.25; }
+h2 { font-size: 1.7rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+h3 { font-size: 1.1rem; margin: 0 0 4px; }
+p { max-width: 68ch; }
+a { color: var(--accent-ink); }
+.eyebrow {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent-ink);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 3px 12px;
+  margin-bottom: 10px;
+}
+.lede { color: var(--ink-2); font-size: 1.06rem; }
+.footnote { color: var(--muted); font-size: 0.85rem; }
+:is(button, input, a, summary):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* ============ masthead ============ */
+.masthead { padding: 56px 0 8px; }
+.masthead h1 {
+  font-size: clamp(2rem, 5.5vw, 3.1rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 12px;
+}
+.masthead h1 .accent { color: var(--accent-ink); }
+
+/* the hero ticket — a dark trading stub in both themes */
+.hero-ticket {
+  margin-top: 28px;
+  background: var(--ticket);
+  color: var(--ticket-ink);
+  border-radius: 16px;
+  padding: 22px 24px 18px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(233,239,249,0.08);
+}
+.hero-ticket .label {
+  font-size: 0.75rem; letter-spacing: 0.1em; color: #8fa3c2; margin-bottom: 12px;
+}
+.ticket-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.chip {
+  background: rgba(233,239,249,0.07);
+  border: 1px solid rgba(233,239,249,0.12);
+  border-radius: 10px;
+  padding: 8px 14px;
+  display: flex; flex-direction: column; gap: 1px;
+  min-width: 104px;
+}
+.chip .name { font-size: 0.72rem; color: #8fa3c2; }
+.chip .price { font-size: 1.15rem; font-weight: 700; }
+.op { font-size: 1.2rem; color: #8fa3c2; }
+.chip.sum { background: rgba(53,201,139,0.12); border-color: rgba(53,201,139,0.45); }
+.chip.sum .price { color: #35c98b; }
+.hero-verdict { margin-top: 14px; font-size: 0.95rem; color: #cdd9ec; }
+.hero-verdict strong { color: #35c98b; }
+
+/* ============ toc chips ============ */
+.toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 0; padding: 0; list-style: none; }
+.toc a {
+  display: inline-block; text-decoration: none;
+  font-size: 0.85rem; font-weight: 600;
+  color: var(--ink-2);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 999px; padding: 5px 14px;
+}
+.toc a:hover { border-color: var(--accent); color: var(--accent-ink); }
+
+/* ============ cards ============ */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  padding: 20px 22px;
+  box-shadow: var(--shadow);
+}
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 14px; }
+.method-card .tag {
+  display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em;
+  color: var(--accent-ink); background: var(--accent-soft);
+  padding: 2px 10px; border-radius: 999px; margin-bottom: 8px;
+}
+.method-card p { font-size: 0.94rem; color: var(--ink-2); margin: 6px 0 10px; }
+.method-example {
+  font-size: 0.85rem;
+  background: var(--surface-2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: var(--ink);
+}
+
+/* ============ formula ============ */
+.formula {
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 1.02rem;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* ============ lab (calculator) ============ */
+.lab { display: grid; grid-template-columns: minmax(300px, 5fr) minmax(280px, 4fr); gap: 16px; align-items: start; }
+@media (max-width: 760px) { .lab { grid-template-columns: 1fr; } }
+.presets { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.preset {
+  font: inherit; font-size: 0.85rem; font-weight: 600;
+  color: var(--ink-2); background: var(--surface-2);
+  border: 1px solid var(--hairline); border-radius: 999px;
+  padding: 5px 14px; cursor: pointer;
+}
+.preset:hover { border-color: var(--accent); color: var(--accent-ink); }
+.preset[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-ink); }
+.slider-row { margin-bottom: 16px; }
+.slider-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+.slider-head label { font-weight: 600; font-size: 0.95rem; }
+.slider-head .val { font-size: 1.05rem; font-weight: 700; color: var(--accent-ink); }
+input[type="range"] { width: 100%; accent-color: var(--accent); height: 28px; }
+.n-row { display: flex; align-items: center; gap: 10px; margin-top: 6px; flex-wrap: wrap; }
+.n-row label { font-weight: 600; font-size: 0.95rem; }
+input[type="number"] {
+  font: inherit; width: 110px;
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--hairline); border-radius: 8px;
+  padding: 6px 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* signal */
+.signal {
+  display: flex; align-items: center; gap: 12px;
+  border-radius: 12px; padding: 14px 16px; margin-bottom: 14px;
+  border: 1px solid var(--hairline);
+  background: var(--surface-2);
+}
+.signal .lamp {
+  width: 16px; height: 16px; border-radius: 50%; flex: none;
+  background: var(--muted);
+  box-shadow: 0 0 0 4px var(--grid);
+}
+.signal[data-state="go"]   { background: var(--gain-soft); border-color: var(--gain); }
+.signal[data-state="go"] .lamp { background: var(--gain); box-shadow: 0 0 0 4px var(--gain-soft); }
+.signal[data-state="stop"] { background: var(--loss-soft); border-color: var(--loss); }
+.signal[data-state="stop"] .lamp { background: var(--loss); box-shadow: 0 0 0 4px var(--loss-soft); }
+.signal .txt { font-weight: 700; font-size: 0.98rem; }
+.signal .sub { display: block; font-weight: 400; font-size: 0.85rem; color: var(--ink-2); }
+
+/* gauge: sum vs the $1.00 line — numeric axis stays LTR */
+.gauge { margin: 6px 0 18px; direction: ltr; }
+.gauge-track {
+  position: relative; height: 14px; border-radius: 7px;
+  background: var(--surface-2);
+  border: 1px solid var(--hairline);
+  overflow: hidden;
+}
+.gauge-fill {
+  position: absolute; inset-inline-start: 0; top: 0; bottom: 0;
+  background: var(--gain);
+  border-radius: 0 7px 7px 0;
+  transition: width .18s ease;
+}
+.gauge-fill.over { background: var(--loss); }
+.gauge-mark {
+  position: absolute; top: -4px; bottom: -4px; width: 2px;
+  background: var(--ink);
+  inset-inline-start: calc(100% / 1.2);
+}
+.gauge-track { overflow: visible; }
+.gauge-track .clip { position: absolute; inset: 0; border-radius: 7px; overflow: hidden; }
+.gauge-labels { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); margin-top: 6px; }
+
+/* readout table */
+.readout { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.readout td { padding: 8px 0; border-bottom: 1px solid var(--grid); }
+.readout tr:last-child td { border-bottom: none; }
+.readout td:last-child { text-align: left; font-weight: 700; }
+.readout .big { font-size: 1.25rem; }
+.pl-gain { color: var(--gain-text); }
+.pl-loss { color: var(--loss-text); }
+
+.outcomes { margin-top: 14px; }
+.outcomes h3 { font-size: 0.95rem; color: var(--ink-2); font-weight: 600; }
+.outcome-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 7px 0; border-bottom: 1px solid var(--grid); font-size: 0.9rem;
+}
+.outcome-row:last-child { border-bottom: none; }
+.outcome-row .payout { font-weight: 700; }
+
+/* ============ bar chart (mistake demo) ============ */
+.mode-toggle { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
+.mode-btn {
+  font: inherit; font-size: 0.9rem; font-weight: 700;
+  padding: 8px 18px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--hairline);
+  background: var(--surface); color: var(--ink-2);
+}
+.mode-btn[aria-pressed="true"] {
+  background: var(--accent-soft); border-color: var(--accent); color: var(--accent-ink);
+}
+.mode-note { font-size: 0.9rem; color: var(--ink-2); min-height: 3.2em; max-width: 66ch; }
+.plchart { margin-top: 10px; }
+.plchart .row {
+  display: grid;
+  grid-template-columns: 7.5em 1fr 6.5em;
+  align-items: center; gap: 10px;
+  padding: 8px 0;
+}
+.plchart .who { font-size: 0.9rem; font-weight: 600; }
+.plchart .who small { display: block; font-weight: 400; color: var(--muted); font-size: 0.78rem; }
+.plchart .track { position: relative; height: 22px; }
+.plchart .axis {
+  position: absolute; top: -6px; bottom: -6px; width: 1px;
+  background: var(--hairline); inset-inline-start: 50%;
+}
+.plchart .bar {
+  position: absolute; top: 0; bottom: 0;
+  border-radius: 4px;
+  min-width: 3px;
+  transition: width .25s ease;
+}
+/* numeric axis is LTR: gains grow right, losses grow left of the zero line */
+.plchart .bar.gain { background: var(--gain); left: 50%; }
+.plchart .bar.loss { background: var(--loss); right: 50%; }
+.plchart .amt { font-weight: 700; font-size: 0.95rem; text-align: left; }
+.plchart .zero {
+  display: flex; justify-content: space-between; direction: ltr;
+  font-size: 0.72rem; color: var(--muted); margin-top: 2px;
+  padding: 0 calc(7.5em + 10px) 0 calc(6.5em + 10px); /* mirror the grid columns so labels sit under the track */
+}
+.verdict-line {
+  margin-top: 12px; padding: 10px 14px; border-radius: 10px;
+  font-size: 0.92rem; font-weight: 600;
+}
+.verdict-line.good { background: var(--gain-soft); color: var(--gain-text); }
+.verdict-line.bad  { background: var(--warn-soft); color: var(--warn); }
+
+/* ============ depth / order book ============ */
+.depth-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+@media (max-width: 640px) { .depth-grid { grid-template-columns: 1fr; } }
+.book { border: 1px solid var(--hairline); border-radius: 10px; overflow: hidden; }
+.book header {
+  padding: 8px 12px; font-size: 0.85rem; font-weight: 700;
+  background: var(--surface-2); border-bottom: 1px solid var(--hairline);
+}
+.book table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.book th {
+  text-align: right; font-weight: 600; font-size: 0.75rem; color: var(--muted);
+  padding: 6px 12px; border-bottom: 1px solid var(--grid);
+}
+.book th:last-child, .book td:last-child { text-align: left; }
+.book td { padding: 6px 12px; border-bottom: 1px solid var(--grid); position: relative; }
+.book tr:last-child td { border-bottom: none; }
+.book td .consumed {
+  position: absolute; inset-inline-start: 0; top: 2px; bottom: 2px;
+  background: var(--accent-soft); z-index: 0; border-radius: 3px;
+  transition: width .18s ease;
+}
+.book td span { position: relative; z-index: 1; }
+.depth-readout { margin-top: 14px; }
+.depth-msg { margin-top: 10px; font-size: 0.92rem; font-weight: 600; }
+
+/* ============ risks ============ */
+.risk-card h3 { display: flex; align-items: center; gap: 8px; }
+.risk-card .icon {
+  flex: none; width: 26px; height: 26px; border-radius: 8px;
+  display: grid; place-items: center;
+  background: var(--warn-soft); color: var(--warn); font-size: 0.9rem; font-weight: 800;
+}
+.risk-card p { font-size: 0.93rem; color: var(--ink-2); margin: 8px 0 0; }
+
+/* ============ plan / timeline ============ */
+.timeline { list-style: none; margin: 20px 0 0; padding: 0; position: relative; }
+.timeline::before {
+  content: ""; position: absolute; top: 8px; bottom: 8px;
+  inset-inline-start: 17px; width: 2px; background: var(--hairline);
+}
+.timeline > li { position: relative; padding: 0 52px 26px 0; }
+.timeline > li:last-child { padding-bottom: 0; }
+.tl-dot {
+  position: absolute; inset-inline-start: 4px; top: 2px;
+  width: 28px; height: 28px; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  display: grid; place-items: center;
+  font-size: 0.85rem; font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.timeline .when { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.05em; color: var(--accent-ink); }
+.timeline h3 { margin: 2px 0 6px; }
+.checklist { list-style: none; margin: 8px 0 0; padding: 0; }
+.checklist li { margin: 4px 0; }
+.checklist label {
+  display: flex; gap: 10px; align-items: baseline;
+  font-size: 0.93rem; color: var(--ink-2); cursor: pointer;
+}
+.checklist input[type="checkbox"] { accent-color: var(--accent); transform: translateY(2px); flex: none; }
+.checklist input:checked + span { text-decoration: line-through; color: var(--muted); }
+
+/* ============ footer ============ */
+.disclaimer {
+  margin: 80px 0 40px;
+  border-top: 1px solid var(--hairline);
+  padding-top: 20px;
+  font-size: 0.84rem; color: var(--muted);
+  max-width: 75ch;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- ============ masthead ============ -->
+<header class="masthead">
+  <span class="eyebrow">מדריך אינטראקטיבי · שוקי חיזוי</span>
+  <h1>ארביטראז' בפולימרקט<br><span class="accent">רווח נעול, מתמטיקה פשוטה</span></h1>
+  <p class="lede">
+    בפולימרקט כל חוזה שצדק פוקע ב־<span class="num">$1.00</span> בדיוק, וכל חוזה שטעה פוקע ב־<span class="num">$0.00</span>.
+    כשסכום המחירים של <em>כל</em> התוצאות האפשריות יורד מתחת לדולר — נפתח חלון של רווח מובטח.
+    המדריך הזה מדגים את זה בצורה חיה: הזיזו מחיר, וראו את הרווח נפתח ונסגר.
+  </p>
+
+  <div class="hero-ticket" role="img" aria-label="דוגמה: קניית שלוש התוצאות של משחק כדורגל בסכום כולל של 95 סנט מבטיחה פדיון של דולר אחד — רווח של 5 סנט לכל סט">
+    <div class="label">ריאל מדריד — ברצלונה · שלוש תוצאות, מחיר YES לכל אחת</div>
+    <div class="ticket-row">
+      <div class="chip"><span class="name">ניצחון ריאל</span><span class="price num">$0.50</span></div>
+      <span class="op">+</span>
+      <div class="chip"><span class="name">ניצחון ברצלונה</span><span class="price num">$0.25</span></div>
+      <span class="op">+</span>
+      <div class="chip"><span class="name">תיקו</span><span class="price num">$0.20</span></div>
+      <span class="op">=</span>
+      <div class="chip sum"><span class="name">סך הסל</span><span class="price num">$0.95</span></div>
+    </div>
+    <p class="hero-verdict">תוצאה אחת חייבת לקרות, והיא תשלם <span class="num">$1.00</span> — כלומר <strong>5 סנט רווח נעול על כל סט</strong>, לא משנה מי ינצח.</p>
+  </div>
+
+  <ul class="toc">
+    <li><a href="#methods">4 שיטות הארביטראז'</a></li>
+    <li><a href="#calc">🟢 המחשבון החי</a></li>
+    <li><a href="#mistake">הטעות הנפוצה</a></li>
+    <li><a href="#depth">סימולטור Slippage</a></li>
+    <li><a href="#risks">סיכונים</a></li>
+    <li><a href="#plan">תוכנית עבודה</a></li>
+  </ul>
+</header>
+
+<!-- ============ methods ============ -->
+<section id="methods">
+  <span class="eyebrow">פרק 1</span>
+  <h2>ארבע דרכים לאותו רעיון</h2>
+  <p class="lede">העיקרון זהה תמיד: לקנות סט חוזים שמכסה את כל התרחישים בפחות מ־<span class="num">$1.00</span>. ההבדל הוא רק איפה מוצאים את העיוות.</p>
+  <div class="grid-2" style="margin-top:18px">
+    <div class="card method-card">
+      <span class="tag">א · Binary Complement</span>
+      <h3>ארביטראז' בינארי פשוט</h3>
+      <p>בשוק של YES/NO הסכום חייב להיות בדיוק <span class="num">$1.00</span>. כשמחירי ה־Ask של שני הצדדים מסתכמים בפחות — קונים את שניהם.</p>
+      <div class="method-example num">YES $0.55 + NO $0.42 = $0.97 → +$0.03</div>
+    </div>
+    <div class="card method-card">
+      <span class="tag">ב · Multi-Outcome Bundle</span>
+      <h3>ארביטראז' רב-אפשרויות</h3>
+      <p>בשוק עם מועמדים רבים (אוסקר, בחירות) רק אחד זוכה. אם סל כל חוזי ה־YES הזולים ביותר עולה פחות מדולר — קונים את כל הסל.</p>
+      <div class="method-example">סל 8 מועמדים ב־<span class="num">$0.93</span> → פדיון <span class="num">$1.00</span> מובטח</div>
+    </div>
+    <div class="card method-card">
+      <span class="tag">ג · Cross-Platform</span>
+      <h3>ארביטראז' בין פלטפורמות</h3>
+      <p>אותו אירוע מתומחר אחרת בפולימרקט מול Kalshi או PredictIt. קונים YES בזירה אחת ו־NO המקביל בשנייה.</p>
+      <div class="method-example num">Polymarket YES $0.55 + Kalshi NO $0.32 = $0.87 → +$0.13</div>
+    </div>
+    <div class="card method-card">
+      <span class="tag">ד · Logical / Subset</span>
+      <h3>ארביטראז' לוגי</h3>
+      <p>"הוריקן דרגה 5 מחר" הוא מקרה פרטי של "הוריקן מחר" — ולכן לא יכול להיות יקר ממנו. אם הוא בכל זאת יקר יותר, נוצר עיוות לוגי סחיר.</p>
+      <div class="method-example">תת־מקרה שיקר מהמקרה הכללי שלו = עיוות שניתן לנצל</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ calculator ============ -->
+<section id="calc">
+  <span class="eyebrow">פרקים 3–4</span>
+  <h2>המחשבון החי: משחק כדורגל, שלוש תוצאות</h2>
+  <p class="lede">
+    תנאי הכניסה: <span class="num">P1 + P2 + P3 &lt; 1.00</span>.
+    הרווח הנקי: <span class="num">N × (1 − (P1+P2+P3))</span>, כאשר <span class="num">N</span> — כמות חוזים <strong>זהה</strong> לכל תוצאה.
+    גררו את המחירים וצפו באור מתחלף.
+  </p>
+
+  <div class="presets" role="group" aria-label="תרחישים מוכנים">
+    <button class="preset" data-preset="a" aria-pressed="true">🟢 תרחיש א' — ארביטראז' 5%</button>
+    <button class="preset" data-preset="c" aria-pressed="false">🔴 תרחיש ג' — מלכודת הפסד</button>
+    <button class="preset" data-preset="even" aria-pressed="false">⚪ שוק מאוזן כמעט</button>
+  </div>
+
+  <div class="lab">
+    <div class="card">
+      <div class="slider-row">
+        <div class="slider-head">
+          <label for="p1">ניצחון ריאל מדריד (P1)</label>
+          <span class="val num" id="p1v">$0.50</span>
+        </div>
+        <input type="range" id="p1" min="1" max="99" value="50" aria-describedby="sumline">
+      </div>
+      <div class="slider-row">
+        <div class="slider-head">
+          <label for="p2">ניצחון ברצלונה (P2)</label>
+          <span class="val num" id="p2v">$0.25</span>
+        </div>
+        <input type="range" id="p2" min="1" max="99" value="25" aria-describedby="sumline">
+      </div>
+      <div class="slider-row">
+        <div class="slider-head">
+          <label for="p3">תיקו (P3)</label>
+          <span class="val num" id="p3v">$0.20</span>
+        </div>
+        <input type="range" id="p3" min="1" max="99" value="20" aria-describedby="sumline">
+      </div>
+      <div class="n-row">
+        <label for="nshares">כמות חוזים מכל סוג (N)</label>
+        <input type="number" id="nshares" min="1" max="1000000" step="100" value="1000">
+      </div>
+
+      <div class="gauge">
+        <div class="gauge-track">
+          <div class="clip"><div class="gauge-fill" id="gaugeFill" style="width:79%"></div></div>
+          <div class="gauge-mark" aria-hidden="true"></div>
+        </div>
+        <div class="gauge-labels" aria-hidden="true">
+          <span class="num">$0.00</span>
+          <span>קו הדולר — <span class="num">$1.00</span></span>
+          <span class="num">$1.20</span>
+        </div>
+      </div>
+      <p class="footnote" id="sumline">סכום הסל כרגע: <span class="num" id="sumOut">$0.95</span></p>
+    </div>
+
+    <div>
+      <div class="signal" data-state="go" id="signal" role="status" aria-live="polite">
+        <span class="lamp" aria-hidden="true"></span>
+        <span class="txt" id="signalTxt">🟢 אור ירוק — יש ארביטראז'
+          <span class="sub" id="signalSub">הסל זול מהפדיון המובטח. קנייה של שלושת הצדדים נועלת רווח.</span>
+        </span>
+      </div>
+      <div class="card">
+        <table class="readout">
+          <tbody>
+            <tr><td>עלות כוללת <span class="footnote">C = N × (P1+P2+P3)</span></td><td class="num" id="costOut">$950</td></tr>
+            <tr><td>פדיון מובטח <span class="footnote">R = N × $1.00</span></td><td class="num" id="revOut">$1,000</td></tr>
+            <tr><td>רווח נקי</td><td class="num big" id="profitOut">+$50</td></tr>
+            <tr><td>תשואה על ההשקעה</td><td class="num" id="roiOut">+5.26%</td></tr>
+          </tbody>
+        </table>
+        <div class="outcomes">
+          <h3>מה קורה בסיום המשחק? (בכל תרחיש הפדיון זהה)</h3>
+          <div class="outcome-row"><span>ריאל ניצחה → חוזה ריאל פוקע ב־<span class="num">$1.00</span></span><span class="payout num" id="pay1">$1,000</span></div>
+          <div class="outcome-row"><span>ברצלונה ניצחה → חוזה ברצלונה פוקע ב־<span class="num">$1.00</span></span><span class="payout num" id="pay2">$1,000</span></div>
+          <div class="outcome-row"><span>תיקו → חוזה התיקו פוקע ב־<span class="num">$1.00</span></span><span class="payout num" id="pay3">$1,000</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ mistake ============ -->
+<section id="mistake">
+  <span class="eyebrow">תרחיש ב' · האזהרה החשובה ביותר</span>
+  <h2>הטעות הנפוצה: תקציב שווה ≠ כמות חוזים שווה</h2>
+  <p class="lede">
+    עם המחירים <span class="num">$0.50 / $0.25 / $0.20</span>, השוו בין שתי דרכי חלוקה.
+    רק אחת מהן היא ארביטראז' — השנייה היא הימור לכל דבר.
+  </p>
+  <div class="mode-toggle" role="group" aria-label="בחירת שיטת חלוקה">
+    <button class="mode-btn" id="modeShares" aria-pressed="true">✔ כמות חוזים שווה — 1,000 מכל סוג</button>
+    <button class="mode-btn" id="modeBudget" aria-pressed="false">✘ תקציב שווה — $100 על כל תוצאה</button>
+  </div>
+  <div class="card">
+    <p class="mode-note" id="modeNote">
+      קונים <strong>1,000 חוזים מכל סוג</strong> בעלות כוללת של <span class="num">$950</span>.
+      לא משנה מי ינצח — נפדה בדיוק 1,000 חוזים מנצחים תמורת <span class="num">$1,000</span>. הרווח קבוע.
+    </p>
+    <div class="plchart" id="plchart" aria-live="polite">
+      <div class="row">
+        <span class="who">ריאל ניצחה<small id="d1"></small></span>
+        <span class="track"><span class="axis" aria-hidden="true"></span><span class="bar gain" id="bar1"></span></span>
+        <span class="amt num" id="amt1"></span>
+      </div>
+      <div class="row">
+        <span class="who">ברצלונה ניצחה<small id="d2"></small></span>
+        <span class="track"><span class="axis" aria-hidden="true"></span><span class="bar gain" id="bar2"></span></span>
+        <span class="amt num" id="amt2"></span>
+      </div>
+      <div class="row">
+        <span class="who">תיקו<small id="d3"></small></span>
+        <span class="track"><span class="axis" aria-hidden="true"></span><span class="bar gain" id="bar3"></span></span>
+        <span class="amt num" id="amt3"></span>
+      </div>
+      <div class="zero" aria-hidden="true"><span>− הפסד</span><span>0</span><span>רווח +</span></div>
+    </div>
+    <div class="verdict-line good" id="mistakeVerdict">
+      ✔ רווח זהה בכל תרחיש — זה ארביטראז' אמיתי: התוצאה ידועה מראש.
+    </div>
+  </div>
+</section>
+
+<!-- ============ depth / slippage ============ -->
+<section id="depth">
+  <span class="eyebrow">פרק 2 · הלכה למעשה</span>
+  <h2>סימולטור עומק שוק: לאן נעלם הרווח?</h2>
+  <p class="lede">
+    על הנייר יש כאן ארביטראז' בינארי: <span class="num">YES $0.46 + NO $0.50 = $0.96</span>.
+    אבל ספר הפקודות דליל — ככל שקונים יותר, מטפסים במעלה הסולם והמחיר האפקטיבי עולה.
+    גררו את הכמות וראו את המרווח נשחק.
+  </p>
+  <div class="card" style="margin-top:16px">
+    <div class="slider-row" style="margin-bottom:4px">
+      <div class="slider-head">
+        <label for="depthN">כמה סטים (YES+NO) לקנות?</label>
+        <span class="val num" id="depthNv">300</span>
+      </div>
+      <input type="range" id="depthN" min="50" max="3000" step="50" value="300">
+    </div>
+    <div class="depth-grid">
+      <div class="book">
+        <header>ספר פקודות — YES (Ask)</header>
+        <table id="bookYes">
+          <thead><tr><th scope="col">מחיר</th><th scope="col">כמות זמינה</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="book">
+        <header>ספר פקודות — NO (Ask)</header>
+        <table id="bookNo">
+          <thead><tr><th scope="col">מחיר</th><th scope="col">כמות זמינה</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="depth-readout">
+      <table class="readout">
+        <tbody>
+          <tr><td>מחיר אפקטיבי ממוצע לסט (YES+NO)</td><td class="num" id="vwapOut">$0.960</td></tr>
+          <tr><td>עלות כוללת</td><td class="num" id="depthCost">$288</td></tr>
+          <tr><td>פדיון מובטח</td><td class="num" id="depthRev">$300</td></tr>
+          <tr><td>רווח נקי אחרי Slippage</td><td class="num big" id="depthProfit">+$12</td></tr>
+        </tbody>
+      </table>
+      <p class="depth-msg" id="depthMsg" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ risks ============ -->
+<section id="risks">
+  <span class="eyebrow">פרק 2</span>
+  <h2>למה זה לא "כסף קל"</h2>
+  <p class="lede">מתמטית הרווח נעול; תפעולית יש ארבעה חיכוכים שצריך לנהל.</p>
+  <div class="grid-2" style="margin-top:18px">
+    <div class="card risk-card">
+      <h3><span class="icon" aria-hidden="true">!</span> החלקת מחיר (Slippage)</h3>
+      <p>ספר פקודות דליל: קנייה גדולה מטפסת במעלה מחירי ה־Ask ומעלימה את המרווח תוך כדי הביצוע. <a href="#depth">נסו בסימולטור למעלה</a> — זה בדיוק מה שהוא מדגים.</p>
+    </div>
+    <div class="card risk-card">
+      <h3><span class="icon" aria-hidden="true">!</span> נעילת הון (Capital Lockup)</h3>
+      <p>ארביטראז' של 3% בשוק שנסגר בעוד 3 חודשים פוגע ביעילות ההון. מקצוענים מפעילים <strong>אסטרטגיית רוטציה</strong> — מוכרים בחזרה לשוק ברגע שהפער נסגר ומשחררים את הכסף להזדמנות הבאה.</p>
+    </div>
+    <div class="card risk-card">
+      <h3><span class="icon" aria-hidden="true">!</span> עלויות רשת (Gas)</h3>
+      <p>עמלות Polygon הן סנטים בודדים, אבל במסחר אוטומטי מהיר הן מצטברות ושוחקות מרווחים דקים. חייבים לכלול אותן בחישוב הכדאיות של כל עסקה.</p>
+    </div>
+    <div class="card risk-card">
+      <h3><span class="icon" aria-hidden="true">!</span> סיכון יישוב שוק (Resolution)</h3>
+      <p>מחלוקת על תוצאת האירוע יכולה לעכב או לשנות את יישוב השוק (ההכרעה נעשית דרך UMA Oracle). "מובטח מתמטית" נכון רק אם השוק מיושב כמצופה.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ plan ============ -->
+<section id="plan">
+  <span class="eyebrow">פרק 5</span>
+  <h2>תוכנית עבודה: מתיאוריה למעשה בארבעה שבועות</h2>
+  <ol class="timeline">
+    <li>
+      <span class="tl-dot num" aria-hidden="true">1</span>
+      <span class="when">שבוע 1</span>
+      <h3>תשתית פיננסית וטכנולוגית</h3>
+      <ul class="checklist">
+        <li><label><input type="checkbox"><span>ארנק לא-משמורני (MetaMask / Coinbase Wallet) מוגדר על רשת Polygon</span></label></li>
+        <li><label><input type="checkbox"><span>מימון ב־USDC לרכישת חוזים + POL/MATIC לעמלות Gas</span></label></li>
+        <li><label><input type="checkbox"><span>הרשמה לפולימרקט והנפקת מפתחות API דרך ממשק ה־CLOB</span></label></li>
+      </ul>
+    </li>
+    <li>
+      <span class="tl-dot num" aria-hidden="true">2</span>
+      <span class="when">שבוע 2</span>
+      <h3>איתור וביצוע ידני</h3>
+      <ul class="checklist">
+        <li><label><input type="checkbox"><span>שימוש בסורקים קיימים (למשל סורקי התאמות פולימרקט–Kalshi ב־Apify)</span></label></li>
+        <li><label><input type="checkbox"><span>ניתוח ידני של עומק ספרי הפקודות לפני כל כניסה — לוודא שאין Slippage משמעותי</span></label></li>
+        <li><label><input type="checkbox"><span>עסקאות ניסיון קטנות (<span class="num">$10–$50</span>): קנייה, גידור ופדיון מקצה לקצה</span></label></li>
+      </ul>
+    </li>
+    <li>
+      <span class="tl-dot num" aria-hidden="true">3</span>
+      <span class="when">שבוע 3</span>
+      <h3>בוט סריקה והתראות</h3>
+      <ul class="checklist">
+        <li><label><input type="checkbox"><span>Python או Node.js עם ספריות ההתממשקות של פולימרקט</span></label></li>
+        <li><label><input type="checkbox"><span>משיכת שווקים פעילים ומחירי Ask מיטביים בזמן אמת</span></label></li>
+        <li><label><input type="checkbox"><span>זיהוי הזדמנויות עם <span class="num">Sum &lt; 0.98</span> (מרווח ביטחון של 2% לפחות)</span></label></li>
+        <li><label><input type="checkbox"><span>התראה מיידית לדיסקורד/טלגרם עם קישור ישיר לעסקה</span></label></li>
+      </ul>
+    </li>
+    <li>
+      <span class="tl-dot num" aria-hidden="true">4</span>
+      <span class="when">שבוע 4 ואילך</span>
+      <h3>אוטומציה מלאה וניהול סיכונים</h3>
+      <ul class="checklist">
+        <li><label><input type="checkbox"><span>פקודות Limit בלבד — לעולם לא Market, כדי לא לקנות במחירים מנופחים</span></label></li>
+        <li><label><input type="checkbox"><span>חוק ה־10%: חשיפה מקסימלית לעסקה בודדת של עד 10% מהתיק</span></label></li>
+        <li><label><input type="checkbox"><span>רוטציה אוטומטית: מכירה בחזרה ב~80% מהפוטנציאל כדי לשחרר הון מהר</span></label></li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+<footer class="disclaimer">
+  מדריך זה נועד להמחשה חינוכית של עקרונות מתמטיים בשוקי חיזוי ואינו מהווה ייעוץ השקעות,
+  המלצה או שידול לביצוע עסקאות. מסחר בשוקי חיזוי ובנכסי קריפטו כרוך בסיכונים תפעוליים,
+  רגולטוריים וטכנולוגיים, וייתכן שאינו חוקי או זמין באזור מגוריכם. בדקו את הדין המקומי ופעלו באחריותכם בלבד.
+</footer>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+
+  var usd0 = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+  var usd2 = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2 });
+  var usd3 = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 3, maximumFractionDigits: 3 });
+  function signed(v) { return (v >= 0 ? "+" : "−") + usd0.format(Math.abs(v)); }
+
+  /* ===== calculator ===== */
+  var presets = {
+    a:    [50, 25, 20],
+    c:    [55, 35, 20],
+    even: [34, 33, 33]
+  };
+  var sliders = [$("p1"), $("p2"), $("p3")];
+  var vals = [$("p1v"), $("p2v"), $("p3v")];
+  var presetBtns = Array.prototype.slice.call(document.querySelectorAll(".preset"));
+
+  function clearPressed() {
+    presetBtns.forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
+  }
+
+  function calc() {
+    var p = sliders.map(function (s) { return parseInt(s.value, 10) / 100; });
+    var n = Math.max(1, parseInt($("nshares").value, 10) || 1);
+    var sum = p[0] + p[1] + p[2];
+    var cost = n * sum;
+    var rev = n;
+    var profit = rev - cost;
+    var roi = (profit / cost) * 100;
+
+    p.forEach(function (v, i) { vals[i].textContent = usd2.format(v); });
+    $("sumOut").textContent = usd2.format(sum);
+    $("costOut").textContent = usd0.format(cost);
+    $("revOut").textContent = usd0.format(rev);
+    var po = $("profitOut");
+    po.textContent = signed(profit);
+    po.className = "num big " + (profit > 0 ? "pl-gain" : profit < 0 ? "pl-loss" : "");
+    var ro = $("roiOut");
+    ro.textContent = (roi >= 0 ? "+" : "−") + Math.abs(roi).toFixed(2) + "%";
+    ro.className = "num " + (profit > 0 ? "pl-gain" : profit < 0 ? "pl-loss" : "");
+    ["pay1", "pay2", "pay3"].forEach(function (id) { $(id).textContent = usd0.format(n); });
+
+    var fill = $("gaugeFill");
+    fill.style.width = Math.min(100, (sum / 1.2) * 100) + "%";
+    fill.classList.toggle("over", sum > 1);
+
+    var sig = $("signal"), txt = $("signalTxt"), sub = $("signalSub");
+    if (sum < 1) {
+      sig.dataset.state = "go";
+      txt.firstChild.textContent = "🟢 אור ירוק — יש ארביטראז' של " + ((1 - sum) * 100).toFixed(0) + " סנט לסט ";
+      sub.textContent = "הסל זול מהפדיון המובטח. קנייה של שלושת הצדדים בכמות זהה נועלת את הרווח.";
+    } else if (sum > 1) {
+      sig.dataset.state = "stop";
+      txt.firstChild.textContent = "🔴 אור אדום — כניסה עכשיו היא הפסד מובטח ";
+      sub.textContent = "הסל יקר מהפדיון: תשלמו " + usd2.format(sum) + " על מה ששווה בוודאות " + usd2.format(1) + ".";
+    } else {
+      sig.dataset.state = "";
+      txt.firstChild.textContent = "⚪ שוק מאוזן במדויק — אין רווח ואין הפסד ";
+      sub.textContent = "הסל עולה בדיוק כמו הפדיון. אין כאן עסקה.";
+    }
+  }
+
+  sliders.forEach(function (s) {
+    s.addEventListener("input", function () { clearPressed(); calc(); });
+  });
+  $("nshares").addEventListener("input", calc);
+  presetBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var v = presets[btn.dataset.preset];
+      sliders.forEach(function (s, i) { s.value = v[i]; });
+      clearPressed();
+      btn.setAttribute("aria-pressed", "true");
+      calc();
+    });
+  });
+  calc();
+
+  /* ===== mistake demo ===== */
+  var P = [0.5, 0.25, 0.2];
+  var MAXBAR = 220; /* $ scale for half-track */
+  function renderMistake(mode) {
+    $("modeShares").setAttribute("aria-pressed", mode === "shares" ? "true" : "false");
+    $("modeBudget").setAttribute("aria-pressed", mode === "budget" ? "true" : "false");
+    var rows;
+    if (mode === "shares") {
+      /* 1000 shares each: cost $950, payout $1000 always */
+      rows = P.map(function () { return { shares: 1000, pl: 1000 - 950 }; });
+      $("modeNote").innerHTML =
+        'קונים <strong>1,000 חוזים מכל סוג</strong> בעלות כוללת של <span class="num">$950</span>. ' +
+        'לא משנה מי ינצח — נפדה בדיוק 1,000 חוזים מנצחים תמורת <span class="num">$1,000</span>. הרווח קבוע.';
+      var v = $("mistakeVerdict");
+      v.className = "verdict-line good";
+      v.textContent = "✔ רווח זהה בכל תרחיש — זה ארביטראז' אמיתי: התוצאה ידועה מראש.";
+    } else {
+      /* $100 per leg: shares 200 / 400 / 500, cost $300 */
+      rows = P.map(function (p) {
+        var sh = Math.round(100 / p);
+        return { shares: sh, pl: sh - 300 };
+      });
+      $("modeNote").innerHTML =
+        'משקיעים <span class="num">$100</span> על כל תוצאה (סה"כ <span class="num">$300</span>) ומקבלים כמויות שונות: ' +
+        '<span class="num">200</span> חוזי ריאל, <span class="num">400</span> חוזי ברצלונה, <span class="num">500</span> חוזי תיקו. ' +
+        'עכשיו התוצאה תלויה במי שינצח.';
+      var v2 = $("mistakeVerdict");
+      v2.className = "verdict-line bad";
+      v2.textContent = "✘ התוצאה משתנה בין תרחיש לתרחיש — זה הימור, לא ארביטראז'. ארביטראז' מחייב N זהה לכל האפשרויות.";
+    }
+    rows.forEach(function (r, i) {
+      var bar = $("bar" + (i + 1)), amt = $("amt" + (i + 1)), d = $("d" + (i + 1));
+      var w = Math.min(50, Math.abs(r.pl) / MAXBAR * 50);
+      bar.className = "bar " + (r.pl >= 0 ? "gain" : "loss");
+      bar.style.width = w + "%";
+      amt.textContent = signed(r.pl);
+      amt.className = "amt num " + (r.pl >= 0 ? "pl-gain" : "pl-loss");
+      d.textContent = "פודים " + r.shares.toLocaleString("en-US") + " חוזים × $1.00";
+    });
+  }
+  $("modeShares").addEventListener("click", function () { renderMistake("shares"); });
+  $("modeBudget").addEventListener("click", function () { renderMistake("budget"); });
+  renderMistake("shares");
+
+  /* ===== depth / slippage simulator ===== */
+  var LADDER_YES = [
+    { px: 0.46, qty: 300 },
+    { px: 0.48, qty: 500 },
+    { px: 0.51, qty: 800 },
+    { px: 0.55, qty: 1400 }
+  ];
+  var LADDER_NO = [
+    { px: 0.50, qty: 400 },
+    { px: 0.52, qty: 600 },
+    { px: 0.56, qty: 900 },
+    { px: 0.60, qty: 1100 }
+  ];
+
+  function buildBook(tableId, ladder) {
+    var tb = document.querySelector("#" + tableId + " tbody");
+    ladder.forEach(function (lvl, i) {
+      var tr = document.createElement("tr");
+      tr.innerHTML =
+        '<td><span class="consumed" data-i="' + i + '" style="width:0"></span><span class="num">' + usd2.format(lvl.px) + "</span></td>" +
+        '<td><span class="num">' + lvl.qty.toLocaleString("en-US") + "</span></td>";
+      tb.appendChild(tr);
+    });
+  }
+  buildBook("bookYes", LADDER_YES);
+  buildBook("bookNo", LADDER_NO);
+
+  function walk(ladder, n) {
+    var left = n, cost = 0, fills = [];
+    for (var i = 0; i < ladder.length; i++) {
+      var take = Math.min(left, ladder[i].qty);
+      cost += take * ladder[i].px;
+      fills.push(take / ladder[i].qty);
+      left -= take;
+    }
+    return { cost: cost, fills: fills, unfilled: left };
+  }
+
+  function renderDepth() {
+    var n = parseInt($("depthN").value, 10);
+    $("depthNv").textContent = n.toLocaleString("en-US");
+    var y = walk(LADDER_YES, n), no = walk(LADDER_NO, n);
+    var filled = n - Math.max(y.unfilled, no.unfilled);
+    var cost = y.cost + no.cost;
+
+    ["bookYes", "bookNo"].forEach(function (id, k) {
+      var fills = k === 0 ? y.fills : no.fills;
+      document.querySelectorAll("#" + id + " .consumed").forEach(function (el, i) {
+        el.style.width = (fills[i] * 100) + "%";
+      });
+    });
+
+    var vwap = cost / n;
+    var profit = n - cost;
+    $("vwapOut").textContent = usd3.format(vwap);
+    $("depthCost").textContent = usd0.format(cost);
+    $("depthRev").textContent = usd0.format(n);
+    var dp = $("depthProfit");
+    dp.textContent = signed(profit);
+    dp.className = "num big " + (profit > 0 ? "pl-gain" : "pl-loss");
+
+    var msg = $("depthMsg");
+    if (y.unfilled > 0 || no.unfilled > 0) {
+      msg.textContent = "⚠ אין מספיק נזילות בספר לכמות הזו — " +
+        Math.max(y.unfilled, no.unfilled).toLocaleString("en-US") + " סטים יישארו ללא כיסוי (סיכון פתוח).";
+      msg.style.color = "var(--warn)";
+    } else if (vwap < 1 && profit > 0) {
+      msg.textContent = "המרווח שרד את ה־Slippage: מחיר אפקטיבי " + usd3.format(vwap) + " לסט, עדיין מתחת לדולר.";
+      msg.style.color = "var(--gain-text)";
+    } else {
+      msg.textContent = "ה־Slippage בלע את כל המרווח: המחיר האפקטיבי חצה את קו הדולר והעסקה הפכה להפסד מובטח.";
+      msg.style.color = "var(--loss-text)";
+    }
+  }
+  $("depthN").addEventListener("input", renderDepth);
+  renderDepth();
+})();
+</script>
+</body>
+</html>
