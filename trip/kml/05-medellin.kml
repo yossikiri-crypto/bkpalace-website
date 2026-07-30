@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>🇨🇴 5. מדג&#x27;ין (Medellín) | ימים 14–19 (4–9 בקולומביה)</name>
+    <Style id="attraction">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="nightlife">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/purple-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="hotel">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/blue-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="transport">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="route">
+      <LineStyle><color>ccF27221</color><width>4</width></LineStyle>
+    </Style>
+    <Placemark>
+      <name>✈️ שדה תעופה מדג&#x27;ין (MDE)</name>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>השדה הראשי – כ-45 דק&#x27; מהעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Jos%C3%A9%20Mar%C3%ADa%20C%C3%B3rdova%20International%20Airport%2C%20Rionegro">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#transport</styleUrl>
+      <Point><coordinates>-75.4231,6.1645,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 קומונה 13 – סיור גרפיטי</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>סיור הגרפיטי והמדרגות החשמליות המפורסמות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-75.619,6.2529,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 Parque Arví (רכבל)</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עלייה ברכבל המטרו-קייבל והליכה ביער.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-75.5027,6.2846,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 Piedra del Peñol – 740 מדרגות</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טיפוס על הסלע הענק – תצפית האגמים הכי מפורסמת בקולומביה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Piedra%20del%20Pe%C3%B1ol%2C%20Guatap%C3%A9">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-75.1785,6.2202,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 עיירת גואטפה (Guatapé)</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>העיירה הצבעונית ליד הסלע – יום טיול ממדג&#x27;ין (כשעתיים).<br/><a href="https://www.google.com/maps/search/?api=1&query=Guatap%C3%A9%2C%20Antioquia">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-75.1592,6.2326,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Perro Negro – רגאטון</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון הרגאטון האגדי בפובלאדו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Perro%20Negro%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-75.567,6.2094,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Vintrash – מועדון</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבות אקלקטיות על כמה קומות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Vintrash%20Bar%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-75.5666,6.2107,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Salón Amador – אלקטרוני</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון האלקטרוני המוביל בעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n%20Amador%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-75.57,6.211,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 רחוב Provenza</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>רחוב הברים והמסעדות של אל פובלאדו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Provenza%2C%20El%20Poblado%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-75.5657,6.2079,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 רחוב La 70 (Carrera 70)</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>רחוב מסיבות מקומי יותר באזור לאורלס/אצטדיון.<br/><a href="https://www.google.com/maps/search/?api=1&query=Carrera%2070%2C%20Laureles%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-75.591,6.2589,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 The Click Clack Hotel (בוטיק)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק מעוצב באל פובלאדו, רופטופ שווה.<br/><a href="https://www.google.com/maps/search/?api=1&query=The%20Click%20Clack%20Hotel%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-75.564,6.2093,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Los Patios Cool Living (הוסטל)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה עם רופטופים ואווירה חברתית.<br/><a href="https://www.google.com/maps/search/?api=1&query=Los%20Patios%20Hostel%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-75.5697,6.2116,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
