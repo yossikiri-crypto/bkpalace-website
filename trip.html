@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>ברזיל וקולומביה – 30 יום | מפת הטיול</title>
+<title>ברזיל – קרנבל 2027 | מפת הטיול</title>
 <style>
   :root {
     --green:#1b7f4d; --purple:#7b3fa0; --blue:#1f5fb8; --yellow:#c98a00;
@@ -29,6 +29,10 @@
   .stop-head h2 { font-size:1.25rem; }
   .days { color:var(--muted); font-size:.9rem; font-weight:600; }
   .transfer { background:#fff7e6; border-right:4px solid var(--yellow); padding:8px 12px; border-radius:8px; font-size:.93rem; margin-bottom:14px; }
+  .plan-h { font-size:1rem; margin:14px 0 6px; }
+  ol.plan { padding-right:20px; margin-bottom:6px; }
+  ol.plan li { margin-bottom:7px; font-size:.95rem; }
+  ol.plan b { color:var(--green); }
   ul.places { list-style:none; }
   li.place { display:flex; gap:10px; padding:9px 0; border-bottom:1px dashed #ece7dc; }
   li.place:last-child { border-bottom:none; }
@@ -53,47 +57,42 @@
   .map-hint { color:var(--muted); font-size:.88rem; margin-top:10px; }
   .mapbtn { margin-top:4px; border:1px solid #d8d2c4; background:#faf8f2; color:var(--muted); padding:3px 10px; border-radius:999px; cursor:pointer; font-size:.8rem; font-family:inherit; }
   .mapbtn:hover { border-color:var(--accent); color:var(--accent); }
-  footer { text-align:center; color:var(--muted); font-size:.9rem; padding:20px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="hero">
-    <h1>🇧🇷🇨🇴 ברזיל וקולומביה – 30 יום</h1>
-    <p>31.1 – 1.3.2027 · מתוזמן לקרנבל בריו (5–9.2) 🎭<br>איגואסו ← איליה גרנדה ← ריו ← עמק הקפה ← מדג'ין ← סנטה מרטה ← קרטחנה ← סאן אנדרס</p>
+    <h1>🇧🇷🎭 ברזיל – קרנבל 2027</h1>
+    <p>2–12.2.2027 · ריו בקרנבל ← בוזיוס ואראיאל דו קאבו ← איליה גרנדה ← ריו וטיסה הביתה</p>
   </header>
 
   <div class="mapbox" id="mapviewer">
     <h2>🗺️ המסלול על המפה</h2>
-    <img class="route-img" src="trip/route-map.png" alt="מפת המסלול: ברזיל וקולומביה – 30 יום">
+    <img class="route-img" src="trip/route-map.png" alt="מפת המסלול: ברזיל – קרנבל 2027">
     <div class="chips">
-      <button class="chip active" data-q="South America" data-z="3">🌎 כל המסלול</button>
-      <button class="chip" data-q="Foz do Iguaçu, Brazil" data-z="11">1. איגואסו</button>
-      <button class="chip" data-q="Ilha Grande, Angra dos Reis, Brazil" data-z="12">2. איליה גרנדה</button>
-      <button class="chip" data-q="Rio de Janeiro, Brazil" data-z="11">3. ריו</button>
-      <button class="chip" data-q="Salento, Quindío, Colombia" data-z="12">4. סאלנטו</button>
-      <button class="chip" data-q="Medellín, Colombia" data-z="11">5. מדג'ין</button>
-      <button class="chip" data-q="Santa Marta, Colombia" data-z="10">6. סנטה מרטה</button>
-      <button class="chip" data-q="Cartagena, Colombia" data-z="12">7. קרטחנה</button>
-      <button class="chip" data-q="San Andrés, Colombia" data-z="12">8. סאן אנדרס</button>
+      <button class="chip active" data-q="State of Rio de Janeiro, Brazil" data-z="8">🌎 כל המסלול</button>
+      <button class="chip" data-q="Rio de Janeiro, Brazil" data-z="11">1. ריו · קרנבל</button>
+      <button class="chip" data-q="Búzios, Rio de Janeiro, Brazil" data-z="13">2. בוזיוס</button>
+      <button class="chip" data-q="Arraial do Cabo, Brazil" data-z="13">2ב. אראיאל דו קאבו</button>
+      <button class="chip" data-q="Ilha Grande, Angra dos Reis, Brazil" data-z="12">3. איליה גרנדה</button>
+      <button class="chip" data-q="Ipanema, Rio de Janeiro, Brazil" data-z="13">4. ריו – סיום</button>
     </div>
-    <iframe id="gmap" src="https://maps.google.com/maps?q=South+America&z=3&output=embed&hl=iw" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="Google Maps"></iframe>
-    <p class="map-hint">לחצו על תחנה כדי להתמקד בה במפת Google, או על "🗺️ הצג במפה" ליד כל מקום ברשימה למטה. את המפה אפשר להגדיל, להזיז ולפתוח באפליקציית Google Maps.</p>
+    <iframe id="gmap" src="https://maps.google.com/maps?q=State+of+Rio+de+Janeiro,+Brazil&z=8&output=embed&hl=iw" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="Google Maps"></iframe>
+    <p class="map-hint">לחצו על תחנה כדי להתמקד בה במפת Google, או על "🗺️ הצג במפה" ליד כל מקום ברשימה למטה.</p>
   </div>
 
   <div class="howto">
-    <h2>🗺️ איך טוענים את המסלול ל-Google Maps (פעם אחת, 5 דקות)</h2>
+    <h2>🗺️ טעינת כל הסיכות ל-Google Maps (פעם אחת, 5 דקות)</h2>
     <ol>
       <li>נכנסים ל-<a href="https://mymaps.google.com" target="_blank" rel="noopener">Google My Maps</a> ולוחצים <b>Create a new map</b>.</li>
-      <li>בכל שכבה לוחצים <b>Import</b> ומעלים קובץ KML אחד מהרשימה למטה — <b>שכבה לכל תחנה</b> (עד 10 שכבות, יש לנו 8).</li>
-      <li>נותנים למפה שם (למשל "ברזיל–קולומביה 30 יום") — והמפה מופיעה אוטומטית באפליקציית Google Maps בטלפון תחת <b>שמורים ← מפות</b>.</li>
-      <li>אפשרות מהירה: להוריד את <a href="trip/kml/00-full-trip.kml" download>הקובץ המאוחד</a> ולייבא אותו כשכבה אחת (כולל קו מסלול).</li>
+      <li>בכל שכבה לוחצים <b>Import</b> ומעלים קובץ KML אחד מהרשימה (שכבה לכל תחנה), או את הקובץ המאוחד.</li>
+      <li>המפה מופיעה אוטומטית באפליקציית Google Maps בטלפון תחת <b>שמורים ← מפות</b>.</li>
     </ol>
     <div class="legend">
       <span>🥾 ירוק – אטרקציות וטרקים</span>
       <span>🍻 סגול – ברים וחיי לילה</span>
       <span>🏨 כחול – לינה</span>
-      <span>✈️ צהוב – שדות תעופה ומעברים</span>
+      <span>✈️ צהוב – תחבורה</span>
     </div>
     <a class="dl-all" href="trip/kml/00-full-trip.kml" download>📥 הורדת המפה המלאה (KML)</a>
   </div>
@@ -102,198 +101,123 @@
       <div class="stop-head">
         <span class="num">1</span>
         <div>
-          <h2>🇧🇷 מפלי איגואסו (Foz do Iguaçu)</h2>
-          <span class="days">ימים 1–2 · א׳–ב׳ 31.1–1.2.2027</span>
+          <h2>🎭 ריו דה ז'ניירו – ימי הקרנבל</h2>
+          <span class="days">ימים 1–5 · ג׳–ש׳ 2–6.2.2027</span>
         </div>
       </div>
-      <p class="transfer">➔ ✈️ טיסה בינלאומית לנחיתה בשדה התעופה של איגואסו (IGU).</p>
+      <p class="transfer">➔ ✈️ נחיתה בריו (GIG) ביום ג׳ 2.2. לינה באזור איפנמה / קופקבנה. להזמין לינה וכרטיסי סמבודרום חודשים מראש – מחירי קרנבל!</p>
+      <h3 class="plan-h">📅 יום-יום</h3>
+      <ol class="plan">
+        <li><b>ג׳ 2.2</b> — נחיתה והתאקלמות: הגעה למלון, ותצפית שקיעה על סלע Arpoador עם קאיפיריניה ראשונה בים.</li>
+        <li><b>ד׳ 3.2</b> — בוקר: טרק Morro Dois Irmãos לתצפית המטורפת על העיר. ערב: מסיבות רחוב מקדימות (Pré-Carnaval Blocos) בלאפה או בסנטה טרזה.</li>
+        <li><b>ה׳ 4.2</b> — בוקר: חוף Joatinga המסתתר בין הצוקים. ערב: הכנות לקרנבל – נצנצים, תלבושות ואביזרים בשוק Saara.</li>
+        <li><b>ו׳ 5.2</b> — פתיחת הקרנבל הרשמי! 🎉 יום שלם של Blocos de Rua – מסיבות רחוב המוניות בתחפושות בכל העיר. לילה (אופציה מטורפת): המצעד הראשון בסמבודרום (Série Ouro).</li>
+        <li><b>ש׳ 6.2</b> — בוקר: מסיבת סירה (Party Boat) או בלוקו מרכזי. אחה״צ: יציאה לבוזיוס – לפני פקקי הענק של יום ראשון.</li>
+      </ol>
+      <h3 class="plan-h">📍 המקומות</h3>
       <ul class="places">
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Foz%20do%20Igua%C3%A7u%20International%20Airport" target="_blank" rel="noopener">שדה התעופה פוס דו איגואסו (IGU)</a><p>נקודת הנחיתה הבינלאומית לתחילת הטיול.</p><button class="mapbtn" data-q="Foz do Iguaçu International Airport" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Cataratas%20do%20Igua%C3%A7u%2C%20Parque%20Nacional%20do%20Igua%C3%A7u%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">מפלי איגואסו – הצד הברזילאי</a><p>המסלול הברזילאי של המפלים – התצפיות הפנורמיות הגדולות.</p><button class="mapbtn" data-q="Cataratas do Iguaçu, Parque Nacional do Iguaçu, Foz do Iguaçu" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Macuco%20Safari%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Macuco Safari – שיט מתחת למפלים</a><p>שיט סירת מנוע אל מתחת למפלים. להביא בגדים להחלפה!</p><button class="mapbtn" data-q="Macuco Safari, Foz do Iguaçu" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Parque%20das%20Aves%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Parque das Aves – פארק הציפורים</a><p>פארק ציפורים טרופי מול הכניסה לפארק הלאומי.</p><button class="mapbtn" data-q="Parque das Aves, Foz do Iguaçu" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rafain%20Churrascaria%20Show%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Rafain Churrascaria – מופע פולקלור</a><p>ארוחת בשרים ומופע פולקלור דרום-אמריקאי.</p><button class="mapbtn" data-q="Rafain Churrascaria Show, Foz do Iguaçu" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Belmond%20Hotel%20das%20Cataratas%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Belmond Hotel das Cataratas (בוטיק/יוקרה)</a><p>המלון היחיד בתוך הפארק הלאומי – גישה למפלים לפני כולם.</p><button class="mapbtn" data-q="Belmond Hotel das Cataratas, Foz do Iguaçu" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Tetris%20Container%20Hostel%2C%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">Tetris Container Hostel (הוסטל)</a><p>הוסטל מעוצב ממכולות, ברמה גבוהה.</p><button class="mapbtn" data-q="Tetris Container Hostel, Foz do Iguaçu" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport" target="_blank" rel="noopener">שדה תעופה גליאאו (GIG)</a><p>נחיתה ביום ג׳ 2.2.</p><button class="mapbtn" data-q="Rio de Janeiro–Galeão International Airport" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Pedra%20do%20Arpoador%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">תצפית Arpoador</a><p>הסלע בין איפנמה לקופקבנה – השקיעה הראשונה של הטיול + קאיפיריניה.</p><button class="mapbtn" data-q="Pedra do Arpoador, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Trilha%20Morro%20Dois%20Irm%C3%A3os%2C%20Vidigal%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">טרק Morro Dois Irmãos</a><p>מוטו-טקסי לראש פאבלת וידיגל + כ-40 דק׳ הליכה לתצפית הכי שווה בריו. בוקר ד׳ 3.2.</p><button class="mapbtn" data-q="Trilha Morro Dois Irmãos, Vidigal, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20da%20Joatinga%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">חוף Joatinga</a><p>חוף נסתר בין צוקים בשכונת ז׳ואטינגה – מגיעים בשביל ירידה קצר. בוקר ה׳ 4.2.</p><button class="mapbtn" data-q="Praia da Joatinga, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Mercado%20Saara%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">שוק Saara – ציוד קרנבל</a><p>מתחם שוק ענק במרכז – נצנצים, תלבושות ואביזרים בזול. ערב ה׳ 4.2.</p><button class="mapbtn" data-q="Mercado Saara, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Ipanema%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">חוף איפנמה</a><p>בסיס הלינה – פוסטו 9.</p><button class="mapbtn" data-q="Praia de Ipanema, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Copacabana%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">חוף קופקבנה</a><p>טיילת הגלים המפורסמת.</p><button class="mapbtn" data-q="Praia de Copacabana, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Cristo%20Redentor%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">פסל ישו + הר הסוכר</a><p>האייקונים של ריו – לשבץ בבוקר פנוי (או ביום האחרון 12.2).</p><button class="mapbtn" data-q="Cristo Redentor, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Sambodromo%20Marques%20de%20Sapucai%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 הסמבודרום – מצעד Série Ouro</a><p>ליל שישי 5.2 מ-21:00: מצעד הפתיחה של הקרנבל. כרטיסים מראש! (מצעדי-העל: ראשון–שלישי 7–9.2).</p><button class="mapbtn" data-q="Sambodromo Marques de Sapucai, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Arcos%20da%20Lapa%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 לאפה – Pré-Carnaval</a><p>אזור המסיבות המקדימות – ערב ד׳ 3.2 מתחת לקשתות.</p><button class="mapbtn" data-q="Arcos da Lapa, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Largo%20do%20Curvelo%2C%20Santa%20Teresa%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 סנטה טרזה – בלוקו Carmelitas</a><p>בלוקו שכונתי מקסים בסמטאות – פתיחת הקרנבל, שישי 5.2.</p><button class="mapbtn" data-q="Largo do Curvelo, Santa Teresa, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Cordao%20da%20Bola%20Preta%2C%20Centro%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 בלוקו Cordão da Bola Preta</a><p>הבלוקו הוותיק והענק של ריו – שבת 6.2 בבוקר, לפני היציאה לבוזיוס.</p><button class="mapbtn" data-q="Cordao da Bola Preta, Centro, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Marina%20da%20Gloria%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 מסיבת סירה – Marina da Glória</a><p>Party Boat במפרץ גואנברה – בוקר שבת 6.2 (להזמין מראש).</p><button class="mapbtn" data-q="Marina da Gloria, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rio%20Scenarium%2C%20Lapa%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Rio Scenarium – סמבה בלאפה</a><p>מועדון סמבה איקוני על 3 קומות – לערב שלא בבלוקו.</p><button class="mapbtn" data-q="Rio Scenarium, Lapa, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Janeiro%20Hotel%2C%20Leblon%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Janeiro Hotel (בוטיק)</a><p>בוטיק שקט מול חוף לבלון.</p><button class="mapbtn" data-q="Janeiro Hotel, Leblon, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Selina%20Copacabana%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Selina Copacabana (הוסטל)</a><p>הוסטל-בוטיק ברמה גבוהה בקופקבנה.</p><button class="mapbtn" data-q="Selina Copacabana, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Ipanema%20Beach%20House%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Ipanema Beach House (הוסטל)</a><p>הוסטל עם בריכה במרחק הליכה מהחוף.</p><button class="mapbtn" data-q="Ipanema Beach House, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
       </ul>
-      <p class="kml-dl">📥 <a href="trip/kml/01-foz-do-iguacu.kml" download>הורדת שכבת KML לתחנה זו</a></p>
+      <p class="kml-dl">📥 <a href="trip/kml/01-rio-carnaval.kml" download>הורדת שכבת KML לתחנה זו</a></p>
     </section>
     <section class="stop">
       <div class="stop-head">
         <span class="num">2</span>
         <div>
-          <h2>🇧🇷 האי איליה גרנדה (Ilha Grande)</h2>
-          <span class="days">ימים 3–4 · ג׳–ד׳ 2–3.2.2027 (קוצר ל-2 ימים לטובת הקרנבל)</span>
+          <h2>⛵ בוזיוס + אראיאל דו קאבו</h2>
+          <span class="days">ימים 5–7 · ש׳–ב׳ 6–8.2.2027</span>
         </div>
       </div>
-      <p class="transfer">➔ ✈️ טיסה מ-IGU לריו (SDU/GIG) ← 🚐 שאטל ל-Conceição de Jacareí ← 🛥️ סירה מהירה לאי.</p>
+      <p class="transfer">➔ 🚐 שבת 6.2 אחה״צ: רכב/שאטל מריו לבוזיוס (כ-2.5–3 שעות) – יוצאים מוקדם כדי לחמוק מפקקי הקרנבל.</p>
+      <h3 class="plan-h">📅 יום-יום</h3>
+      <ol class="plan">
+        <li><b>ש׳ 6.2 ערב</b> — הגעה לבוזיוס, צ׳ק-אין, ויציאה לברים ולמועדונים של Rua das Pedras.</li>
+        <li><b>א׳ 7.2</b> — ׳הקריביים של ברזיל׳: יציאה מוקדמת לאראיאל דו קאבו – שייט, עצירה ב-Praia do Farol, ומדרגות העץ המפורסמות של Prainhas do Pontal do Atalaia. ערב: חזרה לבוזיוס למסיבת שקיעה ב-Silk Beach Club.</li>
+        <li><b>ב׳ 8.2</b> — בוקר רגוע בחוף Geribá, ונסיעה דרומה לכיוון נמל המעבורות של איליה גרנדה.</li>
+      </ol>
+      <h3 class="plan-h">📍 המקומות</h3>
       <ul class="places">
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Concei%C3%A7%C3%A3o%20de%20Jacare%C3%AD%2C%20Mangaratiba" target="_blank" rel="noopener">נמל Conceição de Jacareí</a><p>נקודת היציאה של הסירות המהירות לאיליה גרנדה (כ-20 דק').</p><button class="mapbtn" data-q="Conceição de Jacareí, Mangaratiba" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Vila%20do%20Abra%C3%A3o%2C%20Ilha%20Grande" target="_blank" rel="noopener">Vila do Abraão – הכפר הראשי</a><p>הכפר הראשי של האי – בסיס הלינה, המסעדות והסירות.</p><button class="mapbtn" data-q="Vila do Abraão, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Lopes%20Mendes%2C%20Ilha%20Grande" target="_blank" rel="noopener">חוף Lopes Mendes</a><p>טרק של כ-2.5 שעות בג'ונגל מ-Abraão לאחד החופים היפים בברזיל. עם 2 ימים בלבד – זה הטרק שחובה לבחור.</p><button class="mapbtn" data-q="Praia de Lopes Mendes, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Lagoa%20Azul%2C%20Ilha%20Grande" target="_blank" rel="noopener">Lagoa Azul – הלגונה הכחולה</a><p>עצירת שנורקול בשיט Volta a Ilha ללגונות הטורקיז.</p><button class="mapbtn" data-q="Lagoa Azul, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20do%20Abra%C3%A3o%2C%20Ilha%20Grande" target="_blank" rel="noopener">חוף Abraão – מסיבות Forró ומדורות</a><p>מסיבות Forró על קו המים ומדורות בחוף בלילה.</p><button class="mapbtn" data-q="Praia do Abraão, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Pousada%20Naturalia%2C%20Ilha%20Grande" target="_blank" rel="noopener">Pousada Naturalia (בוטיק)</a><p>פוסאדת בוטיק על החוף ב-Vila do Abraão.</p><button class="mapbtn" data-q="Pousada Naturalia, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Che%20Lagarto%20Hostel%20Ilha%20Grande" target="_blank" rel="noopener">Che Lagarto Hostel (הוסטל)</a><p>הוסטל ברמה גבוהה במרכז Abraão.</p><button class="mapbtn" data-q="Che Lagarto Hostel Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rua%20das%20Pedras%2C%20B%C3%BAzios" target="_blank" rel="noopener">Rua das Pedras – רחוב הברים</a><p>הרחוב הראשי של חיי הלילה – ברים, מועדונים ומסעדות.</p><button class="mapbtn" data-q="Rua das Pedras, Búzios" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Orla%20Bardot%2C%20B%C3%BAzios" target="_blank" rel="noopener">טיילת Orla Bardot</a><p>טיילת החוף היפה של בוזיוס – פסל בריז׳יט ברדו והשקיעה.</p><button class="mapbtn" data-q="Orla Bardot, Búzios" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Gerib%C3%A1%2C%20B%C3%BAzios" target="_blank" rel="noopener">חוף Geribá</a><p>חוף הגלישה הגדול – בוקר רגוע לפני ההמשך דרומה.</p><button class="mapbtn" data-q="Praia de Geribá, Búzios" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Silk%20Beach%20Club%2C%20B%C3%BAzios" target="_blank" rel="noopener">Silk Beach Club</a><p>מסיבת השקיעה של בוזיוס – ערב ראשון 7.2.</p><button class="mapbtn" data-q="Silk Beach Club, Búzios" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Marina%20dos%20Pescadores%2C%20Arraial%20do%20Cabo" target="_blank" rel="noopener">אראיאל דו קאבו – שייט</a><p>יציאת השייט של ׳הקריביים של ברזיל׳ – מים טורקיז מטורפים. יום א׳ 7.2 מוקדם.</p><button class="mapbtn" data-q="Marina dos Pescadores, Arraial do Cabo" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Prainhas%20do%20Pontal%20do%20Atalaia%2C%20Arraial%20do%20Cabo" target="_blank" rel="noopener">Prainhas do Pontal do Atalaia</a><p>המפרצונים עם מדרגות העץ המפורסמות – החוף הכי מצולם בברזיל.</p><button class="mapbtn" data-q="Prainhas do Pontal do Atalaia, Arraial do Cabo" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20do%20Farol%2C%20Arraial%20do%20Cabo" target="_blank" rel="noopener">Praia do Farol</a><p>חוף שמגיעים אליו רק בשייט – חול לבן ומים שקופים.</p><button class="mapbtn" data-q="Praia do Farol, Arraial do Cabo" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Casas%20Brancas%20Boutique%20Hotel%2C%20B%C3%BAzios" target="_blank" rel="noopener">Casas Brancas (בוטיק)</a><p>מלון בוטיק עם תצפית על המפרץ.</p><button class="mapbtn" data-q="Casas Brancas Boutique Hotel, Búzios" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Nomad%20Buzios%20Hostel" target="_blank" rel="noopener">Nomad Búzios (הוסטל)</a><p>הוסטל ברמה גבוהה ליד Rua das Pedras.</p><button class="mapbtn" data-q="Nomad Buzios Hostel" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
       </ul>
-      <p class="kml-dl">📥 <a href="trip/kml/02-ilha-grande.kml" download>הורדת שכבת KML לתחנה זו</a></p>
+      <p class="kml-dl">📥 <a href="trip/kml/02-buzios-arraial.kml" download>הורדת שכבת KML לתחנה זו</a></p>
     </section>
     <section class="stop">
       <div class="stop-head">
         <span class="num">3</span>
         <div>
-          <h2>🇧🇷 ריו דה ז'ניירו + קרנבל 2027</h2>
-          <span class="days">ימים 5–10 · ה׳–ג׳ 4–9.2.2027 · הקרנבל: 5–9.2</span>
+          <h2>🏝️ איליה גרנדה – ג'ונגל, טרקים ואיזון</h2>
+          <span class="days">ימים 7–10 · ב׳–ה׳ 8–11.2.2027</span>
         </div>
       </div>
-      <p class="transfer">➔ 🛥️ סירה חזרה ליבשה בבוקר יום ה׳ ← 🚐 שאטל ישיר לריו (כ-3 שעות). 🎭 קרנבל! להזמין לינה וכרטיסי סמבודרום 3–6 חודשים מראש – המחירים משולשים והכול נתפס.</p>
+      <p class="transfer">➔ 🚐 שני 8.2: נסיעה מבוזיוס לנמל Conceição de Jacareí (כ-4.5–5 שעות) ← 🛥️ סירה מהירה לכפר Vila do Abraão.</p>
+      <h3 class="plan-h">📅 יום-יום</h3>
+      <ol class="plan">
+        <li><b>ב׳ 8.2 ערב</b> — הגעה לאי בסירה. ערב רגוע עם מוזיקת Forró על קו המים ב-Vila do Abraão.</li>
+        <li><b>ג׳ 9.2</b> — החוף האגדי: שייט + הליכה קצרה בג׳ונגל לחוף Lopes Mendes – חול לבן כמו קמח ומים צלולים.</li>
+        <li><b>ד׳ 10.2</b> — 2:00 לפנות בוקר: טרק Pico do Papagaio לזריחה מעל האוקיינוס. אחה״צ: מנוחה ושנורקלינג בלגונה הכחולה (Lagoa Azul).</li>
+        <li><b>ה׳ 11.2</b> — מעבורת חזרה ליבשה ונסיעה לריו (כ-3 שעות).</li>
+      </ol>
+      <h3 class="plan-h">📍 המקומות</h3>
       <ul class="places">
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Cristo%20Redentor%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">פסל ישו הגואל</a><p>האייקון של ריו על הר הקורקובדו – לעלות ברכבת הקוגים או בוואן.</p><button class="mapbtn" data-q="Cristo Redentor, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=P%C3%A3o%20de%20A%C3%A7%C3%BAcar%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">הר הסוכר (Pão de Açúcar)</a><p>רכבל לתצפית השקיעה הכי טובה בעיר.</p><button class="mapbtn" data-q="Pão de Açúcar, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Ipanema%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">חוף איפנמה</a><p>החוף המפורסם – פוסטו 9, שקיעה ב-Arpoador ליד.</p><button class="mapbtn" data-q="Praia de Ipanema, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Copacabana%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">חוף קופקבנה</a><p>טיילת הגלים המפורסמת.</p><button class="mapbtn" data-q="Praia de Copacabana, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Trilha%20Morro%20Dois%20Irm%C3%A3os%2C%20Vidigal%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">טרק Morro Dois Irmãos (מפאבלת וידיגל)</a><p>מוטו-טקסי לראש פאבלת וידיגל + כ-40 דק' הליכה לתצפית הכי שווה בריו.</p><button class="mapbtn" data-q="Trilha Morro Dois Irmãos, Vidigal, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Sambodromo%20Marques%20de%20Sapucai%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 הסמבודרום – מצעדי הליגה הבכירה</a><p>האירוע המרכזי של הקרנבל: מצעדי בתי הספר הבכירים בימים ראשון–שלישי 7–9.2 מ-21:00 עד הבוקר. כרטיסים מראש!</p><button class="mapbtn" data-q="Sambodromo Marques de Sapucai, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Cordao%20da%20Bola%20Preta%2C%20Centro%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 בלוקו Cordão da Bola Preta</a><p>בלוקו הרחוב הוותיק והענק של ריו – שבת 6.2 בבוקר במרכז העיר. מיליון חוגגים ברחוב.</p><button class="mapbtn" data-q="Cordao da Bola Preta, Centro, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Largo%20do%20Curvelo%2C%20Santa%20Teresa%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 בלוקו Carmelitas – סנטה טרזה</a><p>בלוקו שכונתי אהוב בסמטאות סנטה טרזה – פתיחת הקרנבל, שישי 5.2.</p><button class="mapbtn" data-q="Largo do Curvelo, Santa Teresa, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Aterro%20do%20Flamengo%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 בלוקו Sargento Pimenta</a><p>סמבה על שירי הביטלס בפארק פלמנגו – שני 8.2. מהבלוקוס הכי כיפיים בעיר.</p><button class="mapbtn" data-q="Aterro do Flamengo, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Copacabana%2C%20Posto%205%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">🎭 בלוקו da Favorita – קופקבנה</a><p>במת ענק ומסיבה על קו החוף של קופקבנה – שבת 6.2 אחה״צ.</p><button class="mapbtn" data-q="Praia de Copacabana, Posto 5, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Pedra%20do%20Sal%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Pedra do Sal – סמבה פתוחה</a><p>מסיבת סמבה פתוחה ברחוב – בימי שני ושישי.</p><button class="mapbtn" data-q="Pedra do Sal, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rio%20Scenarium%2C%20Lapa%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Rio Scenarium – מועדון סמבה בלאפה</a><p>מועדון סמבה איקוני על 3 קומות בלאפה.</p><button class="mapbtn" data-q="Rio Scenarium, Lapa, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Bosque%20Bar%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Bosque Bar – רופטופ</a><p>בר רופטופ ירוק ואווירתי.</p><button class="mapbtn" data-q="Bosque Bar, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Canastra%20Bar%2C%20Ipanema%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Canastra Rose – בר קוקטיילים</a><p>בר קוקטיילים/יין צרפתי-ברזילאי באיפנמה.</p><button class="mapbtn" data-q="Canastra Bar, Ipanema, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Yoo2%20Rio%20de%20Janeiro%20by%20Intercity" target="_blank" rel="noopener">Yoo2 Rio (בוטיק)</a><p>מלון בוטיק מעוצב עם רופטופ מול הר הסוכר (בוטפוגו). בקרנבל – להזמין חודשים מראש!</p><button class="mapbtn" data-q="Yoo2 Rio de Janeiro by Intercity" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Janeiro%20Hotel%2C%20Leblon%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Janeiro Hotel (בוטיק)</a><p>מלון בוטיק שקט מול חוף לבלון.</p><button class="mapbtn" data-q="Janeiro Hotel, Leblon, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Selina%20Copacabana%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Selina Copacabana (הוסטל)</a><p>הוסטל-בוטיק ברמה גבוהה בקופקבנה.</p><button class="mapbtn" data-q="Selina Copacabana, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Ipanema%20Beach%20House%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Ipanema Beach House (הוסטל)</a><p>הוסטל עם בריכה במרחק הליכה מחוף איפנמה.</p><button class="mapbtn" data-q="Ipanema Beach House, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Santos%20Dumont%20Airport%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">שדה תעופה סנטוס דומון (SDU)</a><p>שדה פנים-ארצי במרכז העיר.</p><button class="mapbtn" data-q="Santos Dumont Airport, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport" target="_blank" rel="noopener">שדה תעופה גליאאו (GIG)</a><p>השדה הבינלאומי – ממנו ממריאים לבוגוטה.</p><button class="mapbtn" data-q="Rio de Janeiro–Galeão International Airport" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Concei%C3%A7%C3%A3o%20de%20Jacare%C3%AD%2C%20Mangaratiba" target="_blank" rel="noopener">נמל Conceição de Jacareí</a><p>נקודת היציאה של הסירות המהירות לאי (כ-20 דק׳).</p><button class="mapbtn" data-q="Conceição de Jacareí, Mangaratiba" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Vila%20do%20Abra%C3%A3o%2C%20Ilha%20Grande" target="_blank" rel="noopener">Vila do Abraão</a><p>הכפר הראשי – בסיס הלינה, המסעדות והסירות.</p><button class="mapbtn" data-q="Vila do Abraão, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Lopes%20Mendes%2C%20Ilha%20Grande" target="_blank" rel="noopener">חוף Lopes Mendes</a><p>מהחופים היפים בעולם – שייט + הליכה קצרה בג׳ונגל. יום ג׳ 9.2.</p><button class="mapbtn" data-q="Praia de Lopes Mendes, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Pico%20do%20Papagaio%2C%20Ilha%20Grande" target="_blank" rel="noopener">טרק Pico do Papagaio</a><p>טרק זריחה לפסגה בגובה 982 מ׳ – יציאה 2:00 לפנות בוקר עם מדריך. ד׳ 10.2.</p><button class="mapbtn" data-q="Pico do Papagaio, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Lagoa%20Azul%2C%20Ilha%20Grande" target="_blank" rel="noopener">Lagoa Azul – הלגונה הכחולה</a><p>שנורקלינג במים טורקיז – אחה״צ של יום הזריחה.</p><button class="mapbtn" data-q="Lagoa Azul, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Praia%20do%20Abra%C3%A3o%2C%20Ilha%20Grande" target="_blank" rel="noopener">חוף Abraão – ערבי Forró</a><p>מוזיקה חיה ומדורות על קו המים בלילה.</p><button class="mapbtn" data-q="Praia do Abraão, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Pousada%20Naturalia%2C%20Ilha%20Grande" target="_blank" rel="noopener">Pousada Naturalia (בוטיק)</a><p>פוסאדת בוטיק על החוף.</p><button class="mapbtn" data-q="Pousada Naturalia, Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Che%20Lagarto%20Hostel%20Ilha%20Grande" target="_blank" rel="noopener">Che Lagarto Hostel (הוסטל)</a><p>הוסטל ברמה גבוהה במרכז הכפר.</p><button class="mapbtn" data-q="Che Lagarto Hostel Ilha Grande" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
       </ul>
-      <p class="kml-dl">📥 <a href="trip/kml/03-rio-de-janeiro.kml" download>הורדת שכבת KML לתחנה זו</a></p>
+      <p class="kml-dl">📥 <a href="trip/kml/03-ilha-grande.kml" download>הורדת שכבת KML לתחנה זו</a></p>
     </section>
     <section class="stop">
       <div class="stop-head">
         <span class="num">4</span>
         <div>
-          <h2>🇨🇴 עמק הקפה – סאלנטו (Salento)</h2>
-          <span class="days">ימים 11–13 · 10–12.2.2027 (1–3 בקולומביה)</span>
+          <h2>✈️ ריו – סיום וטיסה הביתה</h2>
+          <span class="days">ימים 10–11 · ה׳–ו׳ 11–12.2.2027</span>
         </div>
       </div>
-      <p class="transfer">➔ ✈️ יום ד׳ 10.2 (למחרת סיום הקרנבל): ריו (GIG) ← בוגוטה (BOG) ← טיסת פנים לפרירה (PEI) / ארמניה (AXM) ← 🚕 מונית קצרה לסאלנטו.</p>
+      <p class="transfer">➔ 🛥️ + 🚐 חמישי 11.2 אחה״צ: חזרה מאיליה גרנדה לריו.</p>
+      <h3 class="plan-h">📅 יום-יום</h3>
+      <ol class="plan">
+        <li><b>ה׳ 11.2 ערב</b> — צ׳ק-אין ליד החוף וערב אחרון – שקיעה בארפואדור או סמבה אחרונה בלאפה.</li>
+        <li><b>ו׳ 12.2</b> — קניות אחרונות באיפנמה, ארוחת בשרים חגיגית (Churrascaria), וטיסה הביתה מ-GIG. 💡 טיפ: מצעד האלופות בסמבודרום הוא שבת 13.2 – שווה לשקול להאריך בלילה אחד!</li>
+      </ol>
+      <h3 class="plan-h">📍 המקומות</h3>
       <ul class="places">
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Mateca%C3%B1a%20International%20Airport%2C%20Pereira" target="_blank" rel="noopener">שדה תעופה פרירה (PEI)</a><p>אופציית נחיתה 1 – כשעה נסיעה לסאלנטו.</p><button class="mapbtn" data-q="Matecaña International Airport, Pereira" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=El%20Ed%C3%A9n%20International%20Airport%2C%20Armenia" target="_blank" rel="noopener">שדה תעופה ארמניה (AXM)</a><p>אופציית נחיתה 2 – כ-50 דק' נסיעה לסאלנטו.</p><button class="mapbtn" data-q="El Edén International Airport, Armenia" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Plaza%20de%20Bol%C3%ADvar%2C%20Salento%2C%20Quind%C3%ADo" target="_blank" rel="noopener">כיכר סאלנטו והרחוב הצבעוני</a><p>העיירה הצבעונית של עמק הקפה – Calle Real והמירדור.</p><button class="mapbtn" data-q="Plaza de Bolívar, Salento, Quindío" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Valle%20de%20Cocora%2C%20Salento" target="_blank" rel="noopener">טרק עמק הקוקורה (Valle de Cocora)</a><p>טרק 5–6 שעות בין עצי דקל השעווה הענקיים. ג'יפים יוצאים מהכיכר בבוקר.</p><button class="mapbtn" data-q="Valle de Cocora, Salento" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Finca%20El%20Ocaso%20/%20Cafe%20Don%20Elias%2C%20Salento" target="_blank" rel="noopener">חוות הקפה Don Elias</a><p>סיור קפה משפחתי אורגני – מהפרי אל הכוס.</p><button class="mapbtn" data-q="Finca El Ocaso / Cafe Don Elias, Salento" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Filandia%2C%20Quind%C3%ADo" target="_blank" rel="noopener">פילנדיה (Filandia)</a><p>עיירה צבעונית ושקטה ליום כיף – 30 דק' מסאלנטו.</p><button class="mapbtn" data-q="Filandia, Quindío" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Cancha%20de%20Tejo%20Los%20Amigos%2C%20Salento" target="_blank" rel="noopener">Los Amigos – משחק טחו</a><p>טחו – זריקות על מטרות אבק שריפה + בירה. חובה!</p><button class="mapbtn" data-q="Cancha de Tejo Los Amigos, Salento" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Billar%20Danubio%2C%20Salento" target="_blank" rel="noopener">Billar Danubio – ביליארד מקומי</a><p>אולם ביליארד מקומי אותנטי על הכיכר.</p><button class="mapbtn" data-q="Billar Danubio, Salento" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Kawa%20Mountain%20Retreat%2C%20Salento" target="_blank" rel="noopener">Hotel Kawa Mountain Retreat (בוטיק)</a><p>ריטריט בוטיק עם נוף להרים.</p><button class="mapbtn" data-q="Kawa Mountain Retreat, Salento" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Coffee%20Tree%20Boutique%20Hostel%2C%20Salento" target="_blank" rel="noopener">Coffee Tree Boutique Hostel (הוסטל)</a><p>הוסטל בוטיק ברמה גבוהה.</p><button class="mapbtn" data-q="Coffee Tree Boutique Hostel, Salento" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Visconde%20de%20Piraj%C3%A1%2C%20Ipanema%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">רחוב הקניות של איפנמה</a><p>Visconde de Pirajá – מזכרות, הוויאנס ואופנה ברזילאית.</p><button class="mapbtn" data-q="Rua Visconde de Pirajá, Ipanema, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Churrascaria%20Palace%2C%20Copacabana%2C%20Rio%20de%20Janeiro" target="_blank" rel="noopener">Churrascaria Palace</a><p>ארוחת הבשרים החגיגית של סוף הטיול.</p><button class="mapbtn" data-q="Churrascaria Palace, Copacabana, Rio de Janeiro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
+        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport" target="_blank" rel="noopener">שדה תעופה גליאאו (GIG)</a><p>טיסה הביתה – שישי 12.2 בערב.</p><button class="mapbtn" data-q="Rio de Janeiro–Galeão International Airport" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
       </ul>
-      <p class="kml-dl">📥 <a href="trip/kml/04-salento.kml" download>הורדת שכבת KML לתחנה זו</a></p>
-    </section>
-    <section class="stop">
-      <div class="stop-head">
-        <span class="num">5</span>
-        <div>
-          <h2>🇨🇴 מדג'ין (Medellín)</h2>
-          <span class="days">ימים 14–19 · 13–18.2.2027 (4–9 בקולומביה)</span>
-        </div>
-      </div>
-      <p class="transfer">➔ ✈️ טיסה קצרה (50 דק') מפרירה למדג'ין (או 🚌 אוטובוס 6–8 שעות).</p>
-      <ul class="places">
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Jos%C3%A9%20Mar%C3%ADa%20C%C3%B3rdova%20International%20Airport%2C%20Rionegro" target="_blank" rel="noopener">שדה תעופה מדג'ין (MDE)</a><p>השדה הראשי – כ-45 דק' מהעיר.</p><button class="mapbtn" data-q="José María Córdova International Airport, Rionegro" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn" target="_blank" rel="noopener">קומונה 13 – סיור גרפיטי</a><p>סיור הגרפיטי והמדרגות החשמליות המפורסמות.</p><button class="mapbtn" data-q="Comuna 13 Graffiti Tour, Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn" target="_blank" rel="noopener">Parque Arví (רכבל)</a><p>עלייה ברכבל המטרו-קייבל והליכה ביער.</p><button class="mapbtn" data-q="Parque Arví, Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Piedra%20del%20Pe%C3%B1ol%2C%20Guatap%C3%A9" target="_blank" rel="noopener">Piedra del Peñol – 740 מדרגות</a><p>טיפוס על הסלע הענק – תצפית האגמים הכי מפורסמת בקולומביה.</p><button class="mapbtn" data-q="Piedra del Peñol, Guatapé" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Guatap%C3%A9%2C%20Antioquia" target="_blank" rel="noopener">עיירת גואטפה (Guatapé)</a><p>העיירה הצבעונית ליד הסלע – יום טיול ממדג'ין (כשעתיים).</p><button class="mapbtn" data-q="Guatapé, Antioquia" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Perro%20Negro%2C%20Medell%C3%ADn" target="_blank" rel="noopener">Perro Negro – רגאטון</a><p>מועדון הרגאטון האגדי בפובלאדו.</p><button class="mapbtn" data-q="Perro Negro, Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Vintrash%20Bar%2C%20Medell%C3%ADn" target="_blank" rel="noopener">Vintrash – מועדון</a><p>מסיבות אקלקטיות על כמה קומות.</p><button class="mapbtn" data-q="Vintrash Bar, Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n%20Amador%2C%20Medell%C3%ADn" target="_blank" rel="noopener">Salón Amador – אלקטרוני</a><p>מועדון האלקטרוני המוביל בעיר.</p><button class="mapbtn" data-q="Salón Amador, Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Provenza%2C%20El%20Poblado%2C%20Medell%C3%ADn" target="_blank" rel="noopener">רחוב Provenza</a><p>רחוב הברים והמסעדות של אל פובלאדו.</p><button class="mapbtn" data-q="Provenza, El Poblado, Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Carrera%2070%2C%20Laureles%2C%20Medell%C3%ADn" target="_blank" rel="noopener">רחוב La 70 (Carrera 70)</a><p>רחוב מסיבות מקומי יותר באזור לאורלס/אצטדיון.</p><button class="mapbtn" data-q="Carrera 70, Laureles, Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=The%20Click%20Clack%20Hotel%20Medell%C3%ADn" target="_blank" rel="noopener">The Click Clack Hotel (בוטיק)</a><p>מלון בוטיק מעוצב באל פובלאדו, רופטופ שווה.</p><button class="mapbtn" data-q="The Click Clack Hotel Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Los%20Patios%20Hostel%2C%20Medell%C3%ADn" target="_blank" rel="noopener">Los Patios Cool Living (הוסטל)</a><p>הוסטל ברמה גבוהה עם רופטופים ואווירה חברתית.</p><button class="mapbtn" data-q="Los Patios Hostel, Medellín" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-      </ul>
-      <p class="kml-dl">📥 <a href="trip/kml/05-medellin.kml" download>הורדת שכבת KML לתחנה זו</a></p>
-    </section>
-    <section class="stop">
-      <div class="stop-head">
-        <span class="num">6</span>
-        <div>
-          <h2>🇨🇴 סנטה מרטה, מינקה וטיירונה</h2>
-          <span class="days">ימים 20–24 · 19–23.2.2027 (10–14 בקולומביה)</span>
-        </div>
-      </div>
-      <p class="transfer">➔ ✈️ טיסה ישירה ממדג'ין (MDE) לסנטה מרטה (SMR) – כ-1.25 שעות.</p>
-      <ul class="places">
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Sim%C3%B3n%20Bol%C3%ADvar%20International%20Airport%2C%20Santa%20Marta" target="_blank" rel="noopener">שדה תעופה סנטה מרטה (SMR)</a><p>נחיתה בחוף הקריבי.</p><button class="mapbtn" data-q="Simón Bolívar International Airport, Santa Marta" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=El%20Zaino%20Entrance%2C%20Tayrona%20National%20Park" target="_blank" rel="noopener">פארק טיירונה – כניסת El Zaino</a><p>הכניסה הראשית לפארק – תחילת טרק הג'ונגל.</p><button class="mapbtn" data-q="El Zaino Entrance, Tayrona National Park" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Cabo%20San%20Juan%20del%20Gu%C3%ADa%2C%20Tayrona" target="_blank" rel="noopener">חוף Cabo San Juan</a><p>כ-3 שעות הליכה בג'ונגל אל החוף האייקוני. אפשר לישון בערסלים.</p><button class="mapbtn" data-q="Cabo San Juan del Guía, Tayrona" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Minca%2C%20Magdalena" target="_blank" rel="noopener">מינקה (Minca)</a><p>כפר הרים בג'ונגל – קפה, מפלים ושקיעות.</p><button class="mapbtn" data-q="Minca, Magdalena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Pozo%20Azul%2C%20Minca" target="_blank" rel="noopener">מפלי Pozo Azul</a><p>בריכות טבעיות ומפלים – קפיצות למים ואבובים.</p><button class="mapbtn" data-q="Pozo Azul, Minca" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Coste%C3%B1o%20Beach%2C%20Guachaca" target="_blank" rel="noopener">Costeño Beach – מסיבות חוף</a><p>חוף גלישה עם מסיבות – שווה לילה או יום.</p><button class="mapbtn" data-q="Costeño Beach, Guachaca" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=El%20Rio%20Hostel%2C%20Buritaca" target="_blank" rel="noopener">El Rio Hostel – מסיבות נהר</a><p>הוסטל המסיבות על נהר בוריטקה – אבובים ביום, מסיבות בלילה.</p><button class="mapbtn" data-q="El Rio Hostel, Buritaca" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=La%20Puerta%2C%20Santa%20Marta" target="_blank" rel="noopener">La Puerta – בר במרכז</a><p>הבר הכי חם במרכז ההיסטורי של סנטה מרטה.</p><button class="mapbtn" data-q="La Puerta, Santa Marta" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=La%20Brisa%20Loca%2C%20Santa%20Marta" target="_blank" rel="noopener">La Brisa Loca – רופטופ</a><p>הוסטל עם בר רופטופ ומסיבות.</p><button class="mapbtn" data-q="La Brisa Loca, Santa Marta" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Masaya%20Santa%20Marta" target="_blank" rel="noopener">Masaya Santa Marta (בוטיק)</a><p>מלון-בוטיק עם בריכת גג במרכז ההיסטורי.</p><button class="mapbtn" data-q="Masaya Santa Marta" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Casas%20Viejas%2C%20Minca" target="_blank" rel="noopener">Casas Viejas (בוטיק, מינקה)</a><p>לודג' בוטיק עם בריכת אינפיניטי מעל הג'ונגל.</p><button class="mapbtn" data-q="Casas Viejas, Minca" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-      </ul>
-      <p class="kml-dl">📥 <a href="trip/kml/06-santa-marta-minca-tayrona.kml" download>הורדת שכבת KML לתחנה זו</a></p>
-    </section>
-    <section class="stop">
-      <div class="stop-head">
-        <span class="num">7</span>
-        <div>
-          <h2>🇨🇴 קרטחנה (Cartagena)</h2>
-          <span class="days">ימים 25–27 · 24–26.2.2027 (15–17 בקולומביה)</span>
-        </div>
-      </div>
-      <p class="transfer">➔ 🚌 שאטל/אוטובוס יבשתי מסנטה מרטה לקרטחנה (4–5 שעות).</p>
-      <ul class="places">
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Torre%20del%20Reloj%2C%20Cartagena" target="_blank" rel="noopener">העיר העתיקה – שער השעון</a><p>הכניסה לעיר המוקפת חומה – סמטאות קולוניאליות צבעוניות.</p><button class="mapbtn" data-q="Torre del Reloj, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Getseman%C3%AD%2C%20Cartagena" target="_blank" rel="noopener">שכונת חטסמני (Getsemaní)</a><p>השכונה הכי מגניבה – גרפיטי, דגלים וסמטאות.</p><button class="mapbtn" data-q="Getsemaní, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Castillo%20San%20Felipe%20de%20Barajas%2C%20Cartagena" target="_blank" rel="noopener">מבצר סן פליפה</a><p>המבצר הספרדי הגדול באמריקה.</p><button class="mapbtn" data-q="Castillo San Felipe de Barajas, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Islas%20del%20Rosario%2C%20Cartagena" target="_blank" rel="noopener">שיט לאיי רוסריו</a><p>יום שיט לאיים ומים טורקיז – יציאה מהנמל בבוקר.</p><button class="mapbtn" data-q="Islas del Rosario, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20del%20Mar%2C%20Cartagena" target="_blank" rel="noopener">Café del Mar – שקיעה על החומה</a><p>קוקטייל שקיעה על החומות מול הים הקריבי.</p><button class="mapbtn" data-q="Café del Mar, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Alqu%C3%ADmico%2C%20Cartagena" target="_blank" rel="noopener">Alquímico – טופ 10 בעולם</a><p>בר קוקטיילים על 3 קומות – מהטובים בעולם.</p><button class="mapbtn" data-q="Alquímico, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Havana%2C%20Getseman%C3%AD%2C%20Cartagena" target="_blank" rel="noopener">Café Havana – סלסה</a><p>מועדון סלסה חי עם להקה קובנית.</p><button class="mapbtn" data-q="Café Havana, Getsemaní, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Camell%C3%B3n%20de%20los%20M%C3%A1rtires%2C%20Cartagena" target="_blank" rel="noopener">Chiva Rumbera – אוטובוס מסיבות</a><p>אוטובוס מסיבות צבעוני עם רום חופשי – איסוף מאזור המרכז.</p><button class="mapbtn" data-q="Camellón de los Mártires, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Plaza%20de%20la%20Trinidad%2C%20Getseman%C3%AD%2C%20Cartagena" target="_blank" rel="noopener">Plaza de la Trinidad</a><p>כיכר הבילויים של חטסמני – בירות, אוכל רחוב ואווירה.</p><button class="mapbtn" data-q="Plaza de la Trinidad, Getsemaní, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Townhouse%20Boutique%20Hotel%2C%20Cartagena" target="_blank" rel="noopener">Townhouse Boutique Hotel (בוטיק)</a><p>בוטיק עם רופטופ-בר בעיר העתיקה.</p><button class="mapbtn" data-q="Townhouse Boutique Hotel, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Viajero%20Cartagena%20Hostel" target="_blank" rel="noopener">Viajero Cartagena Hostel (הוסטל)</a><p>הוסטל גדול וחברתי בעיר העתיקה.</p><button class="mapbtn" data-q="Viajero Cartagena Hostel" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Selina%20Cartagena%2C%20Getseman%C3%AD" target="_blank" rel="noopener">Selina Getsemaní (הוסטל)</a><p>הוסטל-בוטיק בלב חטסמני.</p><button class="mapbtn" data-q="Selina Cartagena, Getsemaní" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Rafael%20N%C3%BA%C3%B1ez%20International%20Airport%2C%20Cartagena" target="_blank" rel="noopener">שדה תעופה קרטחנה (CTG)</a><p>ממריאים מכאן לסאן אנדרס. חשוב: לקנות 'כרטיס תייר' בדלפק חברת התעופה!</p><button class="mapbtn" data-q="Rafael Núñez International Airport, Cartagena" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-      </ul>
-      <p class="kml-dl">📥 <a href="trip/kml/07-cartagena.kml" download>הורדת שכבת KML לתחנה זו</a></p>
-    </section>
-    <section class="stop">
-      <div class="stop-head">
-        <span class="num">8</span>
-        <div>
-          <h2>🇨🇴 האי סאן אנדרס (San Andrés)</h2>
-          <span class="days">ימים 28–30 · 27.2–1.3.2027 (18–20 בקולומביה)</span>
-        </div>
-      </div>
-      <p class="transfer">➔ ✈️ טיסה ישירה מקרטחנה (CTG) לסאן אנדרס (ADZ) – כ-1.5 שעות. חובה 'כרטיס תייר' מהדלפק בשדה.</p>
-      <ul class="places">
-        <li class="place transport"><span class="cat">✈️</span><div><a href="https://www.google.com/maps/search/?api=1&query=Gustavo%20Rojas%20Pinilla%20International%20Airport%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">שדה תעופה סאן אנדרס (ADZ)</a><p>נחיתה באי – 5 דק' מהמרכז.</p><button class="mapbtn" data-q="Gustavo Rojas Pinilla International Airport, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Spratt%20Bight%20Beach%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">חוף Spratt Bight</a><p>החוף הראשי מול 'ים שבעת הצבעים'.</p><button class="mapbtn" data-q="Spratt Bight Beach, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Johnny%20Cay%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">Johnny Cay</a><p>אי קטן מול החוף – שיוט, קוקוס לוקו ואיגואנות.</p><button class="mapbtn" data-q="Johnny Cay, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=El%20Acuario%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">El Acuario – האקווריום</a><p>מים רדודים וצלולים – שנורקלינג עם קרנפי ים.</p><button class="mapbtn" data-q="El Acuario, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=Hoyo%20Soplador%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">Hoyo Soplador – הגייזר</a><p>חור נשיפה טבעי בדרום האי – תחנה בהקפת האי ברכב גולף.</p><button class="mapbtn" data-q="Hoyo Soplador, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place attraction"><span class="cat">🥾</span><div><a href="https://www.google.com/maps/search/?api=1&query=West%20View%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">West View – קפיצות למים</a><p>מקפצות ושנורקלינג בצד המערבי – עצירה בהקפת האי.</p><button class="mapbtn" data-q="West View, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Coco%20Loco%20Bar%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">Coco Loco – מועדון</a><p>מועדון על החוף במרכז.</p><button class="mapbtn" data-q="Coco Loco Bar, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place nightlife"><span class="cat">🍻</span><div><a href="https://www.google.com/maps/search/?api=1&query=Extasis%20Discoteca%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">Extasis Disco – מועדון</a><p>דיסקוטק מקומי – רגאטון וסלסה עד הבוקר.</p><button class="mapbtn" data-q="Extasis Discoteca, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Nomadic%20Design%20Hotel%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">Hotel Nomadic Design (בוטיק)</a><p>מלון בוטיק מעוצב במרכז האי.</p><button class="mapbtn" data-q="Nomadic Design Hotel, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-        <li class="place hotel"><span class="cat">🏨</span><div><a href="https://www.google.com/maps/search/?api=1&query=Dreamer%20Hostel%2C%20San%20Andr%C3%A9s" target="_blank" rel="noopener">Dreamer Beach Club (הוסטל)</a><p>הוסטל ברמה גבוהה ליד החוף.</p><button class="mapbtn" data-q="Dreamer Hostel, San Andrés" data-z="15">🗺️ הצג במפה למעלה</button></div></li>
-      </ul>
-      <p class="kml-dl">📥 <a href="trip/kml/08-san-andres.kml" download>הורדת שכבת KML לתחנה זו</a></p>
+      <p class="kml-dl">📥 <a href="trip/kml/04-rio-finale.kml" download>הורדת שכבת KML לתחנה זו</a></p>
     </section>
 
-  <footer>✈️ טיסת חזרה: סאן אנדרס (ADZ) ← בוגוטה (BOG) ← טיסה בינלאומית הביתה.<br>הערה: מיקומי הסיכות מדויקים-בקירוב — בכל סיכה יש קישור "פתיחה ב-Google Maps" לפי שם המקום לניווט מדויק.</footer>
+  <footer style="text-align:center; color:var(--muted); font-size:.9rem; padding:20px;">🎭 הקרנבל: 5–13.2.2027 · מצעדי-העל בסמבודרום: א׳–ג׳ 7–9.2 · מצעד האלופות: ש׳ 13.2<br>מיקומי הסיכות מדויקים-בקירוב — קישורי Google Maps מחפשים לפי שם המקום לניווט מדויק.</footer>
 </div>
 <script>
 (function () {

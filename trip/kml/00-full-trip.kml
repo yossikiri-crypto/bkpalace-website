@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🇧🇷🇨🇴 ברזיל וקולומביה – 30 יום | המפה המלאה</name>
+    <name>🇧🇷🎭 ברזיל – קרנבל 2027 | 2–12.2 | המפה המלאה</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -18,112 +18,40 @@
       <LineStyle><color>ccF27221</color><width>4</width></LineStyle>
     </Style>
     <Folder>
-      <name>🇧🇷 1. מפלי איגואסו (Foz do Iguaçu) | ימים 1–2 · א׳–ב׳ 31.1–1.2.2027</name>
+      <name>🎭 1. ריו דה ז&#x27;ניירו – ימי הקרנבל | ימים 1–5 · ג׳–ש׳ 2–6.2.2027</name>
       <Placemark>
-        <name>✈️ שדה התעופה פוס דו איגואסו (IGU)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נקודת הנחיתה הבינלאומית לתחילת הטיול.<br/><a href="https://www.google.com/maps/search/?api=1&query=Foz%20do%20Igua%C3%A7u%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
+        <name>✈️ שדה תעופה גליאאו (GIG)</name>
+        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה ביום ג׳ 2.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-54.485,-25.5996,0</coordinates></Point>
+        <Point><coordinates>-43.2506,-22.809,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🥾 מפלי איגואסו – הצד הברזילאי</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>המסלול הברזילאי של המפלים – התצפיות הפנורמיות הגדולות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cataratas%20do%20Igua%C3%A7u%2C%20Parque%20Nacional%20do%20Igua%C3%A7u%2C%20Foz%20do%20Igua%C3%A7u">פתיחה ב-Google Maps</a>]]></description>
+        <name>🥾 תצפית Arpoador</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הסלע בין איפנמה לקופקבנה – השקיעה הראשונה של הטיול + קאיפיריניה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pedra%20do%20Arpoador%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-54.4367,-25.6953,0</coordinates></Point>
+        <Point><coordinates>-43.1918,-22.9893,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🥾 Macuco Safari – שיט מתחת למפלים</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>שיט סירת מנוע אל מתחת למפלים. להביא בגדים להחלפה!<br/><a href="https://www.google.com/maps/search/?api=1&query=Macuco%20Safari%2C%20Foz%20do%20Igua%C3%A7u">פתיחה ב-Google Maps</a>]]></description>
+        <name>🥾 טרק Morro Dois Irmãos</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מוטו-טקסי לראש פאבלת וידיגל + כ-40 דק׳ הליכה לתצפית הכי שווה בריו. בוקר ד׳ 3.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Trilha%20Morro%20Dois%20Irm%C3%A3os%2C%20Vidigal%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-54.45,-25.6667,0</coordinates></Point>
+        <Point><coordinates>-43.2395,-22.9925,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🥾 Parque das Aves – פארק הציפורים</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>פארק ציפורים טרופי מול הכניסה לפארק הלאומי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20das%20Aves%2C%20Foz%20do%20Igua%C3%A7u">פתיחה ב-Google Maps</a>]]></description>
+        <name>🥾 חוף Joatinga</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף נסתר בין צוקים בשכונת ז׳ואטינגה – מגיעים בשביל ירידה קצר. בוקר ה׳ 4.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20da%20Joatinga%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-54.4829,-25.6129,0</coordinates></Point>
+        <Point><coordinates>-43.2892,-23.0151,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🍻 Rafain Churrascaria – מופע פולקלור</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>ארוחת בשרים ומופע פולקלור דרום-אמריקאי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rafain%20Churrascaria%20Show%2C%20Foz%20do%20Igua%C3%A7u">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-54.545,-25.5754,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Belmond Hotel das Cataratas (בוטיק/יוקרה)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>המלון היחיד בתוך הפארק הלאומי – גישה למפלים לפני כולם.<br/><a href="https://www.google.com/maps/search/?api=1&query=Belmond%20Hotel%20das%20Cataratas%2C%20Foz%20do%20Igua%C3%A7u">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-54.4419,-25.6903,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Tetris Container Hostel (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל מעוצב ממכולות, ברמה גבוהה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Tetris%20Container%20Hostel%2C%20Foz%20do%20Igua%C3%A7u">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-54.558,-25.5528,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>🇧🇷 2. האי איליה גרנדה (Ilha Grande) | ימים 3–4 · ג׳–ד׳ 2–3.2.2027 (קוצר ל-2 ימים לטובת הקרנבל)</name>
-      <Placemark>
-        <name>✈️ נמל Conceição de Jacareí</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נקודת היציאה של הסירות המהירות לאיליה גרנדה (כ-20 דק&#x27;).<br/><a href="https://www.google.com/maps/search/?api=1&query=Concei%C3%A7%C3%A3o%20de%20Jacare%C3%AD%2C%20Mangaratiba">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-44.466,-23.014,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 Vila do Abraão – הכפר הראשי</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכפר הראשי של האי – בסיס הלינה, המסעדות והסירות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Vila%20do%20Abra%C3%A3o%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+        <name>🥾 שוק Saara – ציוד קרנבל</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מתחם שוק ענק במרכז – נצנצים, תלבושות ואביזרים בזול. ערב ה׳ 4.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Mercado%20Saara%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-44.1699,-23.1394,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 חוף Lopes Mendes</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טרק של כ-2.5 שעות בג&#x27;ונגל מ-Abraão לאחד החופים היפים בברזיל. עם 2 ימים בלבד – זה הטרק שחובה לבחור.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Lopes%20Mendes%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-44.123,-23.1636,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 Lagoa Azul – הלגונה הכחולה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עצירת שנורקול בשיט Volta a Ilha ללגונות הטורקיז.<br/><a href="https://www.google.com/maps/search/?api=1&query=Lagoa%20Azul%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-44.2378,-23.0797,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 חוף Abraão – מסיבות Forró ומדורות</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבות Forró על קו המים ומדורות בחוף בלילה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20do%20Abra%C3%A3o%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-44.1695,-23.1385,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Pousada Naturalia (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>פוסאדת בוטיק על החוף ב-Vila do Abraão.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pousada%20Naturalia%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-44.172,-23.14,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Che Lagarto Hostel (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה במרכז Abraão.<br/><a href="https://www.google.com/maps/search/?api=1&query=Che%20Lagarto%20Hostel%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-44.168,-23.1397,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>🇧🇷 3. ריו דה ז&#x27;ניירו + קרנבל 2027 | ימים 5–10 · ה׳–ג׳ 4–9.2.2027 · הקרנבל: 5–9.2</name>
-      <Placemark>
-        <name>🥾 פסל ישו הגואל</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>האייקון של ריו על הר הקורקובדו – לעלות ברכבת הקוגים או בוואן.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cristo%20Redentor%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-43.2105,-22.9519,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 הר הסוכר (Pão de Açúcar)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>רכבל לתצפית השקיעה הכי טובה בעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=P%C3%A3o%20de%20A%C3%A7%C3%BAcar%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-43.1566,-22.9486,0</coordinates></Point>
+        <Point><coordinates>-43.1815,-22.9035,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🥾 חוף איפנמה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>החוף המפורסם – פוסטו 9, שקיעה ב-Arpoador ליד.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>בסיס הלינה – פוסטו 9.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-43.2065,-22.9868,0</coordinates></Point>
       </Placemark>
@@ -134,74 +62,50 @@
         <Point><coordinates>-43.1822,-22.9711,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🥾 טרק Morro Dois Irmãos (מפאבלת וידיגל)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מוטו-טקסי לראש פאבלת וידיגל + כ-40 דק&#x27; הליכה לתצפית הכי שווה בריו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Trilha%20Morro%20Dois%20Irm%C3%A3os%2C%20Vidigal%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🥾 פסל ישו + הר הסוכר</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>האייקונים של ריו – לשבץ בבוקר פנוי (או ביום האחרון 12.2).<br/><a href="https://www.google.com/maps/search/?api=1&query=Cristo%20Redentor%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-43.2395,-22.9925,0</coordinates></Point>
+        <Point><coordinates>-43.2105,-22.9519,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🥾 🎭 הסמבודרום – מצעדי הליגה הבכירה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>האירוע המרכזי של הקרנבל: מצעדי בתי הספר הבכירים בימים ראשון–שלישי 7–9.2 מ-21:00 עד הבוקר. כרטיסים מראש!<br/><a href="https://www.google.com/maps/search/?api=1&query=Sambodromo%20Marques%20de%20Sapucai%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🥾 🎭 הסמבודרום – מצעד Série Ouro</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>ליל שישי 5.2 מ-21:00: מצעד הפתיחה של הקרנבל. כרטיסים מראש! (מצעדי-העל: ראשון–שלישי 7–9.2).<br/><a href="https://www.google.com/maps/search/?api=1&query=Sambodromo%20Marques%20de%20Sapucai%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-43.1965,-22.9122,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🍻 🎭 בלוקו Cordão da Bola Preta</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בלוקו הרחוב הוותיק והענק של ריו – שבת 6.2 בבוקר במרכז העיר. מיליון חוגגים ברחוב.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cordao%20da%20Bola%20Preta%2C%20Centro%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🍻 🎭 לאפה – Pré-Carnaval</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>אזור המסיבות המקדימות – ערב ד׳ 3.2 מתחת לקשתות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Arcos%20da%20Lapa%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-43.174,-22.9027,0</coordinates></Point>
+        <Point><coordinates>-43.18,-22.913,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🍻 🎭 בלוקו Carmelitas – סנטה טרזה</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בלוקו שכונתי אהוב בסמטאות סנטה טרזה – פתיחת הקרנבל, שישי 5.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Largo%20do%20Curvelo%2C%20Santa%20Teresa%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🍻 🎭 סנטה טרזה – בלוקו Carmelitas</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בלוקו שכונתי מקסים בסמטאות – פתיחת הקרנבל, שישי 5.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Largo%20do%20Curvelo%2C%20Santa%20Teresa%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#nightlife</styleUrl>
         <Point><coordinates>-43.1855,-22.9195,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🍻 🎭 בלוקו Sargento Pimenta</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>סמבה על שירי הביטלס בפארק פלמנגו – שני 8.2. מהבלוקוס הכי כיפיים בעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Aterro%20do%20Flamengo%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🍻 🎭 בלוקו Cordão da Bola Preta</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הבלוקו הוותיק והענק של ריו – שבת 6.2 בבוקר, לפני היציאה לבוזיוס.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cordao%20da%20Bola%20Preta%2C%20Centro%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-43.17,-22.933,0</coordinates></Point>
+        <Point><coordinates>-43.174,-22.9027,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🍻 🎭 בלוקו da Favorita – קופקבנה</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>במת ענק ומסיבה על קו החוף של קופקבנה – שבת 6.2 אחה״צ.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Copacabana%2C%20Posto%205%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🍻 🎭 מסיבת סירה – Marina da Glória</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>Party Boat במפרץ גואנברה – בוקר שבת 6.2 (להזמין מראש).<br/><a href="https://www.google.com/maps/search/?api=1&query=Marina%20da%20Gloria%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-43.18,-22.968,0</coordinates></Point>
+        <Point><coordinates>-43.169,-22.9198,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🍻 Pedra do Sal – סמבה פתוחה</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבת סמבה פתוחה ברחוב – בימי שני ושישי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pedra%20do%20Sal%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-43.1848,-22.8977,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Rio Scenarium – מועדון סמבה בלאפה</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון סמבה איקוני על 3 קומות בלאפה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20Scenarium%2C%20Lapa%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🍻 Rio Scenarium – סמבה בלאפה</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון סמבה איקוני על 3 קומות – לערב שלא בבלוקו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20Scenarium%2C%20Lapa%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#nightlife</styleUrl>
         <Point><coordinates>-43.1836,-22.9082,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🍻 Bosque Bar – רופטופ</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בר רופטופ ירוק ואווירתי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Bosque%20Bar%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-43.221,-22.9756,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Canastra Rose – בר קוקטיילים</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בר קוקטיילים/יין צרפתי-ברזילאי באיפנמה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Canastra%20Bar%2C%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-43.199,-22.9846,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Yoo2 Rio (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק מעוצב עם רופטופ מול הר הסוכר (בוטפוגו). בקרנבל – להזמין חודשים מראש!<br/><a href="https://www.google.com/maps/search/?api=1&query=Yoo2%20Rio%20de%20Janeiro%20by%20Intercity">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-43.181,-22.9445,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
         <name>🏨 Janeiro Hotel (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק שקט מול חוף לבלון.<br/><a href="https://www.google.com/maps/search/?api=1&query=Janeiro%20Hotel%2C%20Leblon%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🏨 <b>לינה</b><br/>בוטיק שקט מול חוף לבלון.<br/><a href="https://www.google.com/maps/search/?api=1&query=Janeiro%20Hotel%2C%20Leblon%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#hotel</styleUrl>
         <Point><coordinates>-43.2229,-22.9873,0</coordinates></Point>
       </Placemark>
@@ -213,380 +117,146 @@
       </Placemark>
       <Placemark>
         <name>🏨 Ipanema Beach House (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל עם בריכה במרחק הליכה מחוף איפנמה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Ipanema%20Beach%20House%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל עם בריכה במרחק הליכה מהחוף.<br/><a href="https://www.google.com/maps/search/?api=1&query=Ipanema%20Beach%20House%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#hotel</styleUrl>
         <Point><coordinates>-43.201,-22.984,0</coordinates></Point>
       </Placemark>
+    </Folder>
+    <Folder>
+      <name>⛵ 2. בוזיוס + אראיאל דו קאבו | ימים 5–7 · ש׳–ב׳ 6–8.2.2027</name>
       <Placemark>
-        <name>✈️ שדה תעופה סנטוס דומון (SDU)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>שדה פנים-ארצי במרכז העיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Santos%20Dumont%20Airport%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🍻 Rua das Pedras – רחוב הברים</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הרחוב הראשי של חיי הלילה – ברים, מועדונים ומסעדות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20das%20Pedras%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#nightlife</styleUrl>
+        <Point><coordinates>-41.8817,-22.7469,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 טיילת Orla Bardot</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טיילת החוף היפה של בוזיוס – פסל בריז׳יט ברדו והשקיעה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Orla%20Bardot%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-41.88,-22.744,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 חוף Geribá</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף הגלישה הגדול – בוקר רגוע לפני ההמשך דרומה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Gerib%C3%A1%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-41.913,-22.779,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🍻 Silk Beach Club</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבת השקיעה של בוזיוס – ערב ראשון 7.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Silk%20Beach%20Club%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#nightlife</styleUrl>
+        <Point><coordinates>-41.9,-22.753,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 אראיאל דו קאבו – שייט</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יציאת השייט של ׳הקריביים של ברזיל׳ – מים טורקיז מטורפים. יום א׳ 7.2 מוקדם.<br/><a href="https://www.google.com/maps/search/?api=1&query=Marina%20dos%20Pescadores%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-42.0278,-22.9661,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 Prainhas do Pontal do Atalaia</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>המפרצונים עם מדרגות העץ המפורסמות – החוף הכי מצולם בברזיל.<br/><a href="https://www.google.com/maps/search/?api=1&query=Prainhas%20do%20Pontal%20do%20Atalaia%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-42.0255,-22.9789,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 Praia do Farol</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף שמגיעים אליו רק בשייט – חול לבן ומים שקופים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20do%20Farol%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-42.0095,-22.9885,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🏨 Casas Brancas (בוטיק)</name>
+        <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק עם תצפית על המפרץ.<br/><a href="https://www.google.com/maps/search/?api=1&query=Casas%20Brancas%20Boutique%20Hotel%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#hotel</styleUrl>
+        <Point><coordinates>-41.883,-22.748,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🏨 Nomad Búzios (הוסטל)</name>
+        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה ליד Rua das Pedras.<br/><a href="https://www.google.com/maps/search/?api=1&query=Nomad%20Buzios%20Hostel">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#hotel</styleUrl>
+        <Point><coordinates>-41.883,-22.746,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>🏝️ 3. איליה גרנדה – ג&#x27;ונגל, טרקים ואיזון | ימים 7–10 · ב׳–ה׳ 8–11.2.2027</name>
+      <Placemark>
+        <name>✈️ נמל Conceição de Jacareí</name>
+        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נקודת היציאה של הסירות המהירות לאי (כ-20 דק׳).<br/><a href="https://www.google.com/maps/search/?api=1&query=Concei%C3%A7%C3%A3o%20de%20Jacare%C3%AD%2C%20Mangaratiba">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-43.1631,-22.9105,0</coordinates></Point>
+        <Point><coordinates>-44.466,-23.014,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 Vila do Abraão</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכפר הראשי – בסיס הלינה, המסעדות והסירות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Vila%20do%20Abra%C3%A3o%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-44.1699,-23.1394,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 חוף Lopes Mendes</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מהחופים היפים בעולם – שייט + הליכה קצרה בג׳ונגל. יום ג׳ 9.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Lopes%20Mendes%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-44.123,-23.1636,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 טרק Pico do Papagaio</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טרק זריחה לפסגה בגובה 982 מ׳ – יציאה 2:00 לפנות בוקר עם מדריך. ד׳ 10.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pico%20do%20Papagaio%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-44.199,-23.1547,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 Lagoa Azul – הלגונה הכחולה</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>שנורקלינג במים טורקיז – אחה״צ של יום הזריחה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Lagoa%20Azul%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-44.2378,-23.0797,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🍻 חוף Abraão – ערבי Forró</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מוזיקה חיה ומדורות על קו המים בלילה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20do%20Abra%C3%A3o%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#nightlife</styleUrl>
+        <Point><coordinates>-44.1695,-23.1385,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🏨 Pousada Naturalia (בוטיק)</name>
+        <description><![CDATA[🏨 <b>לינה</b><br/>פוסאדת בוטיק על החוף.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pousada%20Naturalia%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#hotel</styleUrl>
+        <Point><coordinates>-44.172,-23.14,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🏨 Che Lagarto Hostel (הוסטל)</name>
+        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה במרכז הכפר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Che%20Lagarto%20Hostel%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#hotel</styleUrl>
+        <Point><coordinates>-44.168,-23.1397,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>✈️ 4. ריו – סיום וטיסה הביתה | ימים 10–11 · ה׳–ו׳ 11–12.2.2027</name>
+      <Placemark>
+        <name>🥾 רחוב הקניות של איפנמה</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>Visconde de Pirajá – מזכרות, הוויאנס ואופנה ברזילאית.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Visconde%20de%20Piraj%C3%A1%2C%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-43.2,-22.9846,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🍻 Churrascaria Palace</name>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>ארוחת הבשרים החגיגית של סוף הטיול.<br/><a href="https://www.google.com/maps/search/?api=1&query=Churrascaria%20Palace%2C%20Copacabana%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#nightlife</styleUrl>
+        <Point><coordinates>-43.1785,-22.9655,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>✈️ שדה תעופה גליאאו (GIG)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>השדה הבינלאומי – ממנו ממריאים לבוגוטה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>טיסה הביתה – שישי 12.2 בערב.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#transport</styleUrl>
         <Point><coordinates>-43.2506,-22.809,0</coordinates></Point>
       </Placemark>
     </Folder>
     <Folder>
-      <name>🇨🇴 4. עמק הקפה – סאלנטו (Salento) | ימים 11–13 · 10–12.2.2027 (1–3 בקולומביה)</name>
+      <name>🧭 קו המסלול</name>
       <Placemark>
-        <name>✈️ שדה תעופה פרירה (PEI)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>אופציית נחיתה 1 – כשעה נסיעה לסאלנטו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Mateca%C3%B1a%20International%20Airport%2C%20Pereira">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-75.7395,4.8127,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>✈️ שדה תעופה ארמניה (AXM)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>אופציית נחיתה 2 – כ-50 דק&#x27; נסיעה לסאלנטו.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Ed%C3%A9n%20International%20Airport%2C%20Armenia">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-75.7664,4.4528,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 כיכר סאלנטו והרחוב הצבעוני</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>העיירה הצבעונית של עמק הקפה – Calle Real והמירדור.<br/><a href="https://www.google.com/maps/search/?api=1&query=Plaza%20de%20Bol%C3%ADvar%2C%20Salento%2C%20Quind%C3%ADo">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.5703,4.6378,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 טרק עמק הקוקורה (Valle de Cocora)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טרק 5–6 שעות בין עצי דקל השעווה הענקיים. ג&#x27;יפים יוצאים מהכיכר בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Valle%20de%20Cocora%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.4866,4.6381,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 חוות הקפה Don Elias</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>סיור קפה משפחתי אורגני – מהפרי אל הכוס.<br/><a href="https://www.google.com/maps/search/?api=1&query=Finca%20El%20Ocaso%20/%20Cafe%20Don%20Elias%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.579,4.627,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 פילנדיה (Filandia)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עיירה צבעונית ושקטה ליום כיף – 30 דק&#x27; מסאלנטו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Filandia%2C%20Quind%C3%ADo">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.6584,4.6743,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Los Amigos – משחק טחו</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>טחו – זריקות על מטרות אבק שריפה + בירה. חובה!<br/><a href="https://www.google.com/maps/search/?api=1&query=Cancha%20de%20Tejo%20Los%20Amigos%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.5712,4.6375,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Billar Danubio – ביליארד מקומי</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>אולם ביליארד מקומי אותנטי על הכיכר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Billar%20Danubio%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.57,4.6377,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Hotel Kawa Mountain Retreat (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>ריטריט בוטיק עם נוף להרים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Kawa%20Mountain%20Retreat%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-75.568,4.633,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Coffee Tree Boutique Hostel (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל בוטיק ברמה גבוהה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coffee%20Tree%20Boutique%20Hostel%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-75.5721,4.6394,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>🇨🇴 5. מדג&#x27;ין (Medellín) | ימים 14–19 · 13–18.2.2027 (4–9 בקולומביה)</name>
-      <Placemark>
-        <name>✈️ שדה תעופה מדג&#x27;ין (MDE)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>השדה הראשי – כ-45 דק&#x27; מהעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Jos%C3%A9%20Mar%C3%ADa%20C%C3%B3rdova%20International%20Airport%2C%20Rionegro">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-75.4231,6.1645,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 קומונה 13 – סיור גרפיטי</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>סיור הגרפיטי והמדרגות החשמליות המפורסמות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.619,6.2529,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 Parque Arví (רכבל)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עלייה ברכבל המטרו-קייבל והליכה ביער.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.5027,6.2846,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 Piedra del Peñol – 740 מדרגות</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טיפוס על הסלע הענק – תצפית האגמים הכי מפורסמת בקולומביה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Piedra%20del%20Pe%C3%B1ol%2C%20Guatap%C3%A9">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.1785,6.2202,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 עיירת גואטפה (Guatapé)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>העיירה הצבעונית ליד הסלע – יום טיול ממדג&#x27;ין (כשעתיים).<br/><a href="https://www.google.com/maps/search/?api=1&query=Guatap%C3%A9%2C%20Antioquia">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.1592,6.2326,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Perro Negro – רגאטון</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון הרגאטון האגדי בפובלאדו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Perro%20Negro%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.567,6.2094,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Vintrash – מועדון</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבות אקלקטיות על כמה קומות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Vintrash%20Bar%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.5666,6.2107,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Salón Amador – אלקטרוני</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון האלקטרוני המוביל בעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n%20Amador%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.57,6.211,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 רחוב Provenza</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>רחוב הברים והמסעדות של אל פובלאדו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Provenza%2C%20El%20Poblado%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.5657,6.2079,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 רחוב La 70 (Carrera 70)</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>רחוב מסיבות מקומי יותר באזור לאורלס/אצטדיון.<br/><a href="https://www.google.com/maps/search/?api=1&query=Carrera%2070%2C%20Laureles%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.591,6.2589,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 The Click Clack Hotel (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק מעוצב באל פובלאדו, רופטופ שווה.<br/><a href="https://www.google.com/maps/search/?api=1&query=The%20Click%20Clack%20Hotel%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-75.564,6.2093,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Los Patios Cool Living (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה עם רופטופים ואווירה חברתית.<br/><a href="https://www.google.com/maps/search/?api=1&query=Los%20Patios%20Hostel%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-75.5697,6.2116,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>🇨🇴 6. סנטה מרטה, מינקה וטיירונה | ימים 20–24 · 19–23.2.2027 (10–14 בקולומביה)</name>
-      <Placemark>
-        <name>✈️ שדה תעופה סנטה מרטה (SMR)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה בחוף הקריבי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sim%C3%B3n%20Bol%C3%ADvar%20International%20Airport%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-74.2306,11.1196,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 פארק טיירונה – כניסת El Zaino</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה הראשית לפארק – תחילת טרק הג&#x27;ונגל.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Zaino%20Entrance%2C%20Tayrona%20National%20Park">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-73.895,11.285,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 חוף Cabo San Juan</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>כ-3 שעות הליכה בג&#x27;ונגל אל החוף האייקוני. אפשר לישון בערסלים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cabo%20San%20Juan%20del%20Gu%C3%ADa%2C%20Tayrona">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-73.965,11.322,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 מינקה (Minca)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>כפר הרים בג&#x27;ונגל – קפה, מפלים ושקיעות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Minca%2C%20Magdalena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-74.1189,11.1419,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 מפלי Pozo Azul</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>בריכות טבעיות ומפלים – קפיצות למים ואבובים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pozo%20Azul%2C%20Minca">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-74.1075,11.1265,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Costeño Beach – מסיבות חוף</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>חוף גלישה עם מסיבות – שווה לילה או יום.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coste%C3%B1o%20Beach%2C%20Guachaca">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-73.809,11.2517,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 El Rio Hostel – מסיבות נהר</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל המסיבות על נהר בוריטקה – אבובים ביום, מסיבות בלילה.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Rio%20Hostel%2C%20Buritaca">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-73.758,11.228,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 La Puerta – בר במרכז</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הבר הכי חם במרכז ההיסטורי של סנטה מרטה.<br/><a href="https://www.google.com/maps/search/?api=1&query=La%20Puerta%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-74.211,11.2419,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 La Brisa Loca – רופטופ</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הוסטל עם בר רופטופ ומסיבות.<br/><a href="https://www.google.com/maps/search/?api=1&query=La%20Brisa%20Loca%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-74.2103,11.2404,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Masaya Santa Marta (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>מלון-בוטיק עם בריכת גג במרכז ההיסטורי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Masaya%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-74.212,11.244,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Casas Viejas (בוטיק, מינקה)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>לודג&#x27; בוטיק עם בריכת אינפיניטי מעל הג&#x27;ונגל.<br/><a href="https://www.google.com/maps/search/?api=1&query=Casas%20Viejas%2C%20Minca">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-74.099,11.133,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>🇨🇴 7. קרטחנה (Cartagena) | ימים 25–27 · 24–26.2.2027 (15–17 בקולומביה)</name>
-      <Placemark>
-        <name>🥾 העיר העתיקה – שער השעון</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה לעיר המוקפת חומה – סמטאות קולוניאליות צבעוניות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Torre%20del%20Reloj%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.5498,10.4223,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 שכונת חטסמני (Getsemaní)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>השכונה הכי מגניבה – גרפיטי, דגלים וסמטאות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Getseman%C3%AD%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.546,10.421,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 מבצר סן פליפה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>המבצר הספרדי הגדול באמריקה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Castillo%20San%20Felipe%20de%20Barajas%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.5395,10.4229,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 שיט לאיי רוסריו</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום שיט לאיים ומים טורקיז – יציאה מהנמל בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Islas%20del%20Rosario%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-75.75,10.183,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Café del Mar – שקיעה על החומה</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>קוקטייל שקיעה על החומות מול הים הקריבי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20del%20Mar%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.5537,10.4249,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Alquímico – טופ 10 בעולם</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בר קוקטיילים על 3 קומות – מהטובים בעולם.<br/><a href="https://www.google.com/maps/search/?api=1&query=Alqu%C3%ADmico%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.5506,10.4238,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Café Havana – סלסה</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון סלסה חי עם להקה קובנית.<br/><a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Havana%2C%20Getseman%C3%AD%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.545,10.421,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Chiva Rumbera – אוטובוס מסיבות</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>אוטובוס מסיבות צבעוני עם רום חופשי – איסוף מאזור המרכז.<br/><a href="https://www.google.com/maps/search/?api=1&query=Camell%C3%B3n%20de%20los%20M%C3%A1rtires%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.548,10.4215,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Plaza de la Trinidad</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>כיכר הבילויים של חטסמני – בירות, אוכל רחוב ואווירה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Plaza%20de%20la%20Trinidad%2C%20Getseman%C3%AD%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-75.5459,10.4193,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Townhouse Boutique Hotel (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>בוטיק עם רופטופ-בר בעיר העתיקה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Townhouse%20Boutique%20Hotel%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-75.55,10.4245,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Viajero Cartagena Hostel (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל גדול וחברתי בעיר העתיקה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Viajero%20Cartagena%20Hostel">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-75.5515,10.4245,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Selina Getsemaní (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל-בוטיק בלב חטסמני.<br/><a href="https://www.google.com/maps/search/?api=1&query=Selina%20Cartagena%2C%20Getseman%C3%AD">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-75.544,10.4205,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>✈️ שדה תעופה קרטחנה (CTG)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>ממריאים מכאן לסאן אנדרס. חשוב: לקנות &#x27;כרטיס תייר&#x27; בדלפק חברת התעופה!<br/><a href="https://www.google.com/maps/search/?api=1&query=Rafael%20N%C3%BA%C3%B1ez%20International%20Airport%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-75.513,10.4424,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>🇨🇴 8. האי סאן אנדרס (San Andrés) | ימים 28–30 · 27.2–1.3.2027 (18–20 בקולומביה)</name>
-      <Placemark>
-        <name>✈️ שדה תעופה סאן אנדרס (ADZ)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה באי – 5 דק&#x27; מהמרכז.<br/><a href="https://www.google.com/maps/search/?api=1&query=Gustavo%20Rojas%20Pinilla%20International%20Airport%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#transport</styleUrl>
-        <Point><coordinates>-81.7112,12.5836,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 חוף Spratt Bight</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>החוף הראשי מול &#x27;ים שבעת הצבעים&#x27;.<br/><a href="https://www.google.com/maps/search/?api=1&query=Spratt%20Bight%20Beach%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-81.7,12.5885,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 Johnny Cay</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>אי קטן מול החוף – שיוט, קוקוס לוקו ואיגואנות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Johnny%20Cay%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-81.699,12.5967,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 El Acuario – האקווריום</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מים רדודים וצלולים – שנורקלינג עם קרנפי ים.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Acuario%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-81.6779,12.5478,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 Hoyo Soplador – הגייזר</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חור נשיפה טבעי בדרום האי – תחנה בהקפת האי ברכב גולף.<br/><a href="https://www.google.com/maps/search/?api=1&query=Hoyo%20Soplador%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-81.73,12.4936,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🥾 West View – קפיצות למים</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מקפצות ושנורקלינג בצד המערבי – עצירה בהקפת האי.<br/><a href="https://www.google.com/maps/search/?api=1&query=West%20View%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#attraction</styleUrl>
-        <Point><coordinates>-81.7359,12.5218,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Coco Loco – מועדון</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון על החוף במרכז.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coco%20Loco%20Bar%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-81.699,12.586,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🍻 Extasis Disco – מועדון</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>דיסקוטק מקומי – רגאטון וסלסה עד הבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Extasis%20Discoteca%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#nightlife</styleUrl>
-        <Point><coordinates>-81.701,12.583,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Hotel Nomadic Design (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק מעוצב במרכז האי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Nomadic%20Design%20Hotel%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-81.7,12.583,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Dreamer Beach Club (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה ליד החוף.<br/><a href="https://www.google.com/maps/search/?api=1&query=Dreamer%20Hostel%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-81.705,12.59,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>🧭 קו המסלול הכללי</name>
-      <Placemark>
-        <name>מסלול הטיול: איגואסו ← ריו ← עמק הקפה ← הקריביים</name>
+        <name>ריו ← בוזיוס ← אראיאל ← איליה גרנדה ← ריו</name>
         <styleUrl>#route</styleUrl>
-        <LineString><tessellate>1</tessellate><coordinates>-54.4367,-25.6953,0 -44.1699,-23.1394,0 -43.2105,-22.9519,0 -75.5703,4.6378,0 -75.619,6.2529,0 -73.895,11.285,0 -75.5498,10.4223,0 -81.7,12.5885,0</coordinates></LineString>
+        <LineString><tessellate>1</tessellate><coordinates>-43.1918,-22.9893,0 -41.8817,-22.7469,0 -42.0278,-22.9661,0 -44.1699,-23.1394,0 -43.1918,-22.9893,0</coordinates></LineString>
       </Placemark>
     </Folder>
   </Document>

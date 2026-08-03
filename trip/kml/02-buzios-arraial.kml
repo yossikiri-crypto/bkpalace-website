@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>⛵ 2. בוזיוס + אראיאל דו קאבו | ימים 5–7 · ש׳–ב׳ 6–8.2.2027</name>
+    <Style id="attraction">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="nightlife">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/purple-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="hotel">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/blue-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="transport">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="route">
+      <LineStyle><color>ccF27221</color><width>4</width></LineStyle>
+    </Style>
+    <Placemark>
+      <name>🍻 Rua das Pedras – רחוב הברים</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הרחוב הראשי של חיי הלילה – ברים, מועדונים ומסעדות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20das%20Pedras%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-41.8817,-22.7469,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 טיילת Orla Bardot</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טיילת החוף היפה של בוזיוס – פסל בריז׳יט ברדו והשקיעה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Orla%20Bardot%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-41.88,-22.744,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 חוף Geribá</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף הגלישה הגדול – בוקר רגוע לפני ההמשך דרומה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Gerib%C3%A1%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-41.913,-22.779,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Silk Beach Club</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבת השקיעה של בוזיוס – ערב ראשון 7.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Silk%20Beach%20Club%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-41.9,-22.753,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 אראיאל דו קאבו – שייט</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יציאת השייט של ׳הקריביים של ברזיל׳ – מים טורקיז מטורפים. יום א׳ 7.2 מוקדם.<br/><a href="https://www.google.com/maps/search/?api=1&query=Marina%20dos%20Pescadores%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-42.0278,-22.9661,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 Prainhas do Pontal do Atalaia</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>המפרצונים עם מדרגות העץ המפורסמות – החוף הכי מצולם בברזיל.<br/><a href="https://www.google.com/maps/search/?api=1&query=Prainhas%20do%20Pontal%20do%20Atalaia%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-42.0255,-22.9789,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 Praia do Farol</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף שמגיעים אליו רק בשייט – חול לבן ומים שקופים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20do%20Farol%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-42.0095,-22.9885,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Casas Brancas (בוטיק)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק עם תצפית על המפרץ.<br/><a href="https://www.google.com/maps/search/?api=1&query=Casas%20Brancas%20Boutique%20Hotel%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-41.883,-22.748,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Nomad Búzios (הוסטל)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה ליד Rua das Pedras.<br/><a href="https://www.google.com/maps/search/?api=1&query=Nomad%20Buzios%20Hostel">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-41.883,-22.746,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
