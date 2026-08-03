@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>🌴 7. סנטה מרטה, מינקה וטיירונה | ימים 21–25 · ב׳–ו׳ 22–26.2.2027</name>
+    <Style id="attraction">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="nightlife">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/purple-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="hotel">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/blue-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="transport">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="route">
+      <LineStyle><color>ccF27221</color><width>4</width></LineStyle>
+    </Style>
+    <Placemark>
+      <name>✈️ שדה תעופה סנטה מרטה (SMR)</name>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה בחוף הקריבי – ב׳ 22.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sim%C3%B3n%20Bol%C3%ADvar%20International%20Airport%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#transport</styleUrl>
+      <Point><coordinates>-74.2306,11.1196,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 פארק טיירונה – כניסת El Zaino</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה הראשית לפארק – תחילת הטרק. ד׳ 24.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Zaino%20Entrance%2C%20Tayrona%20National%20Park">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-73.895,11.285,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 חוף Cabo San Juan</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>כ-3 שעות הליכה בג׳ונגל אל החוף האייקוני. אפשר לישון בערסלים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cabo%20San%20Juan%20del%20Gu%C3%ADa%2C%20Tayrona">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-73.965,11.322,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 מינקה</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>כפר הרים בג׳ונגל – קפה, מפלים ושקיעות. ג׳ 23.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Minca%2C%20Magdalena">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-74.1189,11.1419,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 מפלי Pozo Azul</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>בריכות טבעיות – קפיצות למים ואבובים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pozo%20Azul%2C%20Minca">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-74.1075,11.1265,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Costeño Beach</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>חוף גלישה עם מסיבות – ה׳ 25.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coste%C3%B1o%20Beach%2C%20Guachaca">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-73.809,11.2517,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 El Rio Hostel</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל המסיבות על נהר בוריטקה – אבובים ביום, מסיבות בלילה.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Rio%20Hostel%2C%20Buritaca">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-73.758,11.228,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 La Puerta – בר במרכז</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הבר הכי חם במרכז ההיסטורי.<br/><a href="https://www.google.com/maps/search/?api=1&query=La%20Puerta%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-74.211,11.2419,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 La Brisa Loca – רופטופ</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בר רופטופ ומסיבות – ערב הסיום ו׳ 26.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=La%20Brisa%20Loca%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-74.2103,11.2404,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Masaya Santa Marta (בוטיק)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>מלון-בוטיק עם בריכת גג במרכז ההיסטורי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Masaya%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-74.212,11.244,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Casas Viejas (בוטיק, מינקה)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>לודג׳ בוטיק עם בריכת אינפיניטי מעל הג׳ונגל.<br/><a href="https://www.google.com/maps/search/?api=1&query=Casas%20Viejas%2C%20Minca">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-74.099,11.133,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

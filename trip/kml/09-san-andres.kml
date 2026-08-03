@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>🐠 9. האי סאן אנדרס | ימים 29–31 · ג׳–ה׳ 2–4.3.2027</name>
+    <Style id="attraction">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="nightlife">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/purple-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="hotel">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/blue-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="transport">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="route">
+      <LineStyle><color>ccF27221</color><width>4</width></LineStyle>
+    </Style>
+    <Placemark>
+      <name>✈️ שדה תעופה סאן אנדרס (ADZ)</name>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה באי – 5 דק׳ מהמרכז.<br/><a href="https://www.google.com/maps/search/?api=1&query=Gustavo%20Rojas%20Pinilla%20International%20Airport%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#transport</styleUrl>
+      <Point><coordinates>-81.7112,12.5836,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 חוף Spratt Bight</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>החוף הראשי מול ׳ים שבעת הצבעים׳.<br/><a href="https://www.google.com/maps/search/?api=1&query=Spratt%20Bight%20Beach%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-81.7,12.5885,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 Johnny Cay</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>אי קטן מול החוף – שיוט, קוקוס לוקו ואיגואנות. ד׳ 3.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Johnny%20Cay%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-81.699,12.5967,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 El Acuario</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מים רדודים וצלולים – שנורקלינג עם קרנפי ים.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Acuario%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-81.6779,12.5478,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 Hoyo Soplador – הגייזר</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חור נשיפה טבעי בדרום האי – בהקפת האי ה׳ 4.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Hoyo%20Soplador%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-81.73,12.4936,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 West View – קפיצות למים</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מקפצות ושנורקלינג בצד המערבי.<br/><a href="https://www.google.com/maps/search/?api=1&query=West%20View%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-81.7359,12.5218,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Coco Loco – מועדון</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מועדון על החוף במרכז.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coco%20Loco%20Bar%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-81.699,12.586,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Extasis Disco</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>דיסקוטק מקומי – רגאטון וסלסה עד הבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Extasis%20Discoteca%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-81.701,12.583,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Hotel Nomadic Design (בוטיק)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק מעוצב במרכז האי.<br/><a href="https://www.google.com/maps/search/?api=1&query=Nomadic%20Design%20Hotel%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-81.7,12.583,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Dreamer Beach Club (הוסטל)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה ליד החוף.<br/><a href="https://www.google.com/maps/search/?api=1&query=Dreamer%20Hostel%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-81.705,12.59,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

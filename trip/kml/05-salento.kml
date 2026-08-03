@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>☕ 5. עמק הקפה – סאלנטו | ימים 12–14 · ש׳–ב׳ 13–15.2.2027</name>
+    <Style id="attraction">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="nightlife">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/purple-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="hotel">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/blue-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="transport">
+      <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="route">
+      <LineStyle><color>ccF27221</color><width>4</width></LineStyle>
+    </Style>
+    <Placemark>
+      <name>✈️ שדה תעופה פרירה (PEI)</name>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>אופציית נחיתה 1 – כשעה נסיעה לסאלנטו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Mateca%C3%B1a%20International%20Airport%2C%20Pereira">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#transport</styleUrl>
+      <Point><coordinates>-75.7395,4.8127,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>✈️ שדה תעופה ארמניה (AXM)</name>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>אופציית נחיתה 2 – כ-50 דק׳ נסיעה לסאלנטו.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Ed%C3%A9n%20International%20Airport%2C%20Armenia">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#transport</styleUrl>
+      <Point><coordinates>-75.7664,4.4528,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 כיכר סאלנטו והרחוב הצבעוני</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>העיירה הצבעונית של עמק הקפה – Calle Real והמירדור.<br/><a href="https://www.google.com/maps/search/?api=1&query=Plaza%20de%20Bol%C3%ADvar%2C%20Salento%2C%20Quind%C3%ADo">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-75.5703,4.6378,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 טרק עמק הקוקורה</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום א׳ 14.2 – ג׳יפים יוצאים מהכיכר בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Valle%20de%20Cocora%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-75.4866,4.6381,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 חוות הקפה Don Elias</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>סיור קפה משפחתי אורגני – מהפרי אל הכוס.<br/><a href="https://www.google.com/maps/search/?api=1&query=Finca%20El%20Ocaso%20/%20Cafe%20Don%20Elias%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-75.579,4.627,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 פילנדיה (Filandia)</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עיירה צבעונית ושקטה – בוקר ב׳ 15.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Filandia%2C%20Quind%C3%ADo">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-75.6584,4.6743,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Los Amigos – משחק טחו</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>טחו – זריקות על מטרות אבק שריפה + בירה. חובה!<br/><a href="https://www.google.com/maps/search/?api=1&query=Cancha%20de%20Tejo%20Los%20Amigos%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-75.5712,4.6375,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Billar Danubio – ביליארד</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>אולם ביליארד מקומי אותנטי על הכיכר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Billar%20Danubio%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-75.57,4.6377,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Hotel Kawa Mountain Retreat (בוטיק)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>ריטריט בוטיק עם נוף להרים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Kawa%20Mountain%20Retreat%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-75.568,4.633,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🏨 Coffee Tree Boutique Hostel (הוסטל)</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל בוטיק ברמה גבוהה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coffee%20Tree%20Boutique%20Hostel%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#hotel</styleUrl>
+      <Point><coordinates>-75.5721,4.6394,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

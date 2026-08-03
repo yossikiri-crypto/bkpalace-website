@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>✈️ 4. ריו – סיום וטיסה הביתה | ימים 10–11 · ה׳–ו׳ 11–12.2.2027</name>
+    <name>✈️ 4. ריו – סיום ברזיל ומעבר לקולומביה | ימים 10–11 · ה׳–ו׳ 11–12.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -31,7 +31,7 @@
     </Placemark>
     <Placemark>
       <name>✈️ שדה תעופה גליאאו (GIG)</name>
-      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>טיסה הביתה – שישי 12.2 בערב.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>טיסת ערב לבוגוטה – שישי 12.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#transport</styleUrl>
       <Point><coordinates>-43.2506,-22.809,0</coordinates></Point>
     </Placemark>
