@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🌆 6. מדג&#x27;ין | ימים 16–21 · ג׳–א׳ 16–21.2.2027</name>
+    <name>🌆 5. מדג&#x27;ין | ימים 15–20 · ב׳–ש׳ 15–20.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -25,19 +25,19 @@
     </Placemark>
     <Placemark>
       <name>🥾 קומונה 13 – סיור גרפיטי</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ד׳ 17.2 – הגרפיטי והמדרגות החשמליות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ג׳ 16.2 – הגרפיטי והמדרגות החשמליות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-75.619,6.2529,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🥾 Parque Arví (רכבל)</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ו׳ 19.2 – עלייה במטרו-קייבל והליכה ביער.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ה׳ 18.2 – עלייה במטרו-קייבל והליכה ביער.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-75.5027,6.2846,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🥾 Piedra del Peñol – 740 מדרגות</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ה׳ 18.2 – תצפית האגמים הכי מפורסמת בקולומביה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Piedra%20del%20Pe%C3%B1ol%2C%20Guatap%C3%A9">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ד׳ 17.2 – תצפית האגמים הכי מפורסמת בקולומביה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Piedra%20del%20Pe%C3%B1ol%2C%20Guatap%C3%A9">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-75.1785,6.2202,0</coordinates></Point>
     </Placemark>

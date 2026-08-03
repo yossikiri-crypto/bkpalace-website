@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🎭 1. ריו דה ז&#x27;ניירו – ימי הקרנבל | ימים 1–6 · ב׳–ש׳ 1–6.2.2027</name>
+    <name>🎭 1. ריו דה ז&#x27;ניירו – ימי הקרנבל | ימים 1–7 · ב׳–א׳ 1–7.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -91,15 +91,21 @@
     </Placemark>
     <Placemark>
       <name>🍻 🎭 בלוקו Cordão da Bola Preta</name>
-      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הבלוקו הוותיק והענק של ריו – שבת 6.2 בבוקר, לפני היציאה לבוזיוס.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cordao%20da%20Bola%20Preta%2C%20Centro%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הבלוקו הוותיק והענק של ריו – שבת 6.2 בבוקר. מיליון חוגגים ברחוב.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cordao%20da%20Bola%20Preta%2C%20Centro%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#nightlife</styleUrl>
       <Point><coordinates>-43.174,-22.9027,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🍻 🎭 מסיבת סירה – Marina da Glória</name>
-      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>Party Boat במפרץ גואנברה – בוקר שבת 6.2 (להזמין מראש).<br/><a href="https://www.google.com/maps/search/?api=1&query=Marina%20da%20Gloria%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>Party Boat במפרץ גואנברה – שבת 6.2 אחה״צ (להזמין מראש).<br/><a href="https://www.google.com/maps/search/?api=1&query=Marina%20da%20Gloria%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#nightlife</styleUrl>
       <Point><coordinates>-43.169,-22.9198,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🍻 Churrascaria Palace</name>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>ארוחת הבשרים החגיגית – ערב ג׳ 2.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Churrascaria%20Palace%2C%20Copacabana%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#nightlife</styleUrl>
+      <Point><coordinates>-43.1785,-22.9655,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🍻 Rio Scenarium – סמבה בלאפה</name>

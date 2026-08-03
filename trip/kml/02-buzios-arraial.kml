@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>⛵ 2. בוזיוס + אראיאל דו קאבו | ימים 6–8 · ש׳–ב׳ 6–8.2.2027</name>
+    <name>⛵ 2. בוזיוס + אראיאל דו קאבו | ימים 7–9 · א׳–ג׳ 7–9.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -37,13 +37,13 @@
     </Placemark>
     <Placemark>
       <name>🍻 Silk Beach Club</name>
-      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבת השקיעה של בוזיוס – ערב ראשון 7.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Silk%20Beach%20Club%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבת השקיעה של בוזיוס – ערב שני 8.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Silk%20Beach%20Club%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#nightlife</styleUrl>
       <Point><coordinates>-41.9,-22.753,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🥾 אראיאל דו קאבו – שייט</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יציאת השייט של ׳הקריביים של ברזיל׳ – מים טורקיז מטורפים. יום א׳ 7.2 מוקדם.<br/><a href="https://www.google.com/maps/search/?api=1&query=Marina%20dos%20Pescadores%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יציאת השייט של ׳הקריביים של ברזיל׳ – מים טורקיז מטורפים. יום ב׳ 8.2 מוקדם.<br/><a href="https://www.google.com/maps/search/?api=1&query=Marina%20dos%20Pescadores%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-42.0278,-22.9661,0</coordinates></Point>
     </Placemark>

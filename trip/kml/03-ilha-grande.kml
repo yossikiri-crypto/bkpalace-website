@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🏝️ 3. איליה גרנדה – ג&#x27;ונגל, טרקים ואיזון | ימים 8–11 · ב׳–ה׳ 8–11.2.2027</name>
+    <name>🏝️ 3. איליה גרנדה – ג&#x27;ונגל, טרקים ואיזון | ימים 9–11 · ג׳–ה׳ 9–11.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -31,19 +31,19 @@
     </Placemark>
     <Placemark>
       <name>🥾 חוף Lopes Mendes</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מהחופים היפים בעולם – שייט + הליכה קצרה בג׳ונגל. יום ג׳ 9.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Lopes%20Mendes%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מהחופים היפים בעולם – שייט + הליכה קצרה בג׳ונגל. יום ד׳ 10.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Lopes%20Mendes%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-44.123,-23.1636,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🥾 טרק Pico do Papagaio</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טרק זריחה לפסגה בגובה 982 מ׳ – יציאה 2:00 לפנות בוקר עם מדריך. ד׳ 10.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pico%20do%20Papagaio%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טרק זריחה לפסגה בגובה 982 מ׳ – יציאה 2:00 לפנות בוקר עם מדריך. ה׳ 11.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Pico%20do%20Papagaio%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-44.199,-23.1547,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🥾 Lagoa Azul – הלגונה הכחולה</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>שנורקלינג במים טורקיז – אחה״צ של יום הזריחה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Lagoa%20Azul%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>שנורקלינג במים טורקיז – בשייט של יום ד׳ 10.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Lagoa%20Azul%2C%20Ilha%20Grande">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-44.2378,-23.0797,0</coordinates></Point>
     </Placemark>
