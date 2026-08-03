@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🇧🇷🇨🇴 ברזיל וקולומביה – קרנבל 2027 | 2.2–4.3 | המפה המלאה</name>
+    <name>🇧🇷🇨🇴 ברזיל וקולומביה – קרנבל 2027 | 1.2–4.3 | המפה המלאה</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -18,10 +18,10 @@
       <LineStyle><color>ccF27221</color><width>4</width></LineStyle>
     </Style>
     <Folder>
-      <name>🎭 1. ריו דה ז&#x27;ניירו – ימי הקרנבל | ימים 1–5 · ג׳–ש׳ 2–6.2.2027</name>
+      <name>🎭 1. ריו דה ז&#x27;ניירו – ימי הקרנבל | ימים 1–6 · ב׳–ש׳ 1–6.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה גליאאו (GIG)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה ביום ג׳ 2.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה ביום ב׳ 1.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#transport</styleUrl>
         <Point><coordinates>-43.2506,-22.809,0</coordinates></Point>
       </Placemark>
@@ -62,10 +62,16 @@
         <Point><coordinates>-43.1822,-22.9711,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🥾 פסל ישו + הר הסוכר</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>האייקונים של ריו – לשבץ בבוקר פנוי (או ביום האחרון 12.2).<br/><a href="https://www.google.com/maps/search/?api=1&query=Cristo%20Redentor%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🥾 פסל ישו הגואל</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>בוקר ג׳ 2.2 – לעלות מוקדם לפני העומס.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cristo%20Redentor%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-43.2105,-22.9519,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 הר הסוכר (Pão de Açúcar)</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>רכבל לשקיעה – ערב ג׳ 2.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=P%C3%A3o%20de%20A%C3%A7%C3%BAcar%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-43.1566,-22.9486,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🥾 🎭 הסמבודרום – מצעד Série Ouro</name>
@@ -123,7 +129,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>⛵ 2. בוזיוס + אראיאל דו קאבו | ימים 5–7 · ש׳–ב׳ 6–8.2.2027</name>
+      <name>⛵ 2. בוזיוס + אראיאל דו קאבו | ימים 6–8 · ש׳–ב׳ 6–8.2.2027</name>
       <Placemark>
         <name>🍻 Rua das Pedras – רחוב הברים</name>
         <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>הרחוב הראשי של חיי הלילה – ברים, מועדונים ומסעדות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20das%20Pedras%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
@@ -180,7 +186,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🏝️ 3. איליה גרנדה – ג&#x27;ונגל, טרקים ואיזון | ימים 7–10 · ב׳–ה׳ 8–11.2.2027</name>
+      <name>🏝️ 3. איליה גרנדה – ג&#x27;ונגל, טרקים ואיזון | ימים 8–11 · ב׳–ה׳ 8–11.2.2027</name>
       <Placemark>
         <name>✈️ נמל Conceição de Jacareí</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נקודת היציאה של הסירות המהירות לאי (כ-20 דק׳).<br/><a href="https://www.google.com/maps/search/?api=1&query=Concei%C3%A7%C3%A3o%20de%20Jacare%C3%AD%2C%20Mangaratiba">פתיחה ב-Google Maps</a>]]></description>
@@ -231,7 +237,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>✈️ 4. ריו – סיום ברזיל ומעבר לקולומביה | ימים 10–11 · ה׳–ו׳ 11–12.2.2027</name>
+      <name>✈️ 4. ריו – סיום ברזיל ומעבר לקולומביה | ימים 11–12 · ה׳–ו׳ 11–12.2.2027</name>
       <Placemark>
         <name>🥾 רחוב הקניות של איפנמה</name>
         <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>Visconde de Pirajá – מזכרות, הוויאנס ואופנה ברזילאית.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Visconde%20de%20Piraj%C3%A1%2C%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
@@ -252,7 +258,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>☕ 5. עמק הקפה – סאלנטו | ימים 12–14 · ש׳–ב׳ 13–15.2.2027</name>
+      <name>☕ 5. עמק הקפה – סאלנטו | ימים 13–15 · ש׳–ב׳ 13–15.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה פרירה (PEI)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>אופציית נחיתה 1 – כשעה נסיעה לסאלנטו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Mateca%C3%B1a%20International%20Airport%2C%20Pereira">פתיחה ב-Google Maps</a>]]></description>
@@ -315,7 +321,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🌆 6. מדג&#x27;ין | ימים 15–20 · ג׳–א׳ 16–21.2.2027</name>
+      <name>🌆 6. מדג&#x27;ין | ימים 16–21 · ג׳–א׳ 16–21.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה מדג&#x27;ין (MDE)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>השדה הראשי – כ-45 דק׳ מהעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Jos%C3%A9%20Mar%C3%ADa%20C%C3%B3rdova%20International%20Airport%2C%20Rionegro">פתיחה ב-Google Maps</a>]]></description>
@@ -390,7 +396,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🌴 7. סנטה מרטה, מינקה וטיירונה | ימים 21–25 · ב׳–ו׳ 22–26.2.2027</name>
+      <name>🌴 7. סנטה מרטה, מינקה וטיירונה | ימים 22–26 · ב׳–ו׳ 22–26.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה סנטה מרטה (SMR)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה בחוף הקריבי – ב׳ 22.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sim%C3%B3n%20Bol%C3%ADvar%20International%20Airport%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
@@ -459,7 +465,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🏰 8. קרטחנה | ימים 26–28 · ש׳–ב׳ 27.2–1.3.2027</name>
+      <name>🏰 8. קרטחנה | ימים 27–29 · ש׳–ב׳ 27.2–1.3.2027</name>
       <Placemark>
         <name>🥾 העיר העתיקה – שער השעון</name>
         <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה לעיר המוקפת חומה – סמטאות קולוניאליות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Torre%20del%20Reloj%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
@@ -534,7 +540,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🐠 9. האי סאן אנדרס | ימים 29–31 · ג׳–ה׳ 2–4.3.2027</name>
+      <name>🐠 9. האי סאן אנדרס | ימים 30–32 · ג׳–ה׳ 2–4.3.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה סאן אנדרס (ADZ)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה באי – 5 דק׳ מהמרכז.<br/><a href="https://www.google.com/maps/search/?api=1&query=Gustavo%20Rojas%20Pinilla%20International%20Airport%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
