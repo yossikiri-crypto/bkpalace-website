@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🇧🇷🇨🇴 ברזיל וקולומביה – קרנבל 2027 | 1.2–3.3 | המפה המלאה</name>
+    <name>🇧🇷🇨🇴 ברזיל וקולומביה – קרנבל 2027 | 1.2–4.3 | המפה המלאה</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -243,7 +243,22 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>☕ 4. עמק הקפה – סאלנטו | ימים 12–14 · ו׳–א׳ 12–14.2.2027</name>
+      <name>✈️ 4. ריו – לילה אחרון ומעבר לקולומביה | ימים 11–12 · ה׳–ו׳ 11–12.2.2027</name>
+      <Placemark>
+        <name>🥾 רחוב הקניות של איפנמה</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>Visconde de Pirajá – מזכרות, הוויאנס ואופנה ברזילאית. בוקר ו׳ 12.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Visconde%20de%20Piraj%C3%A1%2C%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-43.2,-22.9846,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>✈️ שדה תעופה גליאאו (GIG) – יציאה</name>
+        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>טיסה לבוגוטה – שישי 12.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#transport</styleUrl>
+        <Point><coordinates>-43.2506,-22.809,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>☕ 5. עמק הקפה – סאלנטו | ימים 13–15 · ש׳–ב׳ 13–15.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה פרירה (PEI)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>אופציית נחיתה 1 – כשעה נסיעה לסאלנטו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Mateca%C3%B1a%20International%20Airport%2C%20Pereira">פתיחה ב-Google Maps</a>]]></description>
@@ -264,7 +279,7 @@
       </Placemark>
       <Placemark>
         <name>🥾 טרק עמק הקוקורה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ש׳ 13.2 – ג׳יפים יוצאים מהכיכר בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Valle%20de%20Cocora%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום א׳ 14.2 – ג׳יפים יוצאים מהכיכר בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Valle%20de%20Cocora%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.4866,4.6381,0</coordinates></Point>
       </Placemark>
@@ -276,7 +291,7 @@
       </Placemark>
       <Placemark>
         <name>🥾 פילנדיה (Filandia)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עיירה צבעונית ושקטה – בוקר א׳ 14.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Filandia%2C%20Quind%C3%ADo">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עיירה צבעונית ושקטה – בוקר ב׳ 15.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Filandia%2C%20Quind%C3%ADo">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.6584,4.6743,0</coordinates></Point>
       </Placemark>
@@ -306,7 +321,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🌆 5. מדג&#x27;ין | ימים 15–20 · ב׳–ש׳ 15–20.2.2027</name>
+      <name>🌆 6. מדג&#x27;ין | ימים 16–21 · ג׳–א׳ 16–21.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה מדג&#x27;ין (MDE)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>השדה הראשי – כ-45 דק׳ מהעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Jos%C3%A9%20Mar%C3%ADa%20C%C3%B3rdova%20International%20Airport%2C%20Rionegro">פתיחה ב-Google Maps</a>]]></description>
@@ -315,19 +330,19 @@
       </Placemark>
       <Placemark>
         <name>🥾 קומונה 13 – סיור גרפיטי</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ג׳ 16.2 – הגרפיטי והמדרגות החשמליות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ד׳ 17.2 – הגרפיטי והמדרגות החשמליות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.619,6.2529,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🥾 Parque Arví (רכבל)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ה׳ 18.2 – עלייה במטרו-קייבל והליכה ביער.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ו׳ 19.2 – עלייה במטרו-קייבל והליכה ביער.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.5027,6.2846,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🥾 Piedra del Peñol – 740 מדרגות</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ד׳ 17.2 – תצפית האגמים הכי מפורסמת בקולומביה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Piedra%20del%20Pe%C3%B1ol%2C%20Guatap%C3%A9">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ה׳ 18.2 – תצפית האגמים הכי מפורסמת בקולומביה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Piedra%20del%20Pe%C3%B1ol%2C%20Guatap%C3%A9">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.1785,6.2202,0</coordinates></Point>
       </Placemark>
@@ -381,16 +396,16 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🌴 6. סנטה מרטה, מינקה וטיירונה | ימים 21–25 · א׳–ה׳ 21–25.2.2027</name>
+      <name>🌴 7. סנטה מרטה, מינקה וטיירונה | ימים 22–26 · ב׳–ו׳ 22–26.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה סנטה מרטה (SMR)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה בחוף הקריבי – א׳ 21.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sim%C3%B3n%20Bol%C3%ADvar%20International%20Airport%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה בחוף הקריבי – ב׳ 22.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sim%C3%B3n%20Bol%C3%ADvar%20International%20Airport%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#transport</styleUrl>
         <Point><coordinates>-74.2306,11.1196,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🥾 פארק טיירונה – כניסת El Zaino</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה הראשית לפארק – תחילת הטרק. ג׳ 23.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Zaino%20Entrance%2C%20Tayrona%20National%20Park">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה הראשית לפארק – תחילת הטרק. ד׳ 24.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Zaino%20Entrance%2C%20Tayrona%20National%20Park">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-73.895,11.285,0</coordinates></Point>
       </Placemark>
@@ -402,7 +417,7 @@
       </Placemark>
       <Placemark>
         <name>🥾 מינקה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>כפר הרים בג׳ונגל – קפה, מפלים ושקיעות. ב׳ 22.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Minca%2C%20Magdalena">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>כפר הרים בג׳ונגל – קפה, מפלים ושקיעות. ג׳ 23.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Minca%2C%20Magdalena">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-74.1189,11.1419,0</coordinates></Point>
       </Placemark>
@@ -414,7 +429,7 @@
       </Placemark>
       <Placemark>
         <name>🍻 Costeño Beach</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>חוף גלישה עם מסיבות – ד׳ 24.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coste%C3%B1o%20Beach%2C%20Guachaca">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>חוף גלישה עם מסיבות – ה׳ 25.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coste%C3%B1o%20Beach%2C%20Guachaca">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#nightlife</styleUrl>
         <Point><coordinates>-73.809,11.2517,0</coordinates></Point>
       </Placemark>
@@ -432,7 +447,7 @@
       </Placemark>
       <Placemark>
         <name>🍻 La Brisa Loca – רופטופ</name>
-        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בר רופטופ ומסיבות – ערב הסיום ה׳ 25.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=La%20Brisa%20Loca%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בר רופטופ ומסיבות – ערב הסיום ו׳ 26.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=La%20Brisa%20Loca%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#nightlife</styleUrl>
         <Point><coordinates>-74.2103,11.2404,0</coordinates></Point>
       </Placemark>
@@ -450,7 +465,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🏰 7. קרטחנה | ימים 26–28 · ו׳–א׳ 26–28.2.2027</name>
+      <name>🏰 8. קרטחנה | ימים 27–29 · ש׳–ב׳ 27.2–1.3.2027</name>
       <Placemark>
         <name>🥾 העיר העתיקה – שער השעון</name>
         <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה לעיר המוקפת חומה – סמטאות קולוניאליות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Torre%20del%20Reloj%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
@@ -465,13 +480,13 @@
       </Placemark>
       <Placemark>
         <name>🥾 מבצר סן פליפה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>המבצר הספרדי הגדול באמריקה – ש׳ 27.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Castillo%20San%20Felipe%20de%20Barajas%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>המבצר הספרדי הגדול באמריקה – א׳ 28.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Castillo%20San%20Felipe%20de%20Barajas%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.5395,10.4229,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🥾 שיט לאיי רוסריו</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום שיט – א׳ 28.2, יציאה מהנמל בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Islas%20del%20Rosario%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום שיט – ב׳ 1.3, יציאה מהנמל בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Islas%20del%20Rosario%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.75,10.183,0</coordinates></Point>
       </Placemark>
@@ -519,13 +534,13 @@
       </Placemark>
       <Placemark>
         <name>✈️ שדה תעופה קרטחנה (CTG)</name>
-        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>ממריאים מכאן לסאן אנדרס – ב׳ 1.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rafael%20N%C3%BA%C3%B1ez%20International%20Airport%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>ממריאים מכאן לסאן אנדרס – ג׳ 2.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rafael%20N%C3%BA%C3%B1ez%20International%20Airport%2C%20Cartagena">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#transport</styleUrl>
         <Point><coordinates>-75.513,10.4424,0</coordinates></Point>
       </Placemark>
     </Folder>
     <Folder>
-      <name>🐠 8. האי סאן אנדרס | ימים 29–31 · ב׳–ד׳ 1–3.3.2027</name>
+      <name>🐠 9. האי סאן אנדרס | ימים 30–32 · ג׳–ה׳ 2–4.3.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה סאן אנדרס (ADZ)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה באי – 5 דק׳ מהמרכז.<br/><a href="https://www.google.com/maps/search/?api=1&query=Gustavo%20Rojas%20Pinilla%20International%20Airport%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
@@ -540,7 +555,7 @@
       </Placemark>
       <Placemark>
         <name>🥾 Johnny Cay</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>אי קטן מול החוף – שיוט, קוקוס לוקו ואיגואנות. ג׳ 2.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Johnny%20Cay%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>אי קטן מול החוף – שיוט, קוקוס לוקו ואיגואנות. ד׳ 3.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Johnny%20Cay%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-81.699,12.5967,0</coordinates></Point>
       </Placemark>
@@ -552,7 +567,7 @@
       </Placemark>
       <Placemark>
         <name>🥾 Hoyo Soplador – הגייזר</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חור נשיפה טבעי בדרום האי – בהקפת האי ד׳ 3.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Hoyo%20Soplador%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חור נשיפה טבעי בדרום האי – בהקפת האי ה׳ 4.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Hoyo%20Soplador%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-81.73,12.4936,0</coordinates></Point>
       </Placemark>

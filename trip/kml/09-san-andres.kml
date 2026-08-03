@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🐠 8. האי סאן אנדרס | ימים 29–31 · ב׳–ד׳ 1–3.3.2027</name>
+    <name>🐠 9. האי סאן אנדרס | ימים 30–32 · ג׳–ה׳ 2–4.3.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -31,7 +31,7 @@
     </Placemark>
     <Placemark>
       <name>🥾 Johnny Cay</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>אי קטן מול החוף – שיוט, קוקוס לוקו ואיגואנות. ג׳ 2.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Johnny%20Cay%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>אי קטן מול החוף – שיוט, קוקוס לוקו ואיגואנות. ד׳ 3.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Johnny%20Cay%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-81.699,12.5967,0</coordinates></Point>
     </Placemark>
@@ -43,7 +43,7 @@
     </Placemark>
     <Placemark>
       <name>🥾 Hoyo Soplador – הגייזר</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חור נשיפה טבעי בדרום האי – בהקפת האי ד׳ 3.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Hoyo%20Soplador%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חור נשיפה טבעי בדרום האי – בהקפת האי ה׳ 4.3.<br/><a href="https://www.google.com/maps/search/?api=1&query=Hoyo%20Soplador%2C%20San%20Andr%C3%A9s">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-81.73,12.4936,0</coordinates></Point>
     </Placemark>
