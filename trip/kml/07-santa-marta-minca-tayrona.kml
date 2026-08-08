@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🌴 7. סנטה מרטה, מינקה וטיירונה | ימים 22–26 · ב׳–ו׳ 22–26.2.2027</name>
+    <name>🌴 7. סנטה מרטה, מינקה וטיירונה | ימים 24–28 · ד׳–א׳ 24–28.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -19,13 +19,13 @@
     </Style>
     <Placemark>
       <name>✈️ שדה תעופה סנטה מרטה (SMR)</name>
-      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה בחוף הקריבי – ב׳ 22.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sim%C3%B3n%20Bol%C3%ADvar%20International%20Airport%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה בחוף הקריבי – ד׳ 24.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Sim%C3%B3n%20Bol%C3%ADvar%20International%20Airport%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#transport</styleUrl>
       <Point><coordinates>-74.2306,11.1196,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🥾 פארק טיירונה – כניסת El Zaino</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה הראשית לפארק – תחילת הטרק. ד׳ 24.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Zaino%20Entrance%2C%20Tayrona%20National%20Park">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הכניסה הראשית לפארק – תחילת הטרק. ו׳ 26.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=El%20Zaino%20Entrance%2C%20Tayrona%20National%20Park">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-73.895,11.285,0</coordinates></Point>
     </Placemark>
@@ -37,7 +37,7 @@
     </Placemark>
     <Placemark>
       <name>🥾 מינקה</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>כפר הרים בג׳ונגל – קפה, מפלים ושקיעות. ג׳ 23.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Minca%2C%20Magdalena">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>כפר הרים בג׳ונגל – קפה, מפלים ושקיעות. ה׳ 25.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Minca%2C%20Magdalena">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-74.1189,11.1419,0</coordinates></Point>
     </Placemark>
@@ -49,7 +49,7 @@
     </Placemark>
     <Placemark>
       <name>🍻 Costeño Beach</name>
-      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>חוף גלישה עם מסיבות – ה׳ 25.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coste%C3%B1o%20Beach%2C%20Guachaca">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>חוף גלישה עם מסיבות – ש׳ 27.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Coste%C3%B1o%20Beach%2C%20Guachaca">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#nightlife</styleUrl>
       <Point><coordinates>-73.809,11.2517,0</coordinates></Point>
     </Placemark>
@@ -67,7 +67,7 @@
     </Placemark>
     <Placemark>
       <name>🍻 La Brisa Loca – רופטופ</name>
-      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בר רופטופ ומסיבות – ערב הסיום ו׳ 26.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=La%20Brisa%20Loca%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>בר רופטופ ומסיבות – ערב הסיום א׳ 28.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=La%20Brisa%20Loca%2C%20Santa%20Marta">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#nightlife</styleUrl>
       <Point><coordinates>-74.2103,11.2404,0</coordinates></Point>
     </Placemark>

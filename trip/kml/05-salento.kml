@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>☕ 5. עמק הקפה – סאלנטו | ימים 12–15 · ו׳ בערב–ב׳ 12–15.2.2027</name>
+    <name>☕ 5. עמק הקפה – סאלנטו | ימים 14–17 · א׳ בערב–ד׳ 14–17.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -37,7 +37,7 @@
     </Placemark>
     <Placemark>
       <name>🥾 טרק עמק הקוקורה</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ש׳ 13.2 – ג׳יפים יוצאים מהכיכר בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Valle%20de%20Cocora%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ב׳ 15.2 – ג׳יפים יוצאים מהכיכר בבוקר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Valle%20de%20Cocora%2C%20Salento">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-75.4866,4.6381,0</coordinates></Point>
     </Placemark>
@@ -49,7 +49,7 @@
     </Placemark>
     <Placemark>
       <name>🥾 פילנדיה (Filandia)</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עיירה צבעונית ושקטה – אחה״צ א׳ 14.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Filandia%2C%20Quind%C3%ADo">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>עיירה צבעונית ושקטה – אחה״צ ג׳ 16.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Filandia%2C%20Quind%C3%ADo">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-75.6584,4.6743,0</coordinates></Point>
     </Placemark>

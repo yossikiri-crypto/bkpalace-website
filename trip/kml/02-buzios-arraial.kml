@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>⛵ 2. בוזיוס + אראיאל דו קאבו | ימים 7–9 · א׳–ג׳ 7–9.2.2027</name>
+    <name>⛵ 2. בוזיוס + אראיאל דו קאבו | ימים 7–10 · א׳–ד׳ 7–10.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -31,13 +31,13 @@
     </Placemark>
     <Placemark>
       <name>🥾 חוף Geribá</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף הגלישה הגדול – בוקר רגוע לפני ההמשך דרומה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Gerib%C3%A1%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף הגלישה הגדול – בוקר ד׳ 10.2 לפני ההמשך דרומה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Gerib%C3%A1%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-41.913,-22.779,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🍻 Silk Beach Club</name>
-      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבת השקיעה של בוזיוס – ערב שני 8.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Silk%20Beach%20Club%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>מסיבת השקיעה של בוזיוס – ערב שלישי 9.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Silk%20Beach%20Club%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#nightlife</styleUrl>
       <Point><coordinates>-41.9,-22.753,0</coordinates></Point>
     </Placemark>
@@ -58,6 +58,24 @@
       <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף שמגיעים אליו רק בשייט – חול לבן ומים שקופים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20do%20Farol%2C%20Arraial%20do%20Cabo">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-42.0095,-22.9885,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 חוף Azeda</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מפרצון קטן ושקט במים צלולים – בהקפת הבאגי של יום ג׳ 9.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20da%20Azeda%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-41.877,-22.7397,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 חוף João Fernandes</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף יפהפה עם ביראכות על המים – בהקפת החופים.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Jo%C3%A3o%20Fernandes%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-41.8745,-22.7369,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>🥾 חוף Ferradura</name>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מפרץ פרסה שקט – עצירה אחרונה בהקפה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20da%20Ferradura%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <styleUrl>#attraction</styleUrl>
+      <Point><coordinates>-41.893,-22.759,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🏨 Casas Brancas (בוטיק)</name>

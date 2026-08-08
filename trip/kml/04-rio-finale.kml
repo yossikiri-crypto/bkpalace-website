@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>✈️ 4. ריו – לילה אחרון ומעבר לקולומביה | ימים 11–12 · ה׳–ו׳ 11–12.2.2027</name>
+    <name>✈️ 4. ריו – לילה אחרון ומעבר לקולומביה | ימים 13–14 · ש׳–א׳ 13–14.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -19,13 +19,13 @@
     </Style>
     <Placemark>
       <name>🥾 רחוב הקניות של איפנמה</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>Visconde de Pirajá – מזכרות, הוויאנס ואופנה ברזילאית. ערב ה׳ 11.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Visconde%20de%20Piraj%C3%A1%2C%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>Visconde de Pirajá – מזכרות, הוויאנס ואופנה ברזילאית. ערב ש׳ 13.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Visconde%20de%20Piraj%C3%A1%2C%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-43.2,-22.9846,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>✈️ שדה תעופה גליאאו (GIG) – יציאה</name>
-      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>טיסת בוקר לבוגוטה – שישי 12.2. חשוב להזמין את טיסת הבוקר!<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>טיסת בוקר לבוגוטה – ראשון 14.2. חשוב להזמין את טיסת הבוקר!<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#transport</styleUrl>
       <Point><coordinates>-43.2506,-22.809,0</coordinates></Point>
     </Placemark>
