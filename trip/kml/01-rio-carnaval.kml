@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>🎭 1. ריו דה ז&#x27;ניירו – ימי הקרנבל | ימים 1–7 · ב׳–א׳ 1–7.2.2027</name>
+    <name>🎭 1. ריו דה ז&#x27;ניירו – ימי הקרנבל | ימים 1–6 · ג׳–א׳ 2–7.2.2027</name>
     <Style id="attraction">
       <IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle>
     </Style>
@@ -19,7 +19,7 @@
     </Style>
     <Placemark>
       <name>✈️ שדה תעופה גליאאו (GIG)</name>
-      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה ביום ב׳ 1.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>נחיתה בבוקר יום ג׳ 2.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%E2%80%93Gale%C3%A3o%20International%20Airport">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#transport</styleUrl>
       <Point><coordinates>-43.2506,-22.809,0</coordinates></Point>
     </Placemark>
@@ -37,13 +37,13 @@
     </Placemark>
     <Placemark>
       <name>🥾 חוף Joatinga</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף נסתר בין צוקים בשכונת ז׳ואטינגה – מגיעים בשביל ירידה קצר. בוקר ה׳ 4.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20da%20Joatinga%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>חוף נסתר בין צוקים בשכונת ז׳ואטינגה – מגיעים בשביל ירידה קצר. צהריים ה׳ 4.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20da%20Joatinga%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-43.2892,-23.0151,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🥾 שוק Saara – ציוד קרנבל</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מתחם שוק ענק במרכז – נצנצים, תלבושות ואביזרים בזול. ערב ה׳ 4.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Mercado%20Saara%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>מתחם שוק ענק במרכז – נצנצים, תלבושות ואביזרים בזול. אחה״צ ה׳ 4.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Mercado%20Saara%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-43.1815,-22.9035,0</coordinates></Point>
     </Placemark>
@@ -61,13 +61,13 @@
     </Placemark>
     <Placemark>
       <name>🥾 פסל ישו הגואל</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>בוקר ג׳ 2.2 – לעלות מוקדם לפני העומס.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cristo%20Redentor%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>השכם בבוקר ה׳ 4.2 – לפני העומס.<br/><a href="https://www.google.com/maps/search/?api=1&query=Cristo%20Redentor%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-43.2105,-22.9519,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>🥾 הר הסוכר (Pão de Açúcar)</name>
-      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>רכבל לשקיעה – ערב ג׳ 2.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=P%C3%A3o%20de%20A%C3%A7%C3%BAcar%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>רכבל לשקיעה – אחרי הטרק, ד׳ 3.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=P%C3%A3o%20de%20A%C3%A7%C3%BAcar%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#attraction</styleUrl>
       <Point><coordinates>-43.1566,-22.9486,0</coordinates></Point>
     </Placemark>
@@ -103,7 +103,7 @@
     </Placemark>
     <Placemark>
       <name>🍻 Churrascaria Palace</name>
-      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>ארוחת הבשרים החגיגית – ערב ג׳ 2.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Churrascaria%20Palace%2C%20Copacabana%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+      <description><![CDATA[🍻 <b>ברים וחיי לילה</b><br/>ארוחת הבשרים החגיגית – ערב ה׳ 4.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Churrascaria%20Palace%2C%20Copacabana%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#nightlife</styleUrl>
       <Point><coordinates>-43.1785,-22.9655,0</coordinates></Point>
     </Placemark>
