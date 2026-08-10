@@ -51,13 +51,13 @@
       </Placemark>
       <Placemark>
         <name>🥾 חוף איפנמה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>בסיס הלינה – פוסטו 9.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>החוף המפורסם – פוסטו 9.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Ipanema%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-43.2065,-22.9868,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🥾 חוף קופקבנה</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טיילת הגלים המפורסמת.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Copacabana%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>טיילת הגלים המפורסמת – החוף של הדירה שלנו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Praia%20de%20Copacabana%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-43.1822,-22.9711,0</coordinates></Point>
       </Placemark>
@@ -116,22 +116,10 @@
         <Point><coordinates>-43.1836,-22.9082,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🏨 Janeiro Hotel (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>בוטיק שקט מול חוף לבלון.<br/><a href="https://www.google.com/maps/search/?api=1&query=Janeiro%20Hotel%2C%20Leblon%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
+        <name>🏨 🏠 הדירה שלנו – קופקבנה</name>
+        <description><![CDATA[🏨 <b>לינה</b><br/>האירוח של Georgio · צ׳ק-אין: ג׳ 2.2 בשעה 14:00 · צ׳ק-אאוט: א׳ 7.2 בשעה 10:00.<br/><a href="https://www.google.com/maps/search/?api=1&query=Avenida%20Nossa%20Senhora%20de%20Copacabana%201085%2C%20Copacabana%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-43.2229,-22.9873,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Selina Copacabana (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל-בוטיק ברמה גבוהה בקופקבנה.<br/><a href="https://www.google.com/maps/search/?api=1&query=Selina%20Copacabana%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-43.1785,-22.9678,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Ipanema Beach House (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל עם בריכה במרחק הליכה מהחוף.<br/><a href="https://www.google.com/maps/search/?api=1&query=Ipanema%20Beach%20House%2C%20Rio%20de%20Janeiro">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-43.201,-22.984,0</coordinates></Point>
+        <Point><coordinates>-43.188,-22.978,0</coordinates></Point>
       </Placemark>
     </Folder>
     <Folder>
@@ -197,16 +185,10 @@
         <Point><coordinates>-41.893,-22.759,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>🏨 Casas Brancas (בוטיק)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק עם תצפית על המפרץ.<br/><a href="https://www.google.com/maps/search/?api=1&query=Casas%20Brancas%20Boutique%20Hotel%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+        <name>🏨 🏠 החדר שלנו – ארמסאו דוס בוזיוס</name>
+        <description><![CDATA[🏨 <b>לינה</b><br/>האירוח של Luiz Paulo · צ׳ק-אין: א׳ 7.2 בשעה 14:00 · צ׳ק-אאוט: ד׳ 10.2 בשעה 12:00.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Alfredo%20Silva%20202%2C%20Arma%C3%A7%C3%A3o%20dos%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-41.883,-22.748,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>🏨 Nomad Búzios (הוסטל)</name>
-        <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה ליד Rua das Pedras.<br/><a href="https://www.google.com/maps/search/?api=1&query=Nomad%20Buzios%20Hostel">פתיחה ב-Google Maps</a>]]></description>
-        <styleUrl>#hotel</styleUrl>
-        <Point><coordinates>-41.883,-22.746,0</coordinates></Point>
+        <Point><coordinates>-41.887,-22.75,0</coordinates></Point>
       </Placemark>
     </Folder>
     <Folder>

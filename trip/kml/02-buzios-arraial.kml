@@ -78,16 +78,10 @@
       <Point><coordinates>-41.893,-22.759,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>🏨 Casas Brancas (בוטיק)</name>
-      <description><![CDATA[🏨 <b>לינה</b><br/>מלון בוטיק עם תצפית על המפרץ.<br/><a href="https://www.google.com/maps/search/?api=1&query=Casas%20Brancas%20Boutique%20Hotel%2C%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
+      <name>🏨 🏠 החדר שלנו – ארמסאו דוס בוזיוס</name>
+      <description><![CDATA[🏨 <b>לינה</b><br/>האירוח של Luiz Paulo · צ׳ק-אין: א׳ 7.2 בשעה 14:00 · צ׳ק-אאוט: ד׳ 10.2 בשעה 12:00.<br/><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Alfredo%20Silva%20202%2C%20Arma%C3%A7%C3%A3o%20dos%20B%C3%BAzios">פתיחה ב-Google Maps</a>]]></description>
       <styleUrl>#hotel</styleUrl>
-      <Point><coordinates>-41.883,-22.748,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>🏨 Nomad Búzios (הוסטל)</name>
-      <description><![CDATA[🏨 <b>לינה</b><br/>הוסטל ברמה גבוהה ליד Rua das Pedras.<br/><a href="https://www.google.com/maps/search/?api=1&query=Nomad%20Buzios%20Hostel">פתיחה ב-Google Maps</a>]]></description>
-      <styleUrl>#hotel</styleUrl>
-      <Point><coordinates>-41.883,-22.746,0</coordinates></Point>
+      <Point><coordinates>-41.887,-22.75,0</coordinates></Point>
     </Placemark>
   </Document>
 </kml>
