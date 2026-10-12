@@ -258,7 +258,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>☕ 5. עמק הקפה – סאלנטו | ימים 13–16 · א׳ בערב–ד׳ 14–17.2.2027</name>
+      <name>☕ 5. עמק הקפה – סאלנטו | ימים 13–15 · א׳ בערב–ג׳ 14–16.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה פרירה (PEI)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>אופציית נחיתה 1 – כשעה נסיעה לסאלנטו.<br/><a href="https://www.google.com/maps/search/?api=1&query=Mateca%C3%B1a%20International%20Airport%2C%20Pereira">פתיחה ב-Google Maps</a>]]></description>
@@ -321,7 +321,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>🌆 6. מדג&#x27;ין | ימים 17–22 · ה׳–ג׳ 18–23.2.2027</name>
+      <name>🌆 6. מדג&#x27;ין | ימים 16–23 · ד׳–ד׳ 17–24.2.2027</name>
       <Placemark>
         <name>✈️ שדה תעופה מדג&#x27;ין (MDE)</name>
         <description><![CDATA[✈️ <b>תחבורה / מעבר</b><br/>השדה הראשי – כ-45 דק׳ מהעיר.<br/><a href="https://www.google.com/maps/search/?api=1&query=Jos%C3%A9%20Mar%C3%ADa%20C%C3%B3rdova%20International%20Airport%2C%20Rionegro">פתיחה ב-Google Maps</a>]]></description>
@@ -330,13 +330,13 @@
       </Placemark>
       <Placemark>
         <name>🥾 קומונה 13 – סיור גרפיטי</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ו׳ 19.2 – הגרפיטי והמדרגות החשמליות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ה׳ 18.2 – הגרפיטי והמדרגות החשמליות.<br/><a href="https://www.google.com/maps/search/?api=1&query=Comuna%2013%20Graffiti%20Tour%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.619,6.2529,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🥾 Parque Arví (רכבל)</name>
-        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום א׳ 21.2 – עלייה במטרו-קייבל והליכה ביער.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>יום ו׳ 19.2 – עלייה במטרו-קייבל והליכה ביער.<br/><a href="https://www.google.com/maps/search/?api=1&query=Parque%20Arv%C3%AD%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.5027,6.2846,0</coordinates></Point>
       </Placemark>
@@ -351,6 +351,12 @@
         <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>העיירה הצבעונית ליד הסלע – כשעתיים ממדג׳ין.<br/><a href="https://www.google.com/maps/search/?api=1&query=Guatap%C3%A9%2C%20Antioquia">פתיחה ב-Google Maps</a>]]></description>
         <styleUrl>#attraction</styleUrl>
         <Point><coordinates>-75.1592,6.2326,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>🥾 כיכר בוטרו ומוזיאון אנטיוקיה</name>
+        <description><![CDATA[🥾 <b>אטרקציה / טרק</b><br/>הפסלים השמנמנים של בוטרו במרכז העיר – אחה״צ א׳ 21.2.<br/><a href="https://www.google.com/maps/search/?api=1&query=Plaza%20Botero%2C%20Medell%C3%ADn">פתיחה ב-Google Maps</a>]]></description>
+        <styleUrl>#attraction</styleUrl>
+        <Point><coordinates>-75.5687,6.2525,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>🍻 Perro Negro – רגאטון</name>
